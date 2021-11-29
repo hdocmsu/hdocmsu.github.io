@@ -1,24 +1,37 @@
 ---
 layout: about
 title: about
+description: Sr. Clinical Scientist (MRI Physicist), <a href="https://us.medical.canon/">Canon Medical</a>
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: HungDO_gen.jpg #prof_pic.jpg
+  address:
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I’m a senior clinical scientist (Magnetic Resonance Imaging physicist) at [Canon Medical](https://us.medical.canon/) where I work to translate innovative imaging solutions (Deep Learning Reconstruction, Compressed Sensing, Ultra-short Echo Time imaging, Arterial Spin Labeling, etc.) to the clinical environment by designing and conducting hypothesis-driven and clinical-evaluation research studies and engaging in the FDA 510k application processes from planning to FDA Pre-Submission (Q-Sub) meeting to preparing and reviewing application materials to responding to FDA reviewers’ questions. I have a track record of collaboration with radiologists, cardiologists, scientists, engineers, application specialists, MRI technicians, product managers, marketers, legal counselors, and regulatory affairs specialists.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I enjoy learning new knowledge, generating new ideas, experimenting with new tools, and solving impactful problems in principal ways. My expertise and interests include:
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+* Design and execute scientifically sound and FDA 510k-cleared hypothesis-driven and clinical-evaluation research studies
+
+* End-to-end project managements and inter-disciplinary collaborations
+
+* Fundamental and translational MRI research related to quantitative imaging, novel pulse sequence design, and image reconstruction
+
+* Applied data science, statistical learning, machine learning, and deep learning to medical imaging and healthcare
+
+* Data visualization, data analysis, and statistics using Python, R, and Matlab
+
+* Bayesian methods and probabilistic programming for quantitative imaging with uncertainty quantification
+
+* Mathematical modeling, numerical simulations, and optimization
+
+* Automatic and reproducible pipelines for data manipulation and visualization, statistical analysis, and report/presentation generation using Git version control, Bash, Python, R, and related packages
+
+Outside work, I enjoy spending time with family in nature and updating the latest advances in science and technology.
