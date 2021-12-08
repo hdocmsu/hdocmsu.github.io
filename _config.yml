@@ -83,11 +83,11 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # permalink: /blog/:year/:title/
 
 # Pagination
-pagination:
-    enabled: true
+# pagination:
+#    enabled: true
 
 # Comments
-disqus_shortname: al-folio # put your disqus shortname
+# disqus_shortname: al-folio # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # -----------------------------------------------------------------------------
