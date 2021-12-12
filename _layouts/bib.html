@@ -11,11 +11,11 @@
     {% endif %}
   {% endif %}
 
-  {% if entry.oral %}
-    {% if site.data.venues[entry.oral] %}
-    <span class="award badge"><a href="{{site.data.venues[entry.oral].url}}">{{entry.oral}}</a></span>
+  {% if entry.hlight %}
+    {% if site.data.venues[entry.hlight] %}
+    <span class="award badge"><a href="{{site.data.venues[entry.hlight].url}}">{{entry.hlight}}</a></span>
     {% else %}
-    <span class="award badge">{{entry.oral}}</span>
+    <span class="award badge">{{entry.hlight}}</span>
     {% endif %}
   {% endif %}
 

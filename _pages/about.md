@@ -1,7 +1,7 @@
 ---
 layout: about
 title: about
-description: Sr. Clinical Scientist (MRI Physicist), <a href="https://us.medical.canon/">Canon Medical</a>
+description: Sr. Clinical Scientist (MRI Physicist), <a href="https://us.medical.canon/">Canon Medical Systems USA</a>
 permalink: /
 
 profile:
@@ -22,16 +22,16 @@ I enjoy learning new knowledge, generating new ideas, experimenting with new too
 
 -   End-to-end project managements and interdisciplinary collaborations
 
--   Fundamental and translational MRI research related to quantitative imaging, novel pulse sequence design, and image reconstruction
+-   Fundamental and translational MRI research related to quantitative imaging, novel pulse sequence design, and advanced image reconstruction
 
--   Applied data science, statistical learning, machine learning, and deep learning to medical imaging and healthcare
+-   Applications of statistics, data science, machine learning, and deep learning to medical imaging and healthcare
 
--   Data visualization, data analysis, and statistics using Python, R, and Matlab
+-   Programmable animation, data visualization, data analysis, and statistics using Python and R
 
 -   Bayesian methods and probabilistic programming for quantitative imaging with uncertainty quantification
 
 -   Mathematical modeling, numerical simulations, and optimization
 
--   Automatic and reproducible pipelines for data manipulation and visualization, statistical analysis, and report/presentation generation using Git version control, Bash, Python, R, and related packages
+-   Automatic and reproducible pipelines for data curation, cleaning, and visualization, statistical analysis, and report/presentation generation using Git version control, Bash, Python, R, and related packages
 
 Outside work, I enjoy spending time with family in nature and updating the latest advances in science and technology.
