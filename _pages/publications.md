@@ -14,7 +14,7 @@ nav: true
 <br />
 <br />
 
-## <center>Journal Papers</center>
+### <center>Journal Papers</center>
 
 <div class="publications">
 
@@ -30,7 +30,7 @@ nav: true
 <br />
 <br />
 
-## <center>Patent Applications</center>
+### <center>Patent Applications</center>
 
 <div class="publications">
 
@@ -46,7 +46,7 @@ nav: true
 <br />
 <br />
 
-## <center>Whitepapers</center>
+### <center>Whitepapers</center>
 
 <div class="publications">
 
@@ -62,7 +62,7 @@ nav: true
 <br />
 <br />
 
-## <center>Conference Abstracts</center>
+### <center>Conference Abstracts</center>
 
 <div class="publications">
 
