@@ -2,7 +2,7 @@
 layout: page
 permalink: /resume/
 title: resume
-description:
+description: updated December 10, 2021
 nav: true
 ---
 
@@ -10,22 +10,30 @@ nav: true
 <a href="https://hdocmsu.github.io/"><img src="../assets/img/HungDO.jpg" height="auto" width="180" style="border-radius:50%"></a>
 </center>
 
+<br />
+
 ## Hung P. Do, PhD, MSEE
 
 <style>
 h2 {text-align: center;}
-h3 {text-align: left;}
-h4 {text-align: left;}
+h3 {text-align: center;}
+h4 {text-align: center;}
+h5 {text-align: center;}
+h6 {text-align: center;}
+
 </style>
 
 ---
 
-> Senior Clinical Scientist (MRI Physicist) at [Canon Medical Systems USA](https://us.medical.canon/)\
-> Email: <hdo@us.medical.canon> • Website: [https://hdocmsu.github.io/](https://hdocmsu.github.io/)
+###### _Senior Clinical Scientist (MRI Physicist)_
+
+###### [Email](mailto:hdo@us.medical.canon) • [Homepage](https://hdocmsu.github.io/) • [LinkedIn](https://www.linkedin.com/in/hpd2021/) • [Google Scholar](https://scholar.google.com/citations?user=ES-1vcEAAAAJ&hl=en) • [Work](https://us.medical.canon/)
 
 ---
 
-### Expertise and Skills
+<br />
+
+### **Expertise and Skills**
 
 -   Magnetic Resonance Imaging (MRI) Physics
 
@@ -35,7 +43,7 @@ h4 {text-align: left;}
 
 -   Applications of Statistics, Data Science, Machine Learning, and Deep Learning to Medical Imaging and Healthcare
 
--   Evaluations and Translations of Innovative Imaging Solutions into Clinical Practice
+-   Clinical Evaluations and Translations of Innovative Imaging Solutions into Clinical Practice
 
 -   End-to-end Project Management and Collaborations
 
@@ -47,7 +55,9 @@ h4 {text-align: left;}
 
 -   Tools: Python, R, Bash, Pandas, Numpy, PyDicom, Scipy, Keras, PyTorch,
 
-### Experience
+<br />
+
+### **Experience**
 
 -   **2017 - present**: Manager Medical Affairs - Senior Clinical Scientist (Magnetic Resonance Imaging Physicist) at [Canon Medical Systems USA](https://us.medical.canon/), Tustin, California
 
@@ -61,7 +71,9 @@ h4 {text-align: left;}
 
 -   **2006 - 2007**: Undergraduate Thesis Research in Theoretical Physics advised by Prof. Viet Nguyen at the [Hanoi Institute of Physics (IOP)](https://iop.vast.ac.vn/?slang=en), Hanoi, Vietnam
 
-### Education
+<br />
+
+### **Education**
 
 -   **2017**: Ph.D. in Magnetic Resonance Imaging Physics advised by [Prof. Krishna Nayak](https://sipi.usc.edu/~knayak/), [University of Southern California (USC)](https://www.usc.edu/), Los Angeles, California
 
@@ -73,7 +85,9 @@ h4 {text-align: left;}
 
 -   **2007**: B.S. in Theoretical Physics advised by Prof. Viet Nguyen, [Hanoi National University of Education (HNUE)](https://hnue.edu.vn/), Hanoi, Vietnam
 
-### Certificates
+<br />
+
+### **Certificates**
 
 -   [Data Science: Statistics and Machine Learning, a 5-Course Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/59SX95VDRUQK), Profs. Jeff Leek, Roger Peng, Brian Caffo, Department of Biostatistics, Johns Hopkins Bloomberg School of Public Health, Johns Hopkins University
 
@@ -133,7 +147,9 @@ h4 {text-align: left;}
 
 -   [Introduction to Julia (for programmer)](assets/pdf/certs/2020-intro-toJulia.pdf), Dr. Jane Herriman, Director of Diversity and Outreach at Julia Computing, California Institute of Technology (Caltech)
 
-### Selected Publications
+<br />
+
+### **Selected Publications**
 
 -   **HP Do**, Y Guo, AJ Yoon, and KS Nayak. “Accuracy, Uncertainty, and Adaptability of Automatic Myocardial ASL Segmentation using Deep CNN.” Magnetic Resonance in Medicine 2020; 83:1863–1874. [PDF](assets/pdf/papers/do_mrm2019.pdf) [JRNL](https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.28043)
 
@@ -141,7 +157,9 @@ h4 {text-align: left;}
 
 -   **HP Do**, AJ Yoon, MW Fong, F Saremi, ML Barr, KS Nayak. “Double-gated Myocardial Arterial Spin Labeled Perfusion Imaging is Robust to Heart Rate Variation.” Magnetic Resonance in Medicine 77(5):1975-1980, 2017. [PDF](assets/pdf/papers/do_mrm2017.pdf) [JRNL](https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.26282)
 
-### Teaching and Training Experience
+<br />
+
+### **Teaching and Training Experience**
 
 -   **2017 - present**: Distill MRI technical concepts into forms of case studies, white papers, and training lectures making them accessible to the sales and applications team at [Canon Medical System USA](https://us.medical.canon/), Tustin, California
 
@@ -151,7 +169,9 @@ h4 {text-align: left;}
 
 -   **2006 - 2007**: Practical Teacher Training at Nam Truc High School in Spring 2006 & 2007 as part of the Physics Teacher Training Curriculum at the [Hanoi National University of Education](https://hnue.edu.vn/), Hanoi, Vietnam
 
-### Membership
+<br />
+
+### **Membership**
 
 -   **ISMRM**: [The International Society for Magnetic Resonance in Medicine](https://www.ismrm.org/)
 
@@ -159,11 +179,16 @@ h4 {text-align: left;}
 
 -   **RSNA**: [The Radiological Society of North America](https://www.rsna.org/)
 
-### Interests
+<br />
+
+### **Interests**
 
 Running, Hiking, Nature, Science and Technology
 
+<br />
+
 ---
 
-> Email: <hdo@us.medical.canon> • Homepage: [https://hdocmsu.github.io/](https://hdocmsu.github.io/) \
-> Address: Tustin, California, the United States of America
+Email: <hdo@us.medical.canon>\
+Homepage: [https://hdocmsu.github.io/](https://hdocmsu.github.io/)\
+Work: [Canon Medical Systems USA](https://us.medical.canon/)
