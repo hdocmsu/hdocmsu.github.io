@@ -3,15 +3,23 @@ layout: page
 permalink: /talks/
 title: talks
 description: oral presentations at conferences and training lectures
-years_talks: [2019, 2018]
-years_lectures: [2022]
+years_talks: [2019, 2018, 2017, 2016, 2007]
+years_lectures: [2021, 2020, 2019, 2018, 2017]
 nav: true
 ---
 
+<style>
+h2 {text-align: center;}
+h3 {text-align: center;}
+h4 {text-align: center;}
+h5 {text-align: center;}
+h6 {text-align: center;}
+</style>
+
 <br />
 <br />
 
-### <center>Oral Presentations</center>
+### **Oral Presentations**
 
 <div class="publications">
 
@@ -27,7 +35,7 @@ nav: true
 <br />
 <br />
 
-### <center>Training Lectures</center>
+### **Training Lectures**
 
 <div class="publications">
 

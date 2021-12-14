@@ -20,7 +20,6 @@ h3 {text-align: center;}
 h4 {text-align: center;}
 h5 {text-align: center;}
 h6 {text-align: center;}
-
 </style>
 
 ---
@@ -87,6 +86,22 @@ h6 {text-align: center;}
 
 <br />
 
+### **Honors and Awards**
+
+-   **2016-2017**: Dissertation Completion Fellowship from [USC Graduate School](http://graduateschool.usc.edu/), [University of Southern California](https://www.usc.edu/), Los Angeles, CA
+
+-   **2010-2012**: Merit Fellowship from the [USC Dana and David Dornsife College of Letters, Arts, and Sciences](https://dornsife.usc.edu/), [University of Southern California](https://www.usc.edu/), Los Angeles, CA
+
+-   **2009**: Honor Award given to Student with the Highest Grade in Condensed Matter Physics Division from the [Abdus Salam International Center for Theoretical Physics (ICTP)](https://www.ictp.it/), Trieste, Italy
+
+-   **2008-2009**: [Pre-Doctoral Fellowship](https://diploma.ictp.it/) from the [Abdus Salam International Center for Theoretical Physics (ICTP)](https://www.ictp.it/), Trieste, Italy
+
+-   **2007**: Odon Vallet Scholarship from [Recontres du Vietnam Associatioin](https://rencontresduvietnam.org/) for Outstanding Undergraduate Students
+
+-   **2007**: Scholarship to attend the European Summer School in Plasma Physics in Science and Technology (PPST), Greifswald, Germany
+
+-   **2005**: Second Prize in the 9th Vietnamese National Physics Olympiad for Undergraduate Student with Merit Certificate given by Vietnam Minister of Education and Training
+
 ### **Certificates**
 
 -   [Data Science: Statistics and Machine Learning, a 5-Course Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/59SX95VDRUQK), Profs. Jeff Leek, Roger Peng, Brian Caffo, Department of Biostatistics, Johns Hopkins Bloomberg School of Public Health, Johns Hopkins University
@@ -150,6 +165,8 @@ h6 {text-align: center;}
 <br />
 
 ### **Selected Publications**
+
+(_out of 6 journal papers, 6 whitepapers, and >35 conference and workshop abstracts_)
 
 -   **HP Do**, Y Guo, AJ Yoon, and KS Nayak. “Accuracy, Uncertainty, and Adaptability of Automatic Myocardial ASL Segmentation using Deep CNN.” Magnetic Resonance in Medicine 2020; 83:1863–1874. [PDF](assets/pdf/papers/do_mrm2019.pdf) [JRNL](https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.28043)
 

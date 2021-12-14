@@ -11,10 +11,18 @@ years_patents: [2016]
 nav: true
 ---
 
+<style>
+h2 {text-align: center;}
+h3 {text-align: center;}
+h4 {text-align: center;}
+h5 {text-align: center;}
+h6 {text-align: center;}
+</style>
+
 <br />
 <br />
 
-### <center>Journal Papers</center>
+### **Journal Papers**
 
 <div class="publications">
 
@@ -30,7 +38,7 @@ nav: true
 <br />
 <br />
 
-### <center>Patent Applications</center>
+### **Patent Applications**
 
 <div class="publications">
 
@@ -46,7 +54,7 @@ nav: true
 <br />
 <br />
 
-### <center>Whitepapers</center>
+### **Whitepapers**
 
 <div class="publications">
 
@@ -62,7 +70,7 @@ nav: true
 <br />
 <br />
 
-### <center>Conference Abstracts</center>
+### **Conference Abstracts**
 
 <div class="publications">
 
