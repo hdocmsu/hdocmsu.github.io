@@ -35,3 +35,7 @@ I enjoy learning new knowledge, generating new ideas, experimenting with new too
 -   Automatic and reproducible pipelines for data curation, cleaning, and visualization, statistical analysis, and report/presentation generation using Git version control, Bash, Python, R, and related packages
 
 Outside work, I enjoy spending time with family in nature and updating the latest advances in science and technology.
+
+## <br />
+
+---

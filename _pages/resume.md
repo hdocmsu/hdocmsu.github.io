@@ -1,9 +1,10 @@
 ---
-layout: page
+layout: about
 permalink: /resume/
 title: resume
-description: updated December 10, 2021
+description:
 nav: true
+social: true # includes social icons at the bottom of the page
 ---
 
 <center>
@@ -11,8 +12,6 @@ nav: true
 </center>
 
 <br />
-
-## Hung P. Do, PhD, MSEE
 
 <style>
 h2 {text-align: center;}
@@ -205,7 +204,3 @@ Running, Hiking, Nature, Science and Technology
 <br />
 
 ---
-
-Email: <hdo@us.medical.canon>\
-Homepage: [https://hdocmsu.github.io/](https://hdocmsu.github.io/)\
-Work: [Canon Medical Systems USA](https://us.medical.canon/)
