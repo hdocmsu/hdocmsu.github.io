@@ -23,7 +23,7 @@ h6 {text-align: center;}
 
 ---
 
-###### _Senior Clinical Scientist (MRI Physicist)_
+###### _Manager Medical Affairs - Senior Clinical Scientist (MRI Physicist)_
 
 ###### <a href="mailto:{{ site.email | encode_email }}"><i class="fas fa-envelope"></i> Email</a> • <a href="https://hdocmsu.github.io/"><i class="fas fa-globe"></i> Homepage</a> • <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}"><i class="ai ai-google-scholar"></i> Google Scholar</a> • <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}"><i class="fab fa-linkedin"></i> LinkedIn</a> • <a href="https://github.com/{{ site.github_username }}"><i class="fab fa-github"></i> Github</a> • <a href="{{ site.work_url }}"><i class="fas fa-briefcase"></i> Work</a> • <a href="https://goo.gl/maps/852TwpNwmZe4c2DV7"><i class="fas fa-map-marker" aria-hidden="true"></i> Tustin, CA</a>
 
