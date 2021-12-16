@@ -8,7 +8,7 @@ social: true # includes social icons at the bottom of the page
 ---
 
 <center>
-<a href="https://hdocmsu.github.io/"><img src="../assets/img/HungDO.jpg" height="auto" width="180" style="border-radius:50%"></a>
+<a href="https://hdocmsu.github.io/"><img src="../assets/img/HungDO.jpg" height="auto" width="180" style="border-radius:50%" class="img-fluid z-depth-1"></a>
 </center>
 
 <br />
@@ -25,9 +25,13 @@ h6 {text-align: center;}
 
 ###### _Senior Clinical Scientist (MRI Physicist)_
 
-###### [Email](mailto:hdo@us.medical.canon) • [Homepage](https://hdocmsu.github.io/) • [LinkedIn](https://www.linkedin.com/in/hpd2021/) • [Google Scholar](https://scholar.google.com/citations?user=ES-1vcEAAAAJ&hl=en) • [Work](https://us.medical.canon/)
+###### <a href="mailto:{{ site.email | encode_email }}"><i class="fas fa-envelope"></i> Email</a> • <a href="https://hdocmsu.github.io/"><i class="fas fa-globe"></i> Homepage</a> • <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}"><i class="ai ai-google-scholar"></i> Google Scholar</a> • <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}"><i class="fab fa-linkedin"></i> LinkedIn</a> • <a href="https://github.com/{{ site.github_username }}"><i class="fab fa-github"></i> Github</a> • <a href="{{ site.work_url }}"><i class="fas fa-briefcase"></i> Work</a> • <a href="https://goo.gl/maps/852TwpNwmZe4c2DV7"><i class="fas fa-map-marker" aria-hidden="true"></i> Tustin, CA</a>
 
 ---
+
+<br />
+
+###### **Jump to**: [Skills](#expertise-and-skills) | [Jobs](#experience) | [Education](#education) | [Awards](#honors-and-awards) | [Certificates](#certificates) | [Publications](#selected-publications) | [Teaching](#teaching-and-training-experience) | [Membership](#membership) | [Interests](#interests)
 
 <br />
 
