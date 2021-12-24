@@ -2,11 +2,19 @@
 layout: page
 title: projects
 permalink: /projects/
-description:
+description: This page is under construction!
 nav: true
 display_categories: [work, fun]
 horizontal: false
 ---
+
+<center>
+:warning: 
+:construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction:
+<b>UNDER CONSTRUCTION</b> 
+:construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction:
+:warning:
+</center>
 
 <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}
