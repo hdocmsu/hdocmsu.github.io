@@ -1,17 +1,11 @@
 ---
-layout: about
+layout: resume
 permalink: /resume/
 title: resume
 description:
 nav: true
 social: true # includes social icons at the bottom of the page
 ---
-
-<center>
-<a href="https://hdocmsu.github.io/"><img src="../assets/img/HungDO.jpg" height="auto" width="180" style="border-radius:50%" class="img-fluid z-depth-1"></a>
-</center>
-
-<br />
 
 <style>
 h2 {text-align: center;}
@@ -21,11 +15,24 @@ h5 {text-align: center;}
 h6 {text-align: center;}
 </style>
 
+<center>
+<a href="https://hdocmsu.github.io/"><img src="../assets/img/HungDO.jpg" height="auto" width="180" style="border-radius:50%" class="img-fluid z-depth-1"></a>
+</center>
+
+<br />
+
+<header class="post-header">
+    <h2 class="post-title">
+     {% if site.title == "blank" %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{% else %}{{ site.title }}{% endif %}
+    </h2>
+     <p class="post-description">{{ page.description }}</p>
+  </header>
+
 ---
 
 ###### _Manager Medical Affairs - Senior Clinical Scientist (MRI Physicist)_
 
-###### <a href="mailto:{{ site.email | encode_email }}"><i class="fas fa-envelope"></i> Email</a> • <a href="https://hdocmsu.github.io/"><i class="fas fa-globe"></i> Homepage</a> • <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}"><i class="ai ai-google-scholar"></i> Google Scholar</a> • <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}"><i class="fab fa-linkedin"></i> LinkedIn</a> • <a href="https://github.com/{{ site.github_username }}"><i class="fab fa-github"></i> Github</a> • <a href="{{ site.work_url }}"><i class="fas fa-briefcase"></i> Work</a> • <a href="https://goo.gl/maps/852TwpNwmZe4c2DV7"><i class="fas fa-map-marker" aria-hidden="true"></i> Tustin, CA</a>
+###### <a href="mailto:{{ site.email | encode_email }}"><i class="fas fa-envelope"></i> Email</a> &nbsp; <a href="https://hdocmsu.github.io/"><i class="fas fa-globe"></i> Homepage</a> &nbsp; <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}"><i class="ai ai-google-scholar"></i> Google Scholar</a> &nbsp; <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}"><i class="fab fa-linkedin"></i> LinkedIn</a> &nbsp; <a href="https://github.com/{{ site.github_username }}"><i class="fab fa-github"></i> Github</a> &nbsp; <a href="{{ site.work_url }}"><i class="fas fa-briefcase"></i> Work</a> &nbsp; <a href="https://goo.gl/maps/852TwpNwmZe4c2DV7"><i class="fa fa-map-marker" aria-hidden="true"></i> Tustin, CA</a>
 
 ---
 
@@ -55,7 +62,7 @@ h6 {text-align: center;}
 
 -   Bayesian Statistics and Probabilistic Programming for Quantitative Imaging with Uncertainty Quantification
 
--   Tools: Python, R, Bash, Pandas, Numpy, PyDicom, Scipy, Keras, PyTorch,
+-   Tools: Python, R, Bash, Pandas, Numpy, PyDicom, Scipy, Matplotlib, ggplot2, Seaborn, fastai, TensorFlow, Keras, PyTorch, etc.
 
 <br />
 
@@ -109,39 +116,39 @@ h6 {text-align: center;}
 
 -   [Data Science: Statistics and Machine Learning, a 5-Course Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/59SX95VDRUQK), Profs. Jeff Leek, Roger Peng, Brian Caffo, Department of Biostatistics, Johns Hopkins Bloomberg School of Public Health, Johns Hopkins University
 
-        -   Course 1: Statistical Inference
-        -   Course 2: Regression Model
-        -   Course 3: Practical Machine Learning
-        -   Course 4: Developing Data Products
-        -   Course 5: Data Science Capstone Project
+        • Course 1: Statistical Inference
+        • Course 2: Regression Model
+        • Course 3: Practical Machine Learning
+        • Course 4: Developing Data Products
+        • Course 5: Data Science Capstone Project
 
 -   [Data Science: Foundations using R, a 5-Course Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/SEUEUSQVH8JM), Profs. Jeff Leek, Roger Peng, Brian Caffo, Department of Biostatistics, Johns Hopkins Bloomberg School of Public Health, Johns Hopkins University
 
-        -   Course 1: The Data Scientist’s Toolbox
-        -   Course 2: R Programming
-        -   Course 3: Getting and Cleaning Data
-        -   Course 4: Exploratory Data Analysis
-        -   Course 5: Reproducible Research
+        • Course 1: The Data Scientist’s Toolbox
+        • Course 2: R Programming
+        • Course 3: Getting and Cleaning Data
+        • Course 4: Exploratory Data Analysis
+        • Course 5: Reproducible Research
 
 -   [AI for Healthcare, a 5-Course Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/NUUS7BB6YCSR), Profs. Nigam Shah, Laurence Baker, David Magnus, Serena Yeung, Mildred Cho, Steven Bagley, Matthew Lungren, Tina Hernandez-Boussard, Stanford University
 
-        -   Course 1: Introduction to Healthcare
-        -   Course 2: Introduction to Clinical Data
-        -   Course 3: Fundamentals of Machine Learning for Healthcare
-        -   Course 4: Evaluations of AI applications in Healthcare
-        -   Course 5: AI in Healthcare Capstone Projects
+        • Course 1: Introduction to Healthcare
+        • Course 2: Introduction to Clinical Data
+        • Course 3: Fundamentals of Machine Learning for Healthcare
+        • Course 4: Evaluations of AI applications in Healthcare
+        • Course 5: AI in Healthcare Capstone Projects
 
 -   [Statistics with Python, a 3-Course Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/XF9F6LBKG4NA), Brenda Gunderson PhD, Brady T. West PhD, Kerby Shedden PhD, University of Michigan
 
-        -   Course 1: Understanding and Visualizing Data with Python
-        -   Course 2: Inferential Statistical Analysis with Python
-        -   Course 3: Fitting Statistical Models to Data with Python
+        • Course 1: Understanding and Visualizing Data with Python
+        • Course 2: Inferential Statistical Analysis with Python
+        • Course 3: Fitting Statistical Models to Data with Python
 
 -   [AI for Medicine, a 3-Course Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/63Q826DGTWNB), Pranav Rajpurkar PhD candidate, Stanford University and deeplerning.ai
 
-        -   Course 1: AI for Medical Diagnosis
-        -   Course 2: AI for Medical Prognosis
-        -   Course 3: AI for Medical Treatment
+        • Course 1: AI for Medical Diagnosis
+        • Course 2: AI for Medical Prognosis
+        • Course 3: AI for Medical Treatment
 
 -   [Improving your statistical inferences](assets/pdf/certs/2020-improving-stat-inferences.png), Daniel Lakens PhD, Eindhoven University of Technology
 
@@ -151,11 +158,11 @@ h6 {text-align: center;}
 
 -   [Deep Learning, a 5-Course Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/8J8WWCZTK8L5), Prof. Andrew Ng, deeplearning.ai and Stanford University
 
-        -   Course 1: Neural Networks and Deep Learning
-        -   Course 2: Improving Deep Neural Networks: Hyper-parameter tuning, Regularization and Optimization
-        -   Course 3: Structuring Machine Learning Projects
-        -   Course 4: Convolutional Neural Networks
-        -   Course 5: Sequence Models
+        • Course 1: Neural Networks and Deep Learning
+        • Course 2: Improving Deep Neural Networks: Hyper-parameter tuning, Regularization and Optimization
+        • Course 3: Structuring Machine Learning Projects
+        • Course 4: Convolutional Neural Networks
+        • Course 5: Sequence Models
 
 -   [Machine Learning](https://www.coursera.org/account/accomplishments/certificate/57W43BTTTCH3), Prof. Andrew Ng, Stanford University
 
@@ -208,3 +215,5 @@ Running, Hiking, Nature, Science and Technology
 <br />
 
 ---
+
+<div style="text-align: right"> <i>(updated Dec 1, 2021)</i> </div>
