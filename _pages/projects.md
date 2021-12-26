@@ -9,11 +9,16 @@ horizontal: false
 ---
 
 <center>
-:warning: 
-:construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction:
-<b>UNDER CONSTRUCTION</b> 
-:construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction: :construction:
 :warning:
+:construction: :construction: :construction:
+:warning:
+
+<b>UNDER CONSTRUCTION</b>
+
+:warning:
+:construction: :construction: :construction:
+:warning:
+
 </center>
 
 <div class="projects">

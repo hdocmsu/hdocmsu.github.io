@@ -62,7 +62,11 @@ h6 {text-align: center;}
 
 -   Bayesian Statistics and Probabilistic Programming for Quantitative Imaging with Uncertainty Quantification
 
--   Tools: Python, R, Bash, Pandas, Numpy, PyDicom, Scipy, Matplotlib, ggplot2, Seaborn, fastai, TensorFlow, Keras, PyTorch, etc.
+-   Operating Systems: Linux, macOS, and Microsoft Windows
+
+-   Programming Languages: Python, R, Bash, EPIC (General Electric (GE) Healthcare's C-based MRI pulase sequence programming language), NSDE (Canon Medical Systems' Cpp-based MRI pulse sequence programming language)
+
+-   Packages and Libraries: Python, R, Bash, Pandas, Numpy, PyDicom, Scipy, Matplotlib, ggplot2, Seaborn, fastai, TensorFlow, Keras, PyTorch, etc.
 
 <br />
 
