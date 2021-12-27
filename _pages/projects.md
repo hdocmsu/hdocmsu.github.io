@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 description: This page is under construction!
 nav: true
-display_categories: [work, fun]
+display_categories: [Canon, USC, ICTP, Misc]
 horizontal: false
 ---
 
