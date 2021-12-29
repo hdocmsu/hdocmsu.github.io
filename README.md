@@ -29,6 +29,12 @@ Second, run the command below for manual deployment
 $ ./bin/deploy --user
 ```
 
+or
+
+```bash
+$ make deploy
+```
+
 After deployment, the webpage will become available at `<your-github-username>.github.io`.
 
 ## License
