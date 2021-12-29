@@ -156,9 +156,9 @@ h6 {text-align: center;}
         • Course 2: AI for Medical Prognosis
         • Course 3: AI for Medical Treatment
 
--   [Improving your statistical inferences](/assets/pdf/certs/2020-improving-stat-inferences.png), Daniel Lakens PhD, Eindhoven University of Technology
+-   [Improving your statistical inferences](/assets/pdf/certs/2020-improving-statistical-inferences.png), Daniel Lakens PhD, Eindhoven University of Technology
 
--   [Improving Your Statistical Questions](/assets/pdf/certs/2020-improving-stat-questions.png), by Daniel Lakens PhD, Eindhoven University of Technology
+-   [Improving Your Statistical Questions](/assets/pdf/certs/2020-improving-statistical-questions.png), by Daniel Lakens PhD, Eindhoven University of Technology
 
 -   [Neural Networks for Machine Learning](https://www.coursera.org/account/accomplishments/certificate/4RGD4N2EFA6Y), Prof. Geoffrey E. Hinton, University of Toronto
 
