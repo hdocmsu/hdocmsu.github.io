@@ -6,30 +6,30 @@ This repo is forked and modified based on [al-folio](https://github.com/alshediv
 
 First, [fork](https://guides.github.com/activities/forking/) the theme from `github.com:alshedivat/al-folio`
 
-Second, rename the forked repo to `hdocmsu.github.io` (to `<your-github-username>.github.io` when you are building your own webpage)
+Second, rename to `<your-github-username>.github.io`
 
-Next, execute the following bash commands on your terminal
+Third, clone `<your-github-username>.github.io` repo to your local computer
 
 ```bash
-$ git clone git@github.com:hdocmsu/hdocmsu.github.io.git
-$ cd hdocmsu.github.io
+$ git clone git@github.com:<your-github-username>/<your-github-username>.github.io.git
+$ cd <your-github-username>.github.io
 $ bundle install
 $ bundle exec jekyll serve
 ```
 
-Modify the theme as desired and **commit** the changes.
+Forth, modify the theme as desired and **commit** the changes.
 
 #### Deployment
 
 First, in `_config.yml`, change `url` to `https://hdocmsu.github.io` and leave `baseurl` empty.
 
-Second, run the command below for deployment
+Second, run the command below for manual deployment
 
 ```bash
 $ ./bin/deploy --user
 ```
 
-After deployment, the webpage will become available at `hdocmsu.github.io`.
+After deployment, the webpage will become available at `<your-github-username>.github.io`.
 
 ## License
 

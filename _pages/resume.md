@@ -16,7 +16,7 @@ h6 {text-align: center;}
 </style>
 
 <center>
-<a href="https://hdocmsu.github.io/"><img src="../assets/img/HungDO.jpg" height="auto" width="180" style="border-radius:50%" class="img-fluid z-depth-1"></a>
+<a href="https://hdocmsu.github.io/"><img src="/assets/img/HungDO.jpg" height="auto" width="180" style="border-radius:50%" class="img-fluid z-depth-1"></a>
 </center>
 
 <br />
@@ -64,9 +64,11 @@ h6 {text-align: center;}
 
 -   Operating Systems: Linux, macOS, and Microsoft Windows
 
--   Programming Languages: Python, R, Bash, EPIC (General Electric (GE) Healthcare's C-based MRI pulase sequence programming language), NSDE (Canon Medical Systems' Cpp-based MRI pulse sequence programming language)
+-   Programming Languages: Python, R, Bash, EPIC (General Electric (GE) Healthcare's C-based MRI pulse sequence programming language), NSDE (Canon Medical Systems' Cpp-based MRI pulse sequence programming language)
 
--   Packages and Libraries: Python, R, Bash, Pandas, Numpy, PyDicom, Scipy, Matplotlib, ggplot2, Seaborn, fastai, TensorFlow, Keras, PyTorch, etc.
+-   Packages and Libraries: Python, R, Bash, Pandas, NumPy, PyDicom, SciPy, Matplotlib, ggplot2, Seaborn, fastai, TensorFlow-Keras, PyTorch, etc.
+
+-   Tools: Microsoft Office, Linux Terminal, Markdown, $$\LaTeX$$, etc.
 
 <br />
 
@@ -154,9 +156,9 @@ h6 {text-align: center;}
         • Course 2: AI for Medical Prognosis
         • Course 3: AI for Medical Treatment
 
--   [Improving your statistical inferences](assets/pdf/certs/2020-improving-stat-inferences.png), Daniel Lakens PhD, Eindhoven University of Technology
+-   [Improving your statistical inferences](/assets/pdf/certs/2020-improving-stat-inferences.png), Daniel Lakens PhD, Eindhoven University of Technology
 
--   [Improving Your Statistical Questions](assets/pdf/certs/2020-improving-stat-questions.png), by Daniel Lakens PhD, Eindhoven University of Technology
+-   [Improving Your Statistical Questions](/assets/pdf/certs/2020-improving-stat-questions.png), by Daniel Lakens PhD, Eindhoven University of Technology
 
 -   [Neural Networks for Machine Learning](https://www.coursera.org/account/accomplishments/certificate/4RGD4N2EFA6Y), Prof. Geoffrey E. Hinton, University of Toronto
 
@@ -170,11 +172,11 @@ h6 {text-align: center;}
 
 -   [Machine Learning](https://www.coursera.org/account/accomplishments/certificate/57W43BTTTCH3), Prof. Andrew Ng, Stanford University
 
--   [Introduction to Julia DataFrames](assets/pdf/certs/2020-intro-to-Julia-DF.pdf), Prof. Bogumił Kamiński, the author of the DataFrames.jl package, Warsaw School of Economics
+-   [Introduction to Julia DataFrames](/assets/pdf/certs/2020-intro-to-Julia-DF.pdf), Prof. Bogumił Kamiński, the author of the DataFrames.jl package, Warsaw School of Economics
 
--   [Julia for Data Science](assets/pdf/certs/2020-Julia-for-DS.pdf), Dr. Huda Nassar, Stanford University
+-   [Julia for Data Science](/assets/pdf/certs/2020-Julia-for-DS.pdf), Dr. Huda Nassar, Stanford University
 
--   [Introduction to Julia (for programmer)](assets/pdf/certs/2020-intro-toJulia.pdf), Dr. Jane Herriman, Director of Diversity and Outreach at Julia Computing, California Institute of Technology (Caltech)
+-   [Introduction to Julia (for programmer)](/assets/pdf/certs/2020-intro-toJulia.pdf), Dr. Jane Herriman, Director of Diversity and Outreach at Julia Computing, California Institute of Technology (Caltech)
 
 <br />
 
@@ -182,11 +184,11 @@ h6 {text-align: center;}
 
 (_out of 6 journal papers, 6 whitepapers, and >35 conference and workshop abstracts_)
 
--   **HP Do**, Y Guo, AJ Yoon, and KS Nayak. “Accuracy, Uncertainty, and Adaptability of Automatic Myocardial ASL Segmentation using Deep CNN.” Magnetic Resonance in Medicine 2020; 83:1863–1874. [PDF](assets/pdf/papers/do_mrm2019.pdf) [JRNL](https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.28043)
+-   **HP Do**, Y Guo, AJ Yoon, and KS Nayak. “Accuracy, Uncertainty, and Adaptability of Automatic Myocardial ASL Segmentation using Deep CNN.” Magnetic Resonance in Medicine 2020; 83:1863–1874. [PDF](/assets/pdf/papers/do_mrm2019.pdf) [JRNL](https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.28043)
 
 -   **HP Do**, V Ramanan, X Qui, J Barry, GA Wright, NR Ghugre, KS Nayak. “Non-Contrast Assessment of Microvascular Integrity using Arterial Spin Labeled CMR in a Porcine Model of Acute Myocardial Infarction.” Journal of Cardiovascular Magnetic Resonance 20:45, July 2018. [PDF](https://jcmr-online.biomedcentral.com/track/pdf/10.1186/s12968-018-0468-5) [JRNL](https://onlinelibrary.wiley.com/doi/abs/10.1002/jmri.25604)
 
--   **HP Do**, AJ Yoon, MW Fong, F Saremi, ML Barr, KS Nayak. “Double-gated Myocardial Arterial Spin Labeled Perfusion Imaging is Robust to Heart Rate Variation.” Magnetic Resonance in Medicine 77(5):1975-1980, 2017. [PDF](assets/pdf/papers/do_mrm2017.pdf) [JRNL](https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.26282)
+-   **HP Do**, AJ Yoon, MW Fong, F Saremi, ML Barr, KS Nayak. “Double-gated Myocardial Arterial Spin Labeled Perfusion Imaging is Robust to Heart Rate Variation.” Magnetic Resonance in Medicine 77(5):1975-1980, 2017. [PDF](/assets/pdf/papers/do_mrm2017.pdf) [JRNL](https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.26282)
 
 <br />
 
