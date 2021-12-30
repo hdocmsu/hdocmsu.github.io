@@ -68,7 +68,9 @@ h6 {text-align: center;}
 
 -   Packages and Libraries: Python, R, Bash, Pandas, NumPy, PyDicom, SciPy, Matplotlib, ggplot2, Seaborn, fastai, TensorFlow-Keras, PyTorch, etc.
 
--   Tools: Microsoft Office, Linux Terminal, Markdown, $$\LaTeX$$, etc.
+-   Version Control: Git and GitHub
+
+-   Tools: Microsoft Office, Command Line (Terminal), Markdown, $$\LaTeX$$, OsiriX, Visual Studio Code, etc.
 
 <br />
 
@@ -222,4 +224,24 @@ Running, Hiking, Nature, Science and Technology
 
 ---
 
-<div style="text-align: right"> <i>(updated Dec 1, 2021)</i> </div>
+<div style="text-align: right"> <i>(updated Dec 29, 2021)</i> </div>
+
+<!-- Default Statcounter code for hdocmsu.github.io
+https://hdocmsu.github.io/ -->
+<script type="text/javascript">
+var sc_project=12456301; 
+var sc_invisible=1; 
+var sc_security="df61a7ca"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+
+<noscript><div class="statcounter"><a title="website
+statistics" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/12456301/0/df61a7ca/1/"
+alt="website statistics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+
+<!-- End of Statcounter Code -->
