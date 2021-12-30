@@ -44,33 +44,37 @@ h6 {text-align: center;}
 
 ### **Expertise and Skills**
 
--   Magnetic Resonance Imaging (MRI) Physics
+-   Magnetic Resonance Imaging (MRI) Physics, MRI Pulse Sequence Design, and Advanced Image Reconstruction
 
 -   Signal and Image Processing
 
--   MRI Pulse Sequence Design and Advanced Image Reconstruction
+-   Design and execute scientifically sound and FDA 510k-cleared hypothesis-driven and clinical-evaluation research studies
 
--   Applications of Statistics, Data Science, Machine Learning, and Deep Learning to Medical Imaging and Healthcare
+-   Applications of Statistics, Data Science, Machine Learning, and Deep Learning to MRI, Medical Imaging, and Healthcare
 
--   Clinical Evaluations and Translations of Innovative Imaging Solutions into Clinical Practice
+-   Clinical evaluations and translations of innovative imaging solutions into clinical practice
 
--   End-to-end Project Management and Collaborations
+-   End-to-end project management and multidisciplinary collaborations
 
--   Optimization, Numerical Simulations and Modelings
+-   Fundamental and translational MRI research related to quantitative imaging, novel pulse sequence design, and advanced image reconstruction
 
--   Visualizations and Animations
+-   Programmable animation, data visualization, data analysis, and statistics using Python and R
 
--   Bayesian Statistics and Probabilistic Programming for Quantitative Imaging with Uncertainty Quantification
+-   Bayesian methods and probabilistic programming for quantitative imaging with uncertainty quantification
+
+-   Mathematical modeling, numerical simulations, and optimization
+
+-   Automatic and reproducible pipelines for data curation, cleaning, and visualization, statistical analysis, and report/presentation generation using Git version control, Bash, Python, R, and related packages
 
 -   Operating Systems: Linux, macOS, and Microsoft Windows
 
 -   Programming Languages: Python, R, Bash, EPIC (General Electric (GE) Healthcare's C-based MRI pulse sequence programming language), NSDE (Canon Medical Systems' Cpp-based MRI pulse sequence programming language)
 
--   Packages and Libraries: Python, R, Bash, Pandas, NumPy, PyDicom, SciPy, Matplotlib, ggplot2, Seaborn, fastai, TensorFlow-Keras, PyTorch, etc.
+-   Packages and Libraries: Pandas, NumPy, PyDicom, SciPy, Matplotlib, Tidyverse, ggplot2, Seaborn, fastai, TensorFlow-Keras, PyTorch, etc.
 
 -   Version Control: Git and GitHub
 
--   Tools: Microsoft Office, Command Line (Terminal), Markdown, $$\LaTeX$$, OsiriX, Visual Studio Code, etc.
+-   Tools: Microsoft Office, Command Line (Terminal), Markdown, $$\LaTeX$$, OsiriX, Visual Studio Code, Anaconda, etc.
 
 <br />
 
@@ -218,7 +222,7 @@ h6 {text-align: center;}
 
 ### **Interests**
 
-Running, Hiking, Nature, Science and Technology
+Jogging, Running, Hiking, Nature, Science and Technology
 
 <br />
 

@@ -1,5 +1,28 @@
 #!/usr/bin/env bash
 
+# backup source to source_hdocmsu.github.io
+echo "backup changes in source to source_hdocmsu.github.io"
+echo "copy files to source_hdocmsu.github.io"
+cp -rf * ../source_hdocmsu.github.io/.
+
+echo "change dir to source_hdocmsu.github.io"
+cd ../source_hdocmsu.github.io
+
+echo "git add all changed files"
+git add *
+
+echo "git commit updates"
+git commit -m "updates"
+echo "git push updates"
+git push
+
+echo "change dir back to hdocmsu.github.io"
+cd ../hdocmsu.github.io
+
+echo "done backing up the changes to source_hdocmsu.github.io"
+
+echo "START DEPLOYING!"
+
 # Run this script to deploy the app to Github Pages
 
 # Parse cmd arguments
