@@ -2,9 +2,9 @@
 
 # backup source to source_hdocmsu.github.io
 
-WORKING_DIR = "../hdocmsu.github.io"
-BACKUP_DIR = "../source_hdocmsu.github.io"
-COPYTO_DIR = "../source_hdocmsu.github.io/."
+WORKING_DIR="../hdocmsu.github.io"
+BACKUP_DIR="../source_hdocmsu.github.io"
+COPYTO_DIR="../source_hdocmsu.github.io/."
 
 echo "backup changes in source to source_hdocmsu.github.io"
 echo "copy files to source_hdocmsu.github.io"
