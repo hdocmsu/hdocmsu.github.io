@@ -29,7 +29,7 @@ Second, run the command below for manual deployment
 $ ./bin/deploy --user
 ```
 
-or
+or if you set up your Makefile appropriately, you can simply type the below command on the terminal
 
 ```bash
 $ make deploy
