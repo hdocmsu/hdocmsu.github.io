@@ -2,7 +2,7 @@
 
 This repo is forked and modified based on [al-folio](https://github.com/alshedivat/al-folio).
 
-#### Local setup
+### Local setup
 
 First, [fork](https://guides.github.com/activities/forking/) the theme from `github.com:alshedivat/al-folio`
 
@@ -19,7 +19,7 @@ $ bundle exec jekyll serve
 
 Forth, modify the theme as desired and **commit** the changes.
 
-#### Deployment
+### Deployment
 
 First, in `_config.yml`, change `url` to `https://<your-github-username>.github.io` and leave `baseurl` empty.
 
@@ -37,7 +37,7 @@ $ make deploy
 
 After deployment, the webpage will become available at `<your-github-username>.github.io`.
 
-## License
+### License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 

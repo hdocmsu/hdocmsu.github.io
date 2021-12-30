@@ -5,10 +5,14 @@
 WORKING_DIR="../hdocmsu.github.io"
 BACKUP_DIR="../source_hdocmsu.github.io"
 COPYTO_DIR="../source_hdocmsu.github.io/."
+DATE=$(date +'%Y-%m-%d')
 
 echo "START backing up changes in source to $BACKUP_DIR"
 echo "copy files to $BACKUP_DIR"
 cp -rf * $COPYTO_DIR
+
+echo "get the comment from the last commit"
+GIT_MSG=$(git log | awk 'NR==5')
 
 echo "change dir to $BACKUP_DIR"
 cd $BACKUP_DIR
@@ -17,8 +21,8 @@ echo "git add all changed files"
 git add *
 
 echo "git commit updates"
-git commit -m "updates"
-echo "git push updates"
+git commit -m "$DATE: $GIT_MSG"
+echo "git push updates to GitHub"
 git push
 
 echo "change dir back to $WORKING_DIR"
