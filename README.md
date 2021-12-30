@@ -21,7 +21,7 @@ Forth, modify the theme as desired and **commit** the changes.
 
 #### Deployment
 
-First, in `_config.yml`, change `url` to `https://hdocmsu.github.io` and leave `baseurl` empty.
+First, in `_config.yml`, change `url` to `https://<your-github-username>.github.io` and leave `baseurl` empty.
 
 Second, run the command below for manual deployment
 
