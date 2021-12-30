@@ -3,7 +3,7 @@ layout: about
 title: about
 description: Sr. Clinical Scientist (MRI Physicist), <a href="https://us.medical.canon/">Canon Medical Systems USA</a>
 permalink: /
-
+importance: 1
 profile:
     align: right
     image: HungDO_gen.jpg #prof_pic.jpg

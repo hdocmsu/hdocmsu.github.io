@@ -5,6 +5,7 @@ title: resume
 description:
 nav: true
 social: true # includes social icons at the bottom of the page
+importance: 5
 ---
 
 <style>
