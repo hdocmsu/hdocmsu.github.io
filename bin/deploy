@@ -8,10 +8,10 @@ COPYTO_DIR = "../source_hdocmsu.github.io/."
 
 echo "backup changes in source to source_hdocmsu.github.io"
 echo "copy files to source_hdocmsu.github.io"
-cp -rf * COPYTO_DIR
+cp -rf * $COPYTO_DIR
 
 echo "change dir to source_hdocmsu.github.io"
-cd BACKUP_DIR
+cd $BACKUP_DIR
 
 echo "git add all changed files"
 git add *
@@ -22,7 +22,7 @@ echo "git push updates"
 git push
 
 echo "change dir back to hdocmsu.github.io"
-cd WORKING_DIR
+cd $WORKING_DIR
 
 echo "done backing up the changes to source_hdocmsu.github.io"
 
