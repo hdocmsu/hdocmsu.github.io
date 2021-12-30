@@ -17,11 +17,11 @@ $ bundle install
 $ bundle exec jekyll serve
 ```
 
-Forth, modify the theme as desired and **commit** the changes.
+Forth, modify the theme as desired and **commit** the changes
 
 ### Deployment
 
-First, in `_config.yml`, change `url` to `https://<your-github-username>.github.io` and leave `baseurl` empty.
+First, in `_config.yml`, change `url` to `https://<your-github-username>.github.io` and leave `baseurl` empty
 
 Second, run the command below for manual deployment
 
@@ -35,7 +35,7 @@ or if you set up your Makefile appropriately, you can simply type the below comm
 $ make deploy
 ```
 
-After deployment, the webpage will become available at `<your-github-username>.github.io`.
+After deployment, the webpage will become available at `<your-github-username>.github.io`
 
 ### License
 
