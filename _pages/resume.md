@@ -39,7 +39,7 @@ h6 {text-align: center;}
 
 <br />
 
-###### **Jump to**: [Skills](#expertise-and-skills) | [Jobs](#experience) | [Education](#education) | [Awards](#honors-and-awards) | [Certificates](#certificates) | [Publications](#selected-publications) | [Teaching](#teaching-and-training-experience) | [Membership](#membership) | [Interests](#interests)
+###### **Jump to**: [Skills](#expertise-and-skills) | [Jobs](#experience) | [Education](#education) | [Awards](#honors-and-awards) | [Certificates](#certificates) | [Publications](#selected-publications) | [Teaching](#teaching-and-training-experience) | [Reviewer](#peer-reviewer) | [Membership](#membership) | [Interests](#interests)
 
 <br />
 
@@ -69,7 +69,7 @@ h6 {text-align: center;}
 
 -   Operating Systems: Linux, macOS, and Microsoft Windows
 
--   Programming Languages: Python, R, Bash, EPIC (General Electric (GE) Healthcare's C-based MRI pulse sequence programming language), NSDE (Canon Medical Systems' Cpp-based MRI pulse sequence programming language)
+-   Programming Languages: Python, R, Bash, EPIC (General Electric (GE) Healthcare's C-based MRI pulse sequence programming language), RSDE (Canon Medical Systems' Cpp-based MRI pulse sequence programming language)
 
 -   Packages and Libraries: Pandas, NumPy, PyDicom, SciPy, Matplotlib, Tidyverse, ggplot2, Seaborn, fastai, TensorFlow-Keras, PyTorch, etc.
 
@@ -210,6 +210,14 @@ h6 {text-align: center;}
 -   **2006 - 2007**: Practical Teacher Training at Nam Truc High School in Spring 2006 & 2007 as part of the Physics Teacher Training Curriculum at the [Hanoi National University of Education](https://hnue.edu.vn/), Hanoi, Vietnam
 
 <br />
+
+### **Peer Reviewer**
+
+-   Reviewer for [Journal of Cardiovascular Magnetic Resonance](https://jcmr-online.biomedcentral.com/)
+
+-   Reviewer for [Journal of Computer Assisted Tomography](https://journals.lww.com/jcat/pages/default.aspx)
+
+-   Reviewer for [ISMRM](https://www.ismrm.org/) Annual Scientific Meeting
 
 ### **Membership**
 
