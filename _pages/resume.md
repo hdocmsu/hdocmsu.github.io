@@ -219,6 +219,8 @@ h6 {text-align: center;}
 
 -   Reviewer for [ISMRM](https://www.ismrm.org/) Annual Scientific Meeting
 
+<br />
+
 ### **Membership**
 
 -   **ISMRM**: [The International Society for Magnetic Resonance in Medicine](https://www.ismrm.org/)
