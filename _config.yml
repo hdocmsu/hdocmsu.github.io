@@ -204,6 +204,8 @@ scholar:
 
     query: "@*"
 
+max_author_limit: # leave blank to always show all authors
+
 # -----------------------------------------------------------------------------
 # Jekyll Responsive Images
 # -----------------------------------------------------------------------------

@@ -3,10 +3,24 @@ layout: page
 permalink: /publications/
 title: publications
 description: publications by categories in reversed chronological order.
-years_papers: [2020, 2018, 2017, 2014, 2008]
+years_papers: [2022, 2020, 2018, 2017, 2014, 2008]
 years_whitepapers: [2022, 2021, 2020, 2019]
 years_abstracts:
-    [2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2011, 2007]
+    [
+        2023,
+        2022,
+        2021,
+        2020,
+        2019,
+        2018,
+        2017,
+        2016,
+        2015,
+        2014,
+        2013,
+        2011,
+        2007,
+    ]
 years_patents: [2016]
 nav: true
 importance: 2
