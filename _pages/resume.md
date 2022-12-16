@@ -39,7 +39,7 @@ h6 {text-align: center;}
 
 <br />
 
-###### **Jump to**: [Skills](#expertise-and-skills) | [Jobs](#experience) | [Education](#education) | [Awards](#honors-and-awards) | [Certificates](#certificates) | [Publications](#selected-publications) | [Teaching](#teaching-and-training-experience) | [Reviewer](#peer-reviewer) | [Membership](#membership) | [Interests](#interests)
+###### **Jump to**: [Skills](#expertise-and-skills) | [Jobs](#experience) | [Education](#education) | [Awards](#honors-and-awards) | [Certificates](#certificates) | [Publications](#selected-publications) | [Talks](#selected-talks) | [Teaching](#teaching-and-training-experience) | [Reviewer](#peer-reviewer) | [Membership](#membership) | [Interests](#interests)
 
 <br />
 
@@ -71,11 +71,11 @@ h6 {text-align: center;}
 
 -   Programming Languages: Python, R, Bash, EPIC (General Electric (GE) Healthcare's C-based MRI pulse sequence programming language), RSDE (Canon Medical Systems' Cpp-based MRI pulse sequence programming language)
 
--   Packages and Libraries: Pandas, NumPy, PyDicom, SciPy, Matplotlib, Tidyverse, ggplot2, Seaborn, fastai, TensorFlow-Keras, PyTorch, etc.
+-   Packages and Libraries: Pandas, NumPy, PyDicom, SciPy, Matplotlib, Tidyverse, ggplot2, Seaborn, fastai, TensorFlow-Keras, PyTorch, nbdev
 
 -   Version Control: Git and GitHub
 
--   Tools: Microsoft Office, Command Line (Terminal), Markdown, $$\LaTeX$$, OsiriX, Visual Studio Code, Anaconda, etc.
+-   Tools: Microsoft Office, Command Line (Terminal), Markdown, $$\LaTeX$$, OsiriX, Visual Studio Code, Anaconda
 
 <br />
 
@@ -125,6 +125,7 @@ h6 {text-align: center;}
 
 -   **2005**: Second Prize in the 9th Vietnamese National Physics Olympiad for Undergraduate Student with Merit Certificate given by Vietnam Minister of Education and Training
 
+<br />
 ### **Certificates**
 
 -   [Data Science: Statistics and Machine Learning, a 5-Course Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/59SX95VDRUQK), Profs. Jeff Leek, Roger Peng, Brian Caffo, Department of Biostatistics, Johns Hopkins Bloomberg School of Public Health, Johns Hopkins University
@@ -199,6 +200,16 @@ h6 {text-align: center;}
 
 <br />
 
+### **Selected Talks**
+
+-   **HP Do**, et al. "Eleven-minute Comprehensive MSK Imaging Using Deep Learning Reconstruction (DLR) and Multi-echo Ultrashort Echo-Time (UTE)." The Radiological Society of North America (RSNA) Scientific Session, Chicago, Nov 2022. [PDF](/assets/pdf/slides/HungDo_rsna22_talk_rev4.0_web.pdf){:target="\_blank"}
+
+-   **HP Do**, et al. "dnoiseNET: Deep Convolutional Neural Network for Image Denoising." The ISMRM & SCMR Co-Provided Workshop on the Emerging Role of Machine Learning in Cardiovascular Magnetic Resonance Imaging, Seattle, Feb 2019. [PDF](/assets/pdf/slides/2019-02-06-HungDo_dnoiseNET_web.pdf){:target="\_blank"}
+
+-   **HP Do**, et al. "Deep Convolutional Neural Network for Segmentation of Myocardial ASL Short-Axis Data: Accuracy, Uncertainty, and Adaptability." The ISMRM Workshop on Machine Learning, Part II, Washington D.C., Oct 2018. [PDF](/assets/pdf/slides/2018-10-28-HungDo_MLworkshop2018_web.pdf){:target="\_blank"}
+
+<br />
+
 ### **Teaching and Training Experience**
 
 -   **2017 - present**: Distill MRI technical concepts into forms of case studies, white papers, and training lectures making them accessible to the sales and applications team at [Canon Medical System USA](https://us.medical.canon/), Tustin, California
@@ -217,7 +228,7 @@ h6 {text-align: center;}
 
 -   Reviewer for [Journal of Computer Assisted Tomography](https://journals.lww.com/jcat/pages/default.aspx)
 
--   Reviewer for [ISMRM](https://www.ismrm.org/) Annual Scientific Meeting
+-   Reviewer for [ISMRM](https://www.ismrm.org/) Annual Scientific Meetings
 
 <br />
 
