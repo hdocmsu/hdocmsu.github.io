@@ -1,39 +1,123 @@
+"Hernando":
+    - firstname: ["Diego", "D.", "D"]
+      url: https://radiology.wisc.edu/profile/diego-hernando-706/
+
+"Starekova":
+    - firstname: ["Jitka", "J.", "J"]
+      url: https://scholar.google.com/citations?user=7GRfaqkAAAAJ&hl=en
+
+"Watkins":
+    - firstname: ["Lauren", "L.", "L"]
+      url: https://www.sprivail.org/directory-search/lauren-watkins
+
+"Caruthers":
+    - firstname: ["Shelton", "S.", "S"]
+      url: https://www.linkedin.com/in/sheltoncaruthers
+
+"Lockard":
+    - firstname: ["Carly", "C.", "C"]
+      url: https://www.linkedin.com/in/carlylockard
+
+"Javed":
+    - firstname: ["Ahsan", "A.", "A"]
+      url: https://www.linkedin.com/in/ahsan-javed-074a714
+
+"Landes":
+    - firstname: ["Vanessa", "V.", "V"]
+      url: https://www.linkedin.com/in/vlandes
+
+"Lebel":
+    - firstname: ["Marc", "M.", "M", "Robert Marc", "R. Marc", "RB"]
+      url: https://www.linkedin.com/in/r-marc-lebel-064b963b
+
+"Jao":
+    - firstname: ["Terrence R.", "Terrence", "T.", "T", "Terrence R"]
+      url: https://www.linkedin.com/in/terrence-j-28248b1a
+
+"Guo":
+    - firstname: ["Yi", "Y.", "Y"]
+      url: https://www.linkedin.com/in/yi-guo-92397b59
+
+"Rosen":
+    - firstname: ["Charles", "C.", "C"]
+      url: https://www.orthopaedicsurgery.uci.edu/charles-d-rosen-md-orthopaedic-irvine-newportbeach-california.html
+
+"Fisher":
+    - firstname: ["Mark", "M.", "M"]
+      url: https://profiles.icts.uci.edu/mark.fisher
+
+"Su":
+    - firstname: ["Lydia", "L.", "L"]
+      url: https://profiles.icts.uci.edu/min-ying.su
+
+"Chow":
+    - firstname: ["Daniel", "D.", "D"]
+      url: https://www.linkedin.com/in/daniel-chow-89b8101b
+
+"Yu":
+    - firstname: ["Hon", "H.", "H"]
+      url: https://www.researchgate.net/profile/Hon-Yu
+
+"AlGhuraibawi":
+    - firstname: ["Wissam", "W.", "W"]
+      url: https://www.linkedin.com/in/wissam-alghuraibawi-phd-073104122/
+
+"Tymkiw":
+    - firstname: ["Brian", "B.", "B"]
+      url: https://www.linkedin.com/in/brian-tymkiw
+
+"Berkeley":
+    - firstname: ["Dawn", "D.", "D", "DM"]
+      url: https://www.linkedin.com/in/dawn-berkeley-11826a6
+
+"Furuyama":
+    - firstname: ["Jonathan", "Jon", "J.", "J"]
+      url: https://www.linkedin.com/in/furuyama
+
+"Kelly":
+    - firstname: ["Erin", "E", "E.", "Erin J.", "Erin J", "EJ.", "EJ"]
+      url: https://www.linkedin.com/in/erinmccormackkelly
+
+"Kadbi":
+    - firstname: ["Mo", "M", "M."]
+      url: https://www.linkedin.com/in/mokadbi
+
 "Nayak":
     - firstname: ["Krishna", "Krishna S.", "K. S.", "K."]
       url: https://sipi.usc.edu/~knayak/
 
 "Gold":
-    - firstname: ["Garry", "G."]
+    - firstname: ["Garry", "G.", "G"]
       url: https://med.stanford.edu/profiles/garry-gold
 
 "Tashman":
-    - firstname: ["Scott", "S."]
+    - firstname: ["Scott", "S.", "S"]
       url: https://www.sprivail.org/directory-search/scott-tashman-1
 
 "Ho":
-    - firstname: ["Charles", "C.", "C. P.", "Charles P."]
+    - firstname: ["Charles", "C.", "C. P.", "Charles P.", "C", "CP", "CP."]
       url: https://www.sprivail.org/directory-search/charles-p-ho
 
 "Wright":
-    - firstname: ["Graham", "G.", "Graham A."]
+    - firstname: ["Graham", "G.", "Graham A.", "G"]
       url: https://sunnybrook.ca/research/team/member.asp?t=13&m=184&page=172
 
 "Ghugre":
-    - firstname: ["Nilesh", "N.", "Nilesh R."]
+    - firstname: ["Nilesh", "N.", "N", "Nilesh R."]
       url: https://sunnybrook.ca/research/team/member.asp?t=11&m=765&page=172
 
 "Wong":
-    - firstname: ["Eric", "E."]
+    - firstname: ["Eric", "E.", "E"]
       url: http://fmri.ucsd.edu/Research/Faculty/ecwong.html
 
 "Yoon":
-    - firstname: ["Andrew", "Andrew J.", "A.", "A. J."]
+    - firstname: ["Andrew", "Andrew J.", "A.", "A. J.", "A"]
       url: https://www.memorialcare.org/providers/andrew-j-yoon
 
 "Matcuk":
-    - firstname: ["George", "George R.", "G.", "G. R."]
+    - firstname: ["George", "George R.", "G.", "G. R.", "G"]
       url: https://bio.cedars-sinai.org/matcukg1/index.html
 
 "Gholamrezanezhad":
-    - firstname: ["Ali", "A."]
+    - firstname: ["Ali", "A.", "A"]
       url: https://keck.usc.edu/faculty-search/ali-gholamrezanezhad/
