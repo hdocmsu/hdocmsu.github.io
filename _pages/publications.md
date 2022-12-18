@@ -23,6 +23,7 @@ years_abstracts:
     ]
 years_patents: [2016]
 nav: true
+social: true
 importance: 2
 ---
 
@@ -99,4 +100,5 @@ h6 {text-align: center;}
 
 <br />
 <br />
-<br />
+
+---

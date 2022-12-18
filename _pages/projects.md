@@ -6,6 +6,7 @@ description: This page is under construction!
 nav: true
 display_categories: [Canon, USC, ICTP, Misc]
 horizontal: false
+social: true
 importance: 4
 ---
 
@@ -72,3 +73,8 @@ importance: 4
 {% endif %}
 
 </div>
+
+<br />
+<br />
+
+---

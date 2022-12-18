@@ -6,6 +6,7 @@ description: oral presentations at conferences and training lectures
 years_talks: [2022, 2019, 2018, 2017, 2016, 2007]
 years_lectures: [2021, 2020, 2019, 2018, 2017]
 nav: true
+social: true
 importance: 3
 ---
 
@@ -47,3 +48,8 @@ h6 {text-align: center;}
 {% endfor %}
 
 </div>
+
+<br />
+<br />
+
+---
