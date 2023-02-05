@@ -1,9 +1,9 @@
 ---
 layout: page
-title: R Markdown Presentation
-description: Presentation Template using R Markdown
+title: R Markdown Report
+description: Report Template using R Markdown
 img: assets/img/2.jpg
-importance: 1
+importance: 3
 redirect:
 social: true
 category: Misc

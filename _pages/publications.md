@@ -35,6 +35,8 @@ h5 {text-align: center;}
 h6 {text-align: center;}
 </style>
 
+###### **Jump to**: [Journal Papers](#journal-papers) | [Patent Application](#patent-application) | [Whitepapers](#whitepapers) | [Conference Abstracts](#conference-abstracts)
+
 <br />
 <br />
 
@@ -54,7 +56,7 @@ h6 {text-align: center;}
 <br />
 <br />
 
-### **Patent Applications**
+### **Patent Application**
 
 <div class="publications">
 

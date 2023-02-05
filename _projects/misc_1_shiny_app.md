@@ -1,13 +1,15 @@
 ---
 layout: page
-title: R Shiny App
-description: Simulations of a Non-linear Least Squares fit of an Exponential Decay Process with R Shiny App
+title: R Shiny Application
+description: Interactive Non-linear Least Squares Fitting
 img: assets/img/1.jpg
 importance: 1
 redirect:
 social: true
 category: Misc
 ---
+
+Simulations of a Non-linear Least Squares fit of an Exponential Decay Process with R Shiny App
 
 [SLIDES](https://rpubs.com/hdo2021/ExpFit){:target="\_blank"}
 
@@ -19,11 +21,11 @@ src="/assets/htmls/ExpFit.html" width="100%" height="600px" allowfullscreen="" f
 </center>
 
 <br>
-Shiny App
+[Shiny App](https://hdo2021.shinyapps.io/ExpFit/){:target="\_blank"}
 <center>
 <div class="iframe-container">
 <iframe class="responsive-iframe"
-src="https://hdo2021.shinyapps.io/ExpFit/" width="100%" height="600px" allowfullscreen="" frameborder="0"></iframe>
+src="https://hdo2021.shinyapps.io/ExpFit/" width="100%" height="1000px" allowfullscreen="" frameborder="0"></iframe>
 </div>
 </center>
 
