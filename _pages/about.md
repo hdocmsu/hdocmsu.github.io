@@ -34,7 +34,7 @@ I enjoy learning new knowledge, generating new ideas, experimenting with new too
 
 -   Automatic and reproducible pipelines for data curation, cleaning, and visualization, statistical analysis, and report/presentation generation using Git version control, nbdev, Bash, Python, R, and related packages
 
-I enjoy spending time in nature and updating the latest advances in science and technology.
+In my spare time, I enjoy walking, jogging, running, and learning the latest advances in science and technology.
 
 ## <br />
 
