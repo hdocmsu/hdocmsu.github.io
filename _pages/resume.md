@@ -49,7 +49,7 @@ h6 {text-align: center;}
 
 -   Signal and Image Processing
 
--   Design and execute scientifically sound and FDA 510k-cleared hypothesis-driven and clinical-evaluation research studies
+-   Design and execute scientific, FDA 510(k)-cleared, and hypothesis-driven research studies
 
 -   Applications of Statistics, Data Science, Machine Learning, and Deep Learning to MRI, Medical Imaging, and Healthcare
 
@@ -69,9 +69,9 @@ h6 {text-align: center;}
 
 -   Operating Systems: Linux, macOS, and Microsoft Windows
 
--   Programming Languages: Python, R, Bash, EPIC (General Electric (GE) Healthcare's C-based MRI pulse sequence programming language), RSDE (Canon Medical Systems' Cpp-based MRI pulse sequence programming language)
+-   Programming Languages: Python, R, Bash, EPIC (General Electric (GE) Healthcare's C-based MRI pulse sequence programming language)
 
--   Packages and Libraries: Pandas, NumPy, PyDicom, SciPy, Matplotlib, Tidyverse, ggplot2, Seaborn, fastai, TensorFlow-Keras, PyTorch, nbdev
+-   Packages and Libraries: Pandas, NumPy, PyDicom, SciPy, Matplotlib, Tidyverse, ggplot2, Seaborn, fastai, Keras, PyTorch, nbdev
 
 -   Version Control: Git and GitHub
 
@@ -81,7 +81,9 @@ h6 {text-align: center;}
 
 ### **Experience**
 
--   **2017 - present**: Manager Medical Affairs - Senior Clinical Scientist (Magnetic Resonance Imaging Physicist) at [Canon Medical Systems USA](https://us.medical.canon/), Tustin, California
+-   **2021 - present**: Medical Affairs - Senior Clinical Scientist (Magnetic Resonance Imaging Physicist) at [Canon Medical Systems USA](https://us.medical.canon/), Tustin, California
+
+-   **2017 - 2021**: Medical Affairs - Clinical Scientist (Magnetic Resonance Imaging Physicist) at [Canon Medical Systems USA](https://us.medical.canon/), Tustin, California
 
 -   **2017**: Postdoctoral Fellow in Magnetic Resonance Imaging Physics advised by [Prof. Krishna Nayak](https://sipi.usc.edu/~knayak/) at the [Magnetic Resonance Engineering Lab](https://mrel.usc.edu/) in the [University of Southern California (USC)](https://www.usc.edu/), Los Angeles, California
 
@@ -250,4 +252,4 @@ Jogging, Running, Hiking, Nature, Science and Technology
 
 ---
 
-<div style="text-align: right"> <i>(updated Dec 31, 2021)</i> </div>
+<div style="text-align: right"> <i>(updated Feb 11, 2023)</i> </div>
