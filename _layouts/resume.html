@@ -26,6 +26,13 @@ layout: default
       {{ content }}
     </div>
 
+    {% if page.toc and page.toc.beginning %}
+    <div id="table-of-contents">
+      {% toc %}
+    </div>
+    <hr>
+    {% endif %}
+    
     {% if page.news %}
       {% include news.html %}
     {% endif %}
@@ -43,5 +50,8 @@ layout: default
     </div>
     {% endif %}
   </article>
+
+
+
 
 </div>
