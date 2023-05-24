@@ -73,7 +73,7 @@ li {
   <li>Programming Languages: Python, R, Bash, EPIC (General Electric (GE) Healthcare's C-based MRI pulse sequence programming language)</li>
   <li>Packages and Libraries: Pandas, NumPy, PyDicom, SciPy, Matplotlib, Tidyverse, ggplot2, Seaborn, fastai, TensorFlow-Keras, PyTorch, nbdev</li>
   <li>Version Control: Git and GitHub</li>
-  <li>Package and Enviroment Management: Anaconda and PyPI's pip</li>
+  <li>Package and Environments Management: Anaconda and PyPI's pip</li>
   <li>Tools: Microsoft Office, Command Line (Terminal), Markdown, HTML, CSS, <span class="math inline">\( \LaTeX \)</span>, OsiriX, Visual Studio Code</li>
 </ul>
 </div>
@@ -118,7 +118,7 @@ li {
   <li><strong>2010-2012</strong>: Merit Fellowship from the <a href="https://dornsife.usc.edu/">USC Dana and David Dornsife College of Letters, Arts, and Sciences</a>, <a href="https://www.usc.edu/">University of Southern California</a>, Los Angeles, CA</li>
   <li><strong>2009</strong>: Honor Award given to Student with the Highest Grade in Condensed Matter Physics Division from the <a href="https://www.ictp.it/">Abdus Salam International Center for Theoretical Physics (ICTP)</a>, Trieste, Italy</li>
   <li><strong>2008-2009</strong>: <a href="https://diploma.ictp.it/">Pre-Doctoral Fellowship</a> from the <a href="https://www.ictp.it/">Abdus Salam International Center for Theoretical Physics (ICTP)</a>, Trieste, Italy</li>
-  <li><strong>2007</strong>: Odon Vallet Scholarship from <a href="https://rencontresduvietnam.org/">Recontres du Vietnam Associatioin</a> for Outstanding Undergraduate Students</li>
+  <li><strong>2007</strong>: Odon Vallet Scholarship from <a href="https://rencontresduvietnam.org/">Recontres du Vietnam Association</a> for Outstanding Undergraduate Students</li>
   <li><strong>2007</strong>: Scholarship to attend the European Summer School in Plasma Physics in Science and Technology (PPST), Greifswald, Germany</li>
   <li><strong>2005</strong>: Second Prize in the 9th Vietnamese National Physics Olympiad for Undergraduate Student with Merit Certificate given by Vietnam Minister of Education and Training</li>
 </ul>
@@ -181,7 +181,7 @@ li {
 
 ### **Selected Publications**
 
-Full list of publicatoins can be seen at [Publicatoins](https://hdocmsu.github.io/publications/) 
+Full list of publications can be seen at [Publications](https://hdocmsu.github.io/publications/) 
 
 <div class="card_for_cv">
 <ul>
