@@ -15,24 +15,6 @@ h4 {text-align: center;}
 h5 {text-align: center;}
 h6 {text-align: center;}
 
-// Card for CV
-.card {
-    background-color: var(--global-card-bg-color);
-    border: 1px solid var(--global-divider-color);
-    padding-top: 20px;
-    padding-bottom: 5px;
-
-    .list-group-item {
-      background-color: inherit;
-      border-color: var(--global-divider-color);
-
-      .badge {
-        color: var(--global-card-bg-color) !important;
-        background-color: var(--global-theme-color) !important;
-      }
-    }
-  }
-
 // List
 ul {
     line-height: 1.5; /* Adjust the line spacing as desired */
@@ -74,7 +56,7 @@ li {
 
 ### **Expertise and Skills**
 
-<div class="card">
+<div class="card_for_cv">
 <ul>
   <li>Magnetic Resonance Imaging (MRI) Physics, MRI Pulse Sequence Design, and Advanced Image Reconstruction</li>
   <li>Signal and Image Processing</li>
@@ -100,7 +82,7 @@ li {
 
 ### **Experience**
 
-<div class="card">
+<div class="card_for_cv">
 <ul>
   <li><strong>2021 - present</strong>: Medical Affairs - Senior Clinical Scientist (Magnetic Resonance Imaging Physicist) at <a href="https://us.medical.canon/">Canon Medical Systems USA</a>, Tustin, California</li>
   <li><strong>2017 - 2021</strong>: Medical Affairs - Clinical Scientist (Magnetic Resonance Imaging Physicist) at <a href="https://us.medical.canon/">Canon Medical Systems USA</a>, Tustin, California</li>
@@ -116,7 +98,7 @@ li {
 
 ### **Education**
 
-<div class="card">
+<div class="card_for_cv">
 <ul>
   <li><strong>2017</strong>: Ph.D. in Magnetic Resonance Imaging Physics advised by <a href="https://sipi.usc.edu/~knayak/">Prof. Krishna Nayak</a>, <a href="https://www.usc.edu/">University of Southern California (USC)</a>, Los Angeles, California</li>
   <li><strong>2014</strong>: M.S. in Electrical Engineering advised by <a href="https://sipi.usc.edu/~knayak/">Prof. Krishna Nayak</a>, <a href="https://www.usc.edu/">University of Southern California (USC)</a>, Los Angeles, California</li>
@@ -130,7 +112,7 @@ li {
 
 ### **Honors and Awards**
 
-<div class="card">
+<div class="card_for_cv">
 <ul>
   <li><strong>2016-2017</strong>: Dissertation Completion Fellowship from <a href="http://graduateschool.usc.edu/">USC Graduate School</a>, <a href="https://www.usc.edu/">University of Southern California</a>, Los Angeles, CA</li>
   <li><strong>2010-2012</strong>: Merit Fellowship from the <a href="https://dornsife.usc.edu/">USC Dana and David Dornsife College of Letters, Arts, and Sciences</a>, <a href="https://www.usc.edu/">University of Southern California</a>, Los Angeles, CA</li>
@@ -145,7 +127,7 @@ li {
 <br />
 ### **Certificates**
 
-<div class="card">
+<div class="card_for_cv">
 <ul>
   <li><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/59SX95VDRUQK">Data Science: Statistics and Machine Learning, a 5-Course Specialization</a>, Profs. Jeff Leek, Roger Peng, Brian Caffo, Department of Biostatistics, Johns Hopkins Bloomberg School of Public Health, Johns Hopkins University </li>
     <ul>
@@ -201,7 +183,7 @@ li {
 
 Full list of publicatoins can be seen at [Publicatoins](https://hdocmsu.github.io/publications/) 
 
-<div class="card">
+<div class="card_for_cv">
 <ul>
 <li><strong>HP Do</strong>, Y Guo, AJ Yoon, and KS Nayak. “Accuracy, Uncertainty, and Adaptability of Automatic Myocardial ASL Segmentation using Deep CNN.” Magnetic Resonance in Medicine 2020; 83:1863–1874. <a href="/assets/pdf/papers/do_mrm2019.pdf" target="_blank">PDF</a> <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.28043">JRNL</a></li>
 <li><strong>HP Do</strong>, V Ramanan, X Qui, J Barry, GA Wright, NR Ghugre, KS Nayak. “Non-Contrast Assessment of Microvascular Integrity using Arterial Spin Labeled CMR in a Porcine Model of Acute Myocardial Infarction.” Journal of Cardiovascular Magnetic Resonance 20:45, July 2018. <a href="https://jcmr-online.biomedcentral.com/track/pdf/10.1186/s12968-018-0468-5">PDF</a> <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/jmri.25604">JRNL</a></li>
@@ -213,7 +195,7 @@ Full list of publicatoins can be seen at [Publicatoins](https://hdocmsu.github.i
 
 ### **Selected Talks**
 
-<div class="card">
+<div class="card_for_cv">
 <ul>
 <li><strong>HP Do</strong>, et al. "Eleven-minute Comprehensive MSK Imaging Using Deep Learning Reconstruction (DLR) and Multi-echo Ultrashort Echo-Time (UTE)." The Radiological Society of North America (RSNA) Scientific Session, Chicago, Nov 2022. <a href="/assets/pdf/slides/HungDo_rsna22_talk_rev4.0_web.pdf" target="_blank">SLIDES-PDF</a></li>
 <li><strong>HP Do</strong>, et al. "dnoiseNET: Deep Convolutional Neural Network for Image Denoising." The ISMRM &amp; SCMR Co-Provided Workshop on the Emerging Role of Machine Learning in Cardiovascular Magnetic Resonance Imaging, Seattle, Feb 2019. <a href="/assets/pdf/slides/2019-02-06-HungDo_dnoiseNET_web.pdf" target="_blank">SLIDES-PDF</a></li>
@@ -224,7 +206,7 @@ Full list of publicatoins can be seen at [Publicatoins](https://hdocmsu.github.i
 
 ### **Teaching and Training Experience**
 
-<div class="card">
+<div class="card_for_cv">
 <ul>
 <li><strong>2017 - present</strong>: Distill MRI technical concepts into forms of case studies, white papers, and training lectures making them accessible to the sales and applications team at <a href="https://us.medical.canon/" target="_blank">Canon Medical System USA</a>, Tustin, California</li>
 <li><strong>2012 - 2017</strong>: MRI sequence design and MRI safety supervisor at the <a href="https://mrel.usc.edu/" target="_blank">Magnetic Resonance Engineering Lab</a> in the <a href="https://www.usc.edu/" target="_blank">University of Southern California (USC)</a>, Los Angeles, California</li>
@@ -237,7 +219,7 @@ Full list of publicatoins can be seen at [Publicatoins](https://hdocmsu.github.i
 
 ### **Peer Reviewer**
 
-<div class="card">
+<div class="card_for_cv">
 <ul>
 <li>Reviewer for <a href="https://jcmr-online.biomedcentral.com/" target="_blank">Journal of Cardiovascular Magnetic Resonance</a></li>
 <li>Reviewer for <a href="https://journals.lww.com/jcat/pages/default.aspx" target="_blank">Journal of Computer Assisted Tomography</a></li>
@@ -249,7 +231,7 @@ Full list of publicatoins can be seen at [Publicatoins](https://hdocmsu.github.i
 
 ### **Membership**
 
-<div class="card">
+<div class="card_for_cv">
 <ul>
 <li><strong>ISMRM</strong>: <a href="https://www.ismrm.org/" target="_blank">The International Society for Magnetic Resonance in Medicine</a></li>
 <li><strong>SCMR</strong>: <a href="https://scmr.org/" target="_blank">The Society for Cardiovascular Magnetic Resonance</a></li>
@@ -260,7 +242,7 @@ Full list of publicatoins can be seen at [Publicatoins](https://hdocmsu.github.i
 
 ### **Interests**
 
-<div class="card">
+<div class="card_for_cv">
 <ul>
 <li>Jogging, Hiking, Nature Walk</li>
 <li>Programming, Science, Technology</li>
