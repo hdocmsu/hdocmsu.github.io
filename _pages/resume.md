@@ -84,8 +84,8 @@ li {
 
 <div class="card_for_cv">
 <ul>
-  <li><strong>2021 - present</strong>: Medical Affairs - Senior Clinical Scientist (Magnetic Resonance Imaging Physicist) at <a href="https://us.medical.canon/">Canon Medical Systems USA</a>, Tustin, California</li>
-  <li><strong>2017 - 2021</strong>: Medical Affairs - Clinical Scientist (Magnetic Resonance Imaging Physicist) at <a href="https://us.medical.canon/">Canon Medical Systems USA</a>, Tustin, California</li>
+  <li><strong>2021 - present</strong>: Medical Affairs - Senior Clinical Scientist (Senior MRI Physicist) at <a href="https://us.medical.canon/">Canon Medical Systems USA</a>, Tustin, California</li>
+  <li><strong>2017 - 2021</strong>: Medical Affairs - Clinical Scientist (MRI Physicist) at <a href="https://us.medical.canon/">Canon Medical Systems USA</a>, Tustin, California</li>
   <li><strong>2017</strong>: Postdoctoral Fellow in Magnetic Resonance Imaging Physics advised by <a href="https://sipi.usc.edu/~knayak/">Prof. Krishna Nayak</a> at the <a href="https://mrel.usc.edu/">Magnetic Resonance Engineering Lab</a> in the <a href="https://www.usc.edu/">University of Southern California (USC)</a>, Los Angeles, California</li>
   <li><strong>2010 - 2017</strong>: Graduate Research Assistant in Magnetic Resonance Imaging Physics advised by <a href="https://sipi.usc.edu/~knayak/">Prof. Krishna Nayak</a> at the <a href="https://mrel.usc.edu/">Magnetic Resonance Engineering Lab</a> in the <a href="https://www.usc.edu/">University of Southern California (USC)</a>, Los Angeles, California</li>
   <li><strong>2009</strong>: Postgraduate Diploma Research in Condensed Matter Physics advised by <a href="https://www.ictp.it/phonebook/person?id=2464">Prof. Sandro Scandolo</a> at the <a href="https://www.ictp.it/">Abdus Salam International Centre for Theoretical Physics (ICTP)</a>, Trieste, Italy</li>
