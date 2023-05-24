@@ -329,6 +329,47 @@ footer.sticky-bottom {
 }
 
 
+// Card for CV
+.card {
+    background-color: var(--global-card-bg-color);
+    border: 1px solid var(--global-divider-color);
+    padding-top: 20px;
+    padding-bottom: 5px;
+
+    .list-group-item {
+      background-color: inherit;
+      border-color: var(--global-divider-color);
+
+      .badge {
+        color: var(--global-card-bg-color) !important;
+        background-color: var(--global-theme-color) !important;
+      }
+    }
+  }
+
+// Card not for CV
+.card_not_cv {
+  background-color: var(--global-card-bg-color);
+
+  img {
+    width: 100%;
+  }
+
+  .card-title {
+    color: var(--global-text-color);
+  }
+
+  .card-item {
+    width: auto;
+    margin-bottom: 10px;
+
+    .row {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
 // Projects
 
 .projects {
