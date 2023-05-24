@@ -15,6 +15,24 @@ h4 {text-align: center;}
 h5 {text-align: center;}
 h6 {text-align: center;}
 
+// Card for CV
+.card {
+    background-color: var(--global-card-bg-color);
+    border: 1px solid var(--global-divider-color);
+    padding-top: 20px;
+    padding-bottom: 5px;
+
+    .list-group-item {
+      background-color: inherit;
+      border-color: var(--global-divider-color);
+
+      .badge {
+        color: var(--global-card-bg-color) !important;
+        background-color: var(--global-theme-color) !important;
+      }
+    }
+  }
+
 // List
 ul {
     line-height: 1.5; /* Adjust the line spacing as desired */
