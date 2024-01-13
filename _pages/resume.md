@@ -88,7 +88,7 @@ li {
   <li><strong>2017 - 2021</strong>: Medical Affairs - Clinical Scientist (MRI Physicist) at <a href="https://us.medical.canon/">Canon Medical Systems USA</a>, Tustin, California</li>
   <li><strong>2017</strong>: Postdoctoral Fellow in Magnetic Resonance Imaging Physics advised by <a href="https://sipi.usc.edu/~knayak/">Prof. Krishna Nayak</a> at the <a href="https://mrel.usc.edu/">Magnetic Resonance Engineering Lab</a> in the <a href="https://www.usc.edu/">University of Southern California (USC)</a>, Los Angeles, California</li>
   <li><strong>2010 - 2017</strong>: Graduate Research Assistant in Magnetic Resonance Imaging Physics advised by <a href="https://sipi.usc.edu/~knayak/">Prof. Krishna Nayak</a> at the <a href="https://mrel.usc.edu/">Magnetic Resonance Engineering Lab</a> in the <a href="https://www.usc.edu/">University of Southern California (USC)</a>, Los Angeles, California</li>
-  <li><strong>2009</strong>: Postgraduate Diploma Research in Condensed Matter Physics advised by <a href="https://www.ictp.it/phonebook/person?id=2464">Prof. Sandro Scandolo</a> at the <a href="https://www.ictp.it/">Abdus Salam International Centre for Theoretical Physics (ICTP)</a>, Trieste, Italy</li>
+  <li><strong>2009</strong>: Postgraduate Diploma Research in Condensed Matter Physics advised by <a href="https://www.ictp.it/member/sandro-scandolo#biography">Prof. Sandro Scandolo</a> at the <a href="https://www.ictp.it/">Abdus Salam International Centre for Theoretical Physics (ICTP)</a>, Trieste, Italy</li>
   <li><strong>2007 - 2008</strong>: Researcher advised by Prof. Viet Nguyen at the <a href="https://iop.vast.ac.vn/?slang=en">Hanoi Institute of Physics (IOP)</a>, Hanoi, Vietnam</li>
   <li><strong>2006 - 2007</strong>: Undergraduate Thesis Research in Theoretical Physics advised by Prof. Viet Nguyen at the <a href="https://iop.vast.ac.vn/?slang=en">Hanoi Institute of Physics (IOP)</a>, Hanoi, Vietnam</li>
 </ul>
@@ -102,7 +102,7 @@ li {
 <ul>
   <li><strong>2017</strong>: Ph.D. in Magnetic Resonance Imaging Physics advised by <a href="https://sipi.usc.edu/~knayak/">Prof. Krishna Nayak</a>, <a href="https://www.usc.edu/">University of Southern California (USC)</a>, Los Angeles, California</li>
   <li><strong>2014</strong>: M.S. in Electrical Engineering advised by <a href="https://sipi.usc.edu/~knayak/">Prof. Krishna Nayak</a>, <a href="https://www.usc.edu/">University of Southern California (USC)</a>, Los Angeles, California</li>
-  <li><strong>2009</strong>: Postgraduate Diploma in Condensed Matter Physics advised by <a href="https://www.ictp.it/phonebook/person?id=2464">Prof. Sandro Scandolo</a>, the <a href="https://www.ictp.it/">Abdus Salam International Centre for Theoretical Physics (ICTP)</a>, Trieste, Italy</li>
+  <li><strong>2009</strong>: Postgraduate Diploma in Condensed Matter Physics advised by <a href="https://www.ictp.it/member/sandro-scandolo#biography">Prof. Sandro Scandolo</a>, the <a href="https://www.ictp.it/">Abdus Salam International Centre for Theoretical Physics (ICTP)</a>, Trieste, Italy</li>
   <li><strong>2008</strong>: Master of Science Study in Theoretical Physics advised by Prof. Viet Nguyen (completed 1 of 2 years), <a href="https://iop.vast.ac.vn/?slang=en">Hanoi Institute of Physics (IOP)</a>, Hanoi, Vietnam</li>
   <li><strong>2007</strong>: B.S. in Theoretical Physics advised by Prof. Viet Nguyen, <a href="https://hnue.edu.vn/">Hanoi National University of Education (HNUE)</a>, Hanoi, Vietnam</li>
 </ul>
@@ -181,7 +181,7 @@ li {
 
 ### **Selected Publications**
 
-Full list of publications can be seen at [Publications](https://hdocmsu.github.io/publications/) 
+Full list of publications can be seen at [Publications](https://hdocmsu.github.io/publications/)
 
 <div class="card_for_cv">
 <ul>
@@ -197,6 +197,7 @@ Full list of publications can be seen at [Publications](https://hdocmsu.github.i
 
 <div class="card_for_cv">
 <ul>
+<li><strong>HP Do</strong>, et al. "Accelerated 2-3-Minute Multi-echo Ultra-short Echo Time (mecho UTE) using Conjugate Gradient SENSE (CG-SENSE) Reconstruction.” The Radiological Society of North America (RSNA) Scientific Session, Chicago, Nov 2023.</li>
 <li><strong>HP Do</strong>, et al. "Eleven-minute Comprehensive MSK Imaging Using Deep Learning Reconstruction (DLR) and Multi-echo Ultrashort Echo-Time (UTE)." The Radiological Society of North America (RSNA) Scientific Session, Chicago, Nov 2022. <a href="/assets/pdf/slides/HungDo_rsna22_talk_rev4.0_web.pdf" target="_blank">SLIDES-PDF</a></li>
 <li><strong>HP Do</strong>, et al. "dnoiseNET: Deep Convolutional Neural Network for Image Denoising." The ISMRM &amp; SCMR Co-Provided Workshop on the Emerging Role of Machine Learning in Cardiovascular Magnetic Resonance Imaging, Seattle, Feb 2019. <a href="/assets/pdf/slides/2019-02-06-HungDo_dnoiseNET_web.pdf" target="_blank">SLIDES-PDF</a></li>
 <li><strong>HP Do</strong>, et al. "Deep Convolutional Neural Network for Segmentation of Myocardial ASL Short-Axis Data: Accuracy, Uncertainty, and Adaptability." The ISMRM Workshop on Machine Learning, Part II, Washington D.C., Oct 2018. <a href="/assets/pdf/slides/2018-10-28-HungDo_MLworkshop2018_web.pdf" target="_blank">SLIDES-PDF</a></li>
@@ -253,4 +254,4 @@ Full list of publications can be seen at [Publications](https://hdocmsu.github.i
 
 ---
 
-<div style="text-align: right"> <i>(updated Feb 11, 2023)</i> </div>
+<div style="text-align: right"> <i>(updated Dec 31, 2023)</i> </div>
