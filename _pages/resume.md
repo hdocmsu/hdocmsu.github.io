@@ -2,7 +2,7 @@
 layout: resume
 permalink: /resume/
 title: resume
-description: Medical Affairs - Senior Clinical Scientist (MRI Physicist)
+description: Medical Affairs - Senior Clinical Scientist (Senior MRI Physicist)
 nav: true
 social: true # includes social icons at the bottom of the page
 importance: 5
@@ -171,9 +171,20 @@ li {
     </ul>
 
   <li><a href="/assets/pdf/certs/2020-improving-statistical-inferences.png" target="_blank">Improving your statistical inferences</a>, Daniel Lakens PhD, Eindhoven University of Technology</li>
+  
   <li><a href="/assets/pdf/certs/2020-improving-statistical-questions.png" target="_blank">Improving Your Statistical Questions</a>, by Daniel Lakens PhD, Eindhoven University of Technology</li>
+  
   <li><a href="https://www.coursera.org/account/accomplishments/certificate/4RGD4N2EFA6Y">Neural Networks for Machine Learning</a>, Prof. Geoffrey E. Hinton, University of Toronto</li>
+  
   <li><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/8J8WWCZTK8L5">Deep Learning, a 5-Course Specialization</a>, Prof. Andrew Ng, deeplearning.ai and Stanford University</li>
+  <ul>
+      <li>Course 1: Neural Networks and Deep Learning</li>
+      <li>Course 2: Improving Deep Neural Networks: Hyper-parameter tuning, Regularization and Optimization</li>
+      <li>Course 3: Structuring Machine Learning Projects</li>
+      <li>Course 4: Convolutional Neural Networks</li>
+      <li>Course 5: Sequence Models</li>
+    </ul>
+
 </ul>
 </div>
 
