@@ -2,7 +2,7 @@
 layout: resume
 permalink: /resume/
 title: resume
-description: Medical Affairs - Senior Clinical Scientist (Senior MRI Physicist)
+description: Senior Clinical Scientist (Senior MRI Physicist) | Medical Affairs
 nav: true
 social: true # includes social icons at the bottom of the page
 importance: 5
@@ -266,5 +266,3 @@ Full list of publications can be seen at [Publications](https://hdocmsu.github.i
 <br />
 
 ---
-
-<div style="text-align: right"> <i>(updated Dec 31, 2023)</i> </div>
