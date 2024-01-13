@@ -185,6 +185,8 @@ li {
       <li>Course 5: Sequence Models</li>
     </ul>
 
+ <li><a href="https://www.coursera.org/account/accomplishments/certificate/57W43BTTTCH3">Machine Learning</a>, Prof. Andrew Ng, Stanford University</li>
+
 </ul>
 </div>
 

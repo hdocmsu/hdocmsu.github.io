@@ -9,9 +9,9 @@ last_name: Do, PhD, MSEE
 email: clinicalcollaborations@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
 
-footer_text: >
-    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-    Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+# footer_text: >
+#     Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+#     Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🏡 # the emoji used as the favicon
@@ -68,8 +68,8 @@ stackoverflow_id: #your stackoverflow id
 
 rss_icon: false
 
-contact_note: >
-    Email is the best way to reach me.
+# contact_note: >
+#     Email is the best way to reach me.
 
 google_analytics: UA-128649878-1 # out your google-analytics code
 panelbear_analytics: DEJEU7j7UXe # panelbear analytics site ID
