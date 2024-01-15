@@ -1,7 +1,7 @@
 ---
 layout: page
 title: R Markdown Report
-description: Report Template using R Markdown
+description: Report generated using R Markdown
 img: assets/img/2.jpg
 importance: 3
 redirect:
@@ -9,7 +9,7 @@ social: true
 category: Misc
 ---
 
-<a href="/assets/pdf/sampel_report1.pdf" target="_blank">Sample report generated using R Markdown</a>
+<a href="/assets/pdf/sample_report1.pdf" target="_blank">Sample report generated using R Markdown</a>
 
 <center>
 <div class="iframe-container">
