@@ -9,9 +9,9 @@ social: true
 category: Misc
 ---
 
-<h1 class="post-title">Sample report generated using R Markdown<a href="/assets/pdf/sample_report1.pdf" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a> </h1>
+<a href="/assets/pdf/sample_report1.pdf" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i>>Sample report generated using R Markdown</a>
 
-<a href="/assets/pdf/sample_report1.pdf" target="_blank">Sample report generated using R Markdown</a>
+<br />
 
 <center>
 <div class="iframe-container">
