@@ -14,7 +14,7 @@ category: Misc
 <center>
 <div class="iframe-container">
 <iframe class="responsive-iframe"
-src="/assets/pdf/sample_report1.pdf" width="100%" height="600px" allowfullscreen="" frameborder="0"></iframe>
+src="/assets/pdf/sample_report1.pdf" width="100%" height="100%" allowfullscreen="" frameborder="0"></iframe>
 </div>
 </center>
 
