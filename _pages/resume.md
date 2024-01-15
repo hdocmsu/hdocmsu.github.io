@@ -264,5 +264,4 @@ Full list of publications can be seen at [Publications](https://hdocmsu.github.i
 </div>
 
 <br />
-
----
+<br />

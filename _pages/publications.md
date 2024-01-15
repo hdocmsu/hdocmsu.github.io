@@ -102,5 +102,3 @@ h6 {text-align: center;}
 
 <br />
 <br />
-
----

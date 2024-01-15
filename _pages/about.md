@@ -1,7 +1,7 @@
 ---
 layout: about
 title: about
-description: Senior Clinical Scientist (Senior MRI Physicist), <a href="https://us.medical.canon/">Canon Medical Systems USA</a>
+description: Senior Clinical Scientist @ <a href="https://us.medical.canon/">Canon Medical Systems USA, Inc.</a>
 permalink: /
 importance: 1
 profile:
@@ -36,6 +36,5 @@ I enjoy learning new knowledge, generating new ideas, experimenting with new too
 
 In my spare time, I enjoy walking, jogging, running, and learning the latest advances in science and technology.
 
-## <br />
-
----
+<br />
+<br />

@@ -1,3 +1,23 @@
+Malis:
+    - firstname: ["Vadim", "V.", "V"]
+      url: https://scholar.google.com/citations?user=SfP_BX8AAAAJ&hl=en
+
+Bae:
+    - firstname: ["Won", "W.", "W"]
+      url: https://profiles.ucsd.edu/won.bae
+
+Brittain:
+    - firstname: ["Jean H", "Jean H.", "Jean", "J.", "J. H.", "J H"]
+      url: https://www.linkedin.com/in/jean-brittain-0b629a79
+
+Reeder:
+    - firstname: ["Scott B", "Scott", "Scott B.", "S. B.", "S B", "S.", "S"]
+      url: https://radiology.wisc.edu/profile/scott-reeder-46/
+
+"Soun":
+    - firstname: ["Jennifer", "J.", "J"]
+      url: https://www.faculty.uci.edu/profile/?facultyId=6613
+
 "Hernando":
     - firstname: ["Diego", "D.", "D"]
       url: https://radiology.wisc.edu/profile/diego-hernando-706/
