@@ -37,6 +37,10 @@ $ make deploy
 
 After deployment, the webpage will become available at `<your-github-username>.github.io`
 
+
+Note that the source code is in the `source` branch while deployment is in the `master` branch.
+
+
 ### License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
