@@ -37,4 +37,3 @@ I enjoy learning new knowledge, generating new ideas, experimenting with new too
 In my spare time, I enjoy walking, jogging, running, and learning the latest advances in science and technology.
 
 <br />
-<br />
