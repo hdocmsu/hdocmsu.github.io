@@ -9,23 +9,14 @@ social: true
 category: Misc
 ---
 
-[SLIDES](https://rpubs.com/hdo2021/HungDo_template){:target="\_blank"}
+<a href="/assets/pdf/sampel_report1.pdf" target="_blank">Sample report generated using R Markdown</a>
 
 <center>
 <div class="iframe-container">
 <iframe class="responsive-iframe"
-src="/assets/htmls/HungDo_template.html" width="100%" height="600px" allowfullscreen="" frameborder="0"></iframe>
+src="/assets/pdf/sample_report1.pdf" width="100%" height="600px" allowfullscreen="" frameborder="0"></iframe>
 </div>
 </center>
 
-<br>
-Interactive Plot
-
-<center>
-<div class="iframe-container">
-<iframe class="responsive-iframe"
-src="/assets/htmls/ggplotly.html" width="80%" height="480px" allowfullscreen="" frameborder="0"></iframe>
-</div>
-</center>
-
----
+<br />
+<br />

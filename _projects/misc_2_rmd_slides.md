@@ -28,4 +28,5 @@ src="/assets/htmls/ggplotly.html" width="80%" height="480px" allowfullscreen="" 
 </div>
 </center>
 
----
+<br />
+<br />
