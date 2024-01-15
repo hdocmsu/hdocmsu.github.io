@@ -208,6 +208,8 @@ Full list of publications can be seen at [Publications](https://hdocmsu.github.i
 
 ### **Selected Talks**
 
+Full list of talks can be seen at [Talks](https://hdocmsu.github.io/talks/)
+
 <div class="card_for_cv">
 <ul>
 <li><strong>HP Do</strong>, et al. "Accelerated 2-3-Minute Multi-echo Ultra-short Echo Time (mecho UTE) using Conjugate Gradient SENSE (CG-SENSE) Reconstruction.” The Radiological Society of North America (RSNA) Scientific Session, Chicago, Nov 2023.</li>
