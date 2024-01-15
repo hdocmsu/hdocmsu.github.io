@@ -14,6 +14,8 @@ deploy:
 	./bin/deploy --user
 
 backup_source:
+	echo "remove everything from souce_*"
+	git rm -rf ../source_hdocmsu.github.io/*
 	echo "copy everything from hdocmsu.github.io to source_*"
 	cp -rf * ../source_hdocmsu.github.io
 	echo "change dir to source_*"
