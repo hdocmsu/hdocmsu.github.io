@@ -14,17 +14,12 @@ deploy:
 	./bin/deploy --user
 
 backup_source:
-	echo "remove everything from souce_*"
-	git rm -rf ../source_hdocmsu.github.io/*
-	echo "copy everything from hdocmsu.github.io to source_*"
-	cp -rf * ../source_hdocmsu.github.io
-	echo "change dir to source_*"
 	cd ../source_hdocmsu.github.io
-	echo "git add all"
+	git rm -rf *
+	cp -rf ../hdocmsu.github.io/* .
 	git add *
-	echo "git commit"
 	git commit -m "updated source code for hdocmsu.github.io personal webpage"
-	echo "git push"
 	git push
+	cd ../hdocmsu.github.io
 	echo "done pushing source code for hdocmsu.github.io"
 
