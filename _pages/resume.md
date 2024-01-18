@@ -2,7 +2,7 @@
 layout: resume
 permalink: /resume/
 title: resume
-description: Senior Clinical Scientist (Senior MRI Physicist) | Medical Affairs
+description: Senior Clinical Scientist (Senior MRI Physicist)
 nav: true
 social: true # includes social icons at the bottom of the page
 importance: 5

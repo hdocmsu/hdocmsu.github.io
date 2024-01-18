@@ -23,3 +23,6 @@ backup_source:
 	cd ../hdocmsu.github.io
 	echo "done pushing source code for hdocmsu.github.io"
 
+deploy_and_backup_source:
+	make deploy
+	make backup_source
