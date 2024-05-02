@@ -1,3 +1,7 @@
+Gross: 
+    - firstname: ["Jordan", "J.", "J"]
+      url: https://www.uclahealth.org/providers/jordan-gross
+
 Malis:
     - firstname: ["Vadim", "V.", "V"]
       url: https://scholar.google.com/citations?user=SfP_BX8AAAAJ&hl=en
@@ -35,7 +39,7 @@ Reeder:
       url: https://www.linkedin.com/in/sheltoncaruthers
 
 "Lockard":
-    - firstname: ["Carly", "C.", "C"]
+    - firstname: ["Carly", "C.", "C", "Carly A", "Carly A.", "CA", "C.A."]
       url: https://www.linkedin.com/in/carlylockard
 
 "Javed":
