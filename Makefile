@@ -7,7 +7,7 @@ install_bundle:
 	bundle install
 
 serve_docs:
-	bundle exec jekyll serve --livereload --open-url http://localhost:4000/
+	bundle exec jekyll serve --livereload --open-url http://localhost:4000/ 2> /dev/null
 
 
 deploy:
