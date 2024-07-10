@@ -196,6 +196,8 @@ li {
 
 Full list of publications can be seen at [Publications](https://hdocmsu.github.io/publications/)
 
+##### **Selected Peer-reviewed Journal Papers**
+
 <div class="card_for_cv">
 <ul>
 <li><strong>Do, Hung P.</strong>, Carly A. Lockard, Dawn Berkeley, Brian Tymkiw, Nathan Dulude, Scott Tashman, Garry Gold, Jordan Gross, Erin Kelly, and Charles P. Ho. “Improved Resolution and Image Quality of Musculoskeletal Magnetic Resonance Imaging using Deep Learning-based Denoising Reconstruction: A Prospective Clinical Study.” Skeletal Radiology 2024. <a href="https://link.springer.com/epdf/10.1007/s00256-024-04679-3?sharing_token=Q-ue9HHksgf2Lfeax7RMT_e4RwlQNchNByi7wbcMAY5Gd107bLG7C6yZmIRrFz3LRceyo_0SXq37qCmdZjm2s-XhcpgcYQnXiv0cs9PtD4v9SeDFuh7ZtIyas-uiwvf_XTjfURbktgr5tdUm1Dwd6k_TbwspQHKJOWDirlq4FiE%3D" target="_blank">PDF</a> <a href="https://link.springer.com/article/10.1007/s00256-024-04679-3">JRNL</a></li>
@@ -206,6 +208,19 @@ Full list of publications can be seen at [Publications](https://hdocmsu.github.i
 </div>
 
 <br />
+
+##### **Selected Whitepapers**
+
+<div class="card_for_cv">
+<ul>
+<li><strong>Do, Hung P.</strong> and Berkeley, Dawn. “Advanced intelligent Clear-IQ Engine (AiCE) Deep Learning Reconstruction (DLR): Translating the Power of Deep Learning to MR Image Reconstruction.” Canon Medical Systems USA, 2020. <a href="/assets/pdf/whitepapers/AiCE_DLR_introducing.pdf" target="_blank">PDF</a></li>
+<li><strong>Do, Hung P.</strong> “Advanced intelligent Clear-IQ Engine (AiCE) Interpretable Model with Robust and Generalized Performance: Beyond Brain and Knee.” Canon Medical Systems USA, 2021. <a href="/assets/pdf/whitepapers/AiCE_DLR_extension_wp.pdf" target="_blank">PDF</a></li>
+<li><strong>Do, Hung P.</strong> “k-t SPEEDER: A reference-free parallel imaging method for fast dynamic MRI.” Canon Medical Systems USA, 2019. <a href="/assets/pdf/whitepapers/kt_SPEEDER_wp.pdf" target="_blank">PDF</a></li>
+</ul>
+</div>
+
+<br />
+
 
 ### **Selected Talks**
 
@@ -220,6 +235,7 @@ Full list of talks can be seen at [Talks](https://hdocmsu.github.io/talks/)
 </ul>
 </div>
 <br />
+
 
 ### **Teaching and Training Experience**
 
