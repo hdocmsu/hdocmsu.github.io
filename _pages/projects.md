@@ -5,7 +5,7 @@ permalink: /projects/
 description: This page is under construction!
 nav: true
 display_categories: [Canon, USC, ICTP, Misc]
-horizontal: false
+horizontal: true
 social: true
 importance: 4
 ---
@@ -33,7 +33,7 @@ importance: 4
       <!-- Generate cards for each project -->
       {% if page.horizontal %}
         <div class="container">
-          <div class="row row-cols-2">
+          <div class="row row-cols-1">
           {% for project in sorted_projects %}
             {% include projects_horizontal.html %}
           {% endfor %}
@@ -56,7 +56,7 @@ importance: 4
     <!-- Generate cards for each project -->
     {% if page.horizontal %}
       <div class="container">
-        <div class="row row-cols-2">
+        <div class="row row-cols-1">
         {% for project in sorted_projects %}
           {% include projects_horizontal.html %}
         {% endfor %}

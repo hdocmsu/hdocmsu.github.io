@@ -396,7 +396,7 @@ footer.sticky-bottom {
 
   .card-item {
     width: auto;
-    margin-bottom: 10px;
+    margin-bottom: 7.5px;
 
     .row {
       display: flex;
@@ -415,7 +415,7 @@ footer.sticky-bottom {
     padding-top: 0.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    text-align: right;
+    text-align: left;
   }
 }
 
@@ -702,3 +702,9 @@ nav[data-toggle="toc"] {
   }
 }
 
+.project-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: 0px;  /* Adjust the value as needed */
+  margin-right: 0px; /* Adjust the value as needed */
+}
