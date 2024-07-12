@@ -6,6 +6,7 @@ description: Senior Clinical Scientist (Senior MRI Physicist)
 nav: true
 social: true # includes social icons at the bottom of the page
 importance: 5
+toc: true
 ---
 
 <style>
