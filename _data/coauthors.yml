@@ -1,3 +1,11 @@
+Pakbaz:
+    - firstname: ["Zahra", "Z.", "Z"]
+      url: https://www.faculty.uci.edu/profile/?facultyId=6699
+
+Chang:
+    - firstname: ["Peter", "P.", "P"]
+      url: https://www.linkedin.com/in/peter-chang-34014274
+
 Gross: 
     - firstname: ["Jordan", "J.", "J"]
       url: https://www.uclahealth.org/providers/jordan-gross
