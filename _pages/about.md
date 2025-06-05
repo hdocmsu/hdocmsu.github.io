@@ -1,7 +1,7 @@
 ---
 layout: about
 title: about
-description: Senior Clinical Scientist @ <a href="https://us.medical.canon/">Canon Medical Systems USA, Inc.</a>
+description: Senior MRI Physicist, <a href="https://us.medical.canon/">Canon Medical Systems USA</a>
 permalink: /
 importance: 1
 profile:
@@ -14,7 +14,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I’m a senior clinical scientist (senior MRI physicist) at [Canon Medical Systems USA](https://us.medical.canon/), where I work to translate innovative imaging solutions (Deep Learning Reconstruction, Compressed Sensing, Ultra-short Echo Time (UTE) imaging, Arterial Spin Labeling (ASL), etc.) into the clinical environment by designing and conducting hypothesis-driven and clinical-evaluation research studies and engaging in the FDA 510(k) application processes. I have track records of successful collaborations with radiologists, cardiologists, scientists, engineers, application specialists, MRI technologists, product managers, marketers, legal counselors, and regulatory affairs specialists.
+I’m a senior MRI physicist at [Canon Medical Systems USA](https://us.medical.canon/), where I work to translate innovative imaging solutions (Deep Learning Reconstruction (DLR), Compressed Sensing (CS), Ultra-short Echo Time (UTE) imaging, Arterial Spin Labeling (ASL), etc.) into the clinical environment by designing and conducting hypothesis-driven and clinical-evaluation research studies and engaging in the FDA 510(k) application processes. I have track records of successful collaborations with radiologists, cardiologists, scientists, engineers, application specialists, MRI technologists, product managers, marketers, legal counselors, and regulatory affairs specialists.
 
 I enjoy learning new knowledge, generating new ideas, experimenting with new tools, and solving impactful problems in principal ways. My expertise and interests include:
 

@@ -2,7 +2,7 @@
 layout: resume
 permalink: /resume/
 title: resume
-description: Senior Clinical Scientist (Senior MRI Physicist)
+description: Senior MRI Physicist, Canon Medical Systems USA
 nav: true
 social: true # includes social icons at the bottom of the page
 importance: 5
@@ -28,11 +28,11 @@ li {
 
 </style>
 
-<center>
+<!-- <center>
 <a href="https://hdocmsu.github.io/"><img src="/assets/img/HungDO.jpg" height="auto" width="180" style="border-radius:50%" class="img-fluid z-depth-1"></a>
-</center>
+</center> -->
 
-<br />
+<!-- <br /> -->
 
 <header class="post-header">
     <h2 class="post-title">
@@ -51,7 +51,7 @@ li {
 
 <br />
 
-###### **Jump to**: [Skills](#expertise-and-skills) | [Jobs](#experience) | [Education](#education) | [Awards](#honors-and-awards) | [Certificates](#certificates) | [Publications](#selected-publications) | [Talks](#selected-talks) | [Teaching](#teaching-and-training-experience) | [Reviewer](#peer-reviewer) | [Membership](#membership) | [Interests](#interests)
+###### | [Skills](#expertise-and-skills) | [Jobs](#experience) | [Edu](#education) | [Awards](#honors-and-awards) | [Certificates](#certificates) | [Pubs](#selected-publications) | [Talks](#selected-talks) | [Teaching](#teaching-and-training-experience) | [Reviewer](#peer-reviewer) | [Membership](#membership) | [Interests](#interests) |
 
 <br />
 
@@ -85,8 +85,8 @@ li {
 
 <div class="card_for_cv">
 <ul>
-  <li><strong>2021 - present</strong>: Medical Affairs - Senior Clinical Scientist (Senior MRI Physicist) at <a href="https://us.medical.canon/">Canon Medical Systems USA</a>, Tustin, California</li>
-  <li><strong>2017 - 2021</strong>: Medical Affairs - Clinical Scientist (MRI Physicist) at <a href="https://us.medical.canon/">Canon Medical Systems USA</a>, Tustin, California</li>
+  <li><strong>2021 - present</strong>: Medical Affairs - Senior Clinical Scientist at <a href="https://us.medical.canon/">Canon Medical Systems USA</a>, Tustin, California</li>
+  <li><strong>2017 - 2021</strong>: Medical Affairs - Clinical Scientist at <a href="https://us.medical.canon/">Canon Medical Systems USA</a>, Tustin, California</li>
   <li><strong>2017</strong>: Postdoctoral Fellow in Magnetic Resonance Imaging Physics advised by <a href="https://sipi.usc.edu/~knayak/">Prof. Krishna Nayak</a> at the <a href="https://mrel.usc.edu/">Magnetic Resonance Engineering Lab</a> in the <a href="https://www.usc.edu/">University of Southern California (USC)</a>, Los Angeles, California</li>
   <li><strong>2010 - 2017</strong>: Graduate Research Assistant in Magnetic Resonance Imaging Physics advised by <a href="https://sipi.usc.edu/~knayak/">Prof. Krishna Nayak</a> at the <a href="https://mrel.usc.edu/">Magnetic Resonance Engineering Lab</a> in the <a href="https://www.usc.edu/">University of Southern California (USC)</a>, Los Angeles, California</li>
   <li><strong>2009</strong>: Postgraduate Diploma Research in Condensed Matter Physics advised by <a href="https://www.ictp.it/member/sandro-scandolo#biography">Prof. Sandro Scandolo</a> at the <a href="https://www.ictp.it/">Abdus Salam International Centre for Theoretical Physics (ICTP)</a>, Trieste, Italy</li>

@@ -2,7 +2,7 @@
 layout: page
 title: R Shiny Application
 description: Interactive Non-linear Least Squares Fitting
-img: assets/img/1.jpg
+img: assets/img/proj/shiny_apps.png   
 importance: 1
 redirect:
 social: true

@@ -2,7 +2,7 @@
 layout: page
 title: R Markdown Presentation
 description: Presentation Template using R Markdown
-img: assets/img/1.jpg
+img: assets/img/proj/md_present.png
 importance: 2
 redirect:
 social: true

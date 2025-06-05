@@ -2,7 +2,7 @@
 layout: page
 title: R Markdown Report
 description: Report generated using R Markdown
-img: assets/img/1.jpg
+img: assets/img/proj/md_report.png
 importance: 3
 redirect:
 social: true

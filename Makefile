@@ -9,6 +9,8 @@ install_bundle:
 serve_docs:
 	bundle exec jekyll serve --livereload --open-url http://localhost:4000/ 2> /dev/null
 
+preview:
+	make serve_docs
 
 deploy:
 	./bin/deploy --user
