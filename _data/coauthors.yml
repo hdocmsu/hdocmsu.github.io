@@ -1,6 +1,6 @@
 Provencher:
     - firstname: ["Matthew", "M.", "M", "Matt", "Matthew T.", "M. T.", "MT"]
-      url: https://www.thesteadmanclinic.com/our-doctors/matthew-t-provencher
+      url: https://www.linkedin.com/in/matthew-provencher-md
 
 Pakbaz:
     - firstname: ["Zahra", "Z.", "Z"]
@@ -28,7 +28,7 @@ Brittain:
 
 Reeder:
     - firstname: ["Scott B", "Scott", "Scott B.", "S. B.", "S B", "S.", "S"]
-      url: https://radiology.wisc.edu/profile/scott-reeder-46/
+      url: https://www.linkedin.com/in/scott-reeder-md-phd
 
 "Soun":
     - firstname: ["Jennifer", "J.", "J"]
@@ -36,7 +36,7 @@ Reeder:
 
 "Hernando":
     - firstname: ["Diego", "D.", "D"]
-      url: https://radiology.wisc.edu/profile/diego-hernando-706/
+      url: https://www.linkedin.com/in/diego-hernando-a5bbb0
 
 "Starekova":
     - firstname: ["Jitka", "J.", "J"]
@@ -44,7 +44,7 @@ Reeder:
 
 "Watkins":
     - firstname: ["Lauren", "L.", "L"]
-      url: https://www.sprivail.org/directory-search/lauren-watkins
+      url: https://www.linkedin.com/in/lewatkins
 
 "Caruthers":
     - firstname: ["Shelton", "S.", "S"]
@@ -120,15 +120,15 @@ Reeder:
 
 "Nayak":
     - firstname: ["Krishna", "Krishna S.", "K. S.", "K."]
-      url: https://sipi.usc.edu/~knayak/
+      url: https://www.linkedin.com/in/krishusc
 
 "Gold":
     - firstname: ["Garry", "G.", "G"]
-      url: https://med.stanford.edu/profiles/garry-gold
+      url: https://www.linkedin.com/in/garry-gold-9a242a3
 
 "Tashman":
     - firstname: ["Scott", "S.", "S"]
-      url: https://www.sprivail.org/directory-search/scott-tashman-1
+      url: https://www.linkedin.com/in/scott-tashman
 
 "Ho":
     - firstname: ["Charles", "C.", "C. P.", "Charles P.", "C", "CP", "CP."]
@@ -136,11 +136,11 @@ Reeder:
 
 "Wright":
     - firstname: ["Graham", "G.", "Graham A.", "G"]
-      url: https://sunnybrook.ca/research/team/member.asp?t=13&m=184&page=172
+      url: https://ca.linkedin.com/in/graham-wright-medtech
 
 "Ghugre":
     - firstname: ["Nilesh", "N.", "N", "Nilesh R."]
-      url: https://sunnybrook.ca/research/team/member.asp?t=11&m=765&page=172
+      url: https://scholar.google.ca/citations?user=_dr49Y8AAAAJ&hl=en
 
 "Wong":
     - firstname: ["Eric", "E.", "E"]
@@ -152,8 +152,8 @@ Reeder:
 
 "Matcuk":
     - firstname: ["George", "George R.", "G.", "G. R.", "G"]
-      url: https://bio.cedars-sinai.org/matcukg1/index.html
+      url: https://www.linkedin.com/in/george-matcuk-8020152
 
 "Gholamrezanezhad":
     - firstname: ["Ali", "A.", "A"]
-      url: https://keck.usc.edu/faculty-search/ali-gholamrezanezhad/
+      url: https://www.linkedin.com/in/ali-gholamrezanezhad-5178a4178
