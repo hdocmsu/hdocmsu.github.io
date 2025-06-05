@@ -1,3 +1,7 @@
+Barr:
+    - firstname: ["Mark", "M.", "M"]
+      url: https://scholar.google.com/citations?user=d2HNgcoAAAAJ&hl=en
+
 Provencher:
     - firstname: ["Matthew", "M.", "M", "Matt", "Matthew T.", "M. T.", "MT"]
       url: https://www.linkedin.com/in/matthew-provencher-md
@@ -157,3 +161,4 @@ Reeder:
 "Gholamrezanezhad":
     - firstname: ["Ali", "A.", "A"]
       url: https://www.linkedin.com/in/ali-gholamrezanezhad-5178a4178
+
