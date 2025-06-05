@@ -654,6 +654,9 @@ progress::-moz-progress-bar {
   left: 0;
   height: 5px;
   display: block;
+  opacity: 1 !important; /* Show immediately */
+  visibility: visible !important;
+  z-index: 1000;
 }
 
 .progress-bar {

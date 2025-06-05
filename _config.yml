@@ -127,14 +127,27 @@ kramdown:
 # Includes & excludes
 include: ["_pages"]
 exclude:
-    - bin
-    - Gemfile
-    - Gemfile.lock
-    - vendor
+  - bin/
+  - CONTRIBUTING.md
+  - CUSTOMIZE.md
+  - Dockerfile
+  - docker-compose.yml
+  - docker-compose-slim.yml
+  - FAQ.md
+  - Gemfile
+  - Gemfile.lock
+  - INSTALL.md
+  - LICENSE
+  - lighthouse_results/
+  - package.json
+  - package-lock.json
+  - purgecss.config.js
+  - README.md
+  - readme_preview/
+  - vendor
 keep_files:
     - CNAME
     - .nojekyll
-    - .git
 
 # Plug-ins
 plugins:
@@ -158,6 +171,9 @@ defaults:
           path: "assets/**/*.*"
       values:
           sitemap: false
+
+sass:
+  style: compressed
 
 # Extras
 github: [metadata]
@@ -214,7 +230,8 @@ max_author_limit: # leave blank to always show all authors
 responsive_image:
     template: _includes/responsive_img.html
     # Quality to use when resizing images.
-    default_quality: 80
+    skip_on_error: true  # Skip problematic images instead of failing
+    default_quality: 85
     sizes:
         - width: 480
         - width: 800
@@ -235,8 +252,8 @@ jekyll-diagrams:
 # Optional Features
 # -----------------------------------------------------------------------------
 enable_statcounter_analytics: true  # enable statecouter analytics
-enable_google_analytics:      true  # enables google analytics
-enable_panelbear_analytics:   true  # enables panelbear analytics
+enable_google_analytics:      false  # enables google analytics
+enable_panelbear_analytics:   false  # enables panelbear analytics
 enable_mansory:               true  # enables automatic project cards arangement
 enable_math:                  true  # enables math typesetting (uses MathJax)
 enable_tooltips:              false # enables automatic tooltip links generated
