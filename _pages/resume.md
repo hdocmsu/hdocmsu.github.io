@@ -245,7 +245,7 @@ Full list of talks can be seen at [Talks](https://hdocmsu.github.io/talks/)
 <div class="card_for_cv">
 <ul>
 <li><strong>2017 - present</strong>: Distill MRI technical concepts into forms of case studies, white papers, and training lectures making them accessible to the sales and applications team at <a href="https://us.medical.canon/" target="_blank">Canon Medical System USA</a>, Tustin, California</li>
-<li><strong>2012 - 2017</strong>: MRI sequence design and MRI safety supervisor at the <a href="https://mrel.usc.edu/" target="_blank">Magnetic Resonance Engineering Lab</a> in the <a href="https://www.usc.edu/" target="_blank">University of Southern California (USC)</a>, Los Angeles, California</li>
+<li><strong>2015 - 2017</strong>: MRI sequence design and MRI safety supervisor at the <a href="https://mrel.usc.edu/" target="_blank">Magnetic Resonance Engineering Lab</a> in the <a href="https://www.usc.edu/" target="_blank">University of Southern California (USC)</a>, Los Angeles, California</li>
 <li><strong>2010 - 2017</strong>: Physics Graduate Teaching Assistant at the <a href="https://dornsife.usc.edu/physics/" target="_blank">Department of Physics and Astronomy</a>, the <a href="https://www.usc.edu/" target="_blank">University of Southern California (USC)</a>, Los Angeles, California</li>
 <li><strong>2006 - 2007</strong>: Practical Teacher Training at Truc Ninh High School in Spring 2006 &amp; 2007 as part of the Physics Teacher Training Curriculum at the <a href="https://hnue.edu.vn/" target="_blank">Hanoi National University of Education</a>, Hanoi, Vietnam</li>
 </ul>
