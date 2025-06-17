@@ -1,3 +1,11 @@
+Grazette:
+    - firstname: ["Luanda", "L.", "L"]
+      url: https://scholar.google.com/citations?hl=en&user=G7YsngsAAAAJ
+
+Cen:
+    - firstname: ["Steven", "S.", "S"]
+      url: https://scholar.google.com/citations?user=YNXb7hAAAAAJ&hl=en
+
 Barr:
     - firstname: ["Mark", "M.", "M", "Mark L.", "Mark L", "ML", "M.L."]
       url: https://scholar.google.com/citations?user=d2HNgcoAAAAJ&hl=en
