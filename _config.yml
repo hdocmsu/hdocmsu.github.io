@@ -71,7 +71,7 @@ rss_icon: false
 # contact_note: >
 #     Email is the best way to reach me.
 
-# google_analytics: UA-128649878-1 # out your google-analytics code
+google_analytics: G-PK7WD7056C #UA-128649878-1 # out your google-analytics code
 # panelbear_analytics: DEJEU7j7UXe # panelbear analytics site ID
 
 # -----------------------------------------------------------------------------
@@ -261,7 +261,7 @@ jekyll-diagrams:
 # Optional Features
 # -----------------------------------------------------------------------------
 enable_statcounter_analytics: true  # enable statecouter analytics
-enable_google_analytics:      false  # enables google analytics
+enable_google_analytics:      true  # enables google analytics
 enable_panelbear_analytics:   false  # enables panelbear analytics
 enable_mansory:               true  # enables automatic project cards arangement
 enable_math:                  true  # enables math typesetting (uses MathJax)
