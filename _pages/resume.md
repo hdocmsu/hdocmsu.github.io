@@ -257,7 +257,7 @@ Full list of talks can be seen at [Talks](https://hdocmsu.github.io/talks/)
 
 <div class="card_for_cv">
 <ul>
-<li>Reviewer for <a href="https://jcmr-online.biomedcentral.com/" target="_blank">Journal of Cardiovascular Magnetic Resonance</a></li>
+<li>Reviewer for <a href="https://www.sciencedirect.com/journal/journal-of-cardiovascular-magnetic-resonance" target="_blank">Journal of Cardiovascular Magnetic Resonance</a></li>
 <li>Reviewer for <a href="https://journals.lww.com/jcat/pages/default.aspx" target="_blank">Journal of Computer Assisted Tomography</a></li>
 <li>Reviewer for <a href="https://www.ismrm.org/" target="_blank">ISMRM</a> Annual Scientific Meetings</li>
 </ul>
