@@ -113,6 +113,7 @@
       {% else %}
       <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" target="_blank" class="btn btn-sm z-depth-0" role="button">PDF</a>
       {% endif %}
+    {% endif %}
     {% if entry.pdf2 %}
       {% if entry.pdf2 contains '://' %}
       <a href="{{ entry.pdf2 }}" class="btn btn-sm z-depth-0" target="_blank" role="button">PDF2</a>
