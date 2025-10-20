@@ -18,7 +18,7 @@ h5 {text-align: center;}
 h6 {text-align: center;}
 </style>
 
-###### **Menu:** [Oral Presentations](#oral-presentations) | [Training Lectures](#training-lectures)
+###### **Jump to:** [Oral Presentations](#oral-presentations) | [Training Lectures](#training-lectures)
 
 <br />
 <br />

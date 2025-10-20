@@ -51,7 +51,7 @@ li {
 
 <br />
 
-###### **Menu:** [Skills](#expertise-and-skills) | [Jobs](#experience) | [Education](#education) | [Awards](#honors-and-awards) | [Certificates](#certificates) | [Publications](#selected-publications) | [Talks](#selected-talks) | [Teaching](#teaching-and-training-experience)
+###### **Jump to:** [Skills](#expertise-and-skills) | [Jobs](#experience) | [Education](#education) | [Awards](#honors-and-awards) | [Certificates](#certificates) | [Publications](#selected-publications) | [Talks](#selected-talks) | [Teaching](#teaching-and-training-experience)
 
 <br />
 
