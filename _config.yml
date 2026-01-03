@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Hung
 middle_name: P.
 last_name: Do, PhD, MSEE
-email: clinicalcollaborations@gmail.com
+email: hdoMRIphysics@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
 
 footer_text: >
@@ -49,22 +49,26 @@ og_image: "/assets/img/HungDO_gen.jpg" # The site-wide (default for all links) O
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: hdoMRIphysics
-gitlab_username: # your GitLab user name
-twitter_username: # your Twitter handle
+
+youtube_username: hdoMRIphysics  # Add this line
+substack_username: hdoMRIphysics  # Add this line
+twitter_username: hdoMRIphysics
 linkedin_username: hdoMRIphysics
 scholar_userid: 3GO4yzMAAAAJ
+github_username: hdoMRIphysics
+work_url: https://us.medical.canon/
+gitlab_username: # your GitLab user name
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
 research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
-work_url: https://us.medical.canon/
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
+
 
 rss_icon: false
 

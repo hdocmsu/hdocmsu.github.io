@@ -45,7 +45,7 @@ li {
 
 ---
 
-###### <a href="mailto:{{ site.email | encode_email }}"><i class="fas fa-envelope"></i> Email</a> &nbsp; <a href="https://hdocmsu.github.io/"><i class="fas fa-globe"></i> Homepage</a> &nbsp; <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}"><i class="ai ai-google-scholar"></i> Google Scholar</a> &nbsp; <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}"><i class="fab fa-linkedin"></i> LinkedIn</a> &nbsp; <a href="https://github.com/{{ site.github_username }}"><i class="fab fa-github"></i> Github</a> &nbsp; <a href="{{ site.work_url }}"><i class="fas fa-briefcase"></i> Work</a> &nbsp; <a href="https://goo.gl/maps/852TwpNwmZe4c2DV7"><i class="fa fa-map-marker" aria-hidden="true"></i> Tustin, CA</a>
+###### <a href="https://substack.com/@{{ site.substack_username }}"><i class="fas fa-newspaper"></i> Substack</a> &nbsp; <a href="https://www.youtube.com/@{{ site.youtube_username }}"><i class="fab fa-youtube"></i> YouTube</a> &nbsp; <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fab fa-twitter"></i> Twitter</a> &nbsp; <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}"><i class="fab fa-linkedin"></i> LinkedIn</a> &nbsp; <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}"><i class="ai ai-google-scholar"></i> Google Scholar</a> &nbsp; <a href="{{ site.work_url }}"><i class="fas fa-briefcase"></i> Work</a> &nbsp; <a href="mailto:{{ site.email | encode_email }}"><i class="fas fa-envelope"></i> Email</a>
 
 ---
 
