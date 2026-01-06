@@ -17,16 +17,40 @@ I developed the company’s first end-to-end pipeline for executing and analyzin
 It is gratifying to see the technology I helped validate now being used clinically across Canon MRI systems worldwide.
 
 **Here are whitepapers that I wrote**:
-* [Advanced intelligent Clear-IQ Engine (AiCE) Deep Learning Reconstruction (DLR): Translating the Power of Deep Learning to MR Image Reconstruction](https://hdocmsu.github.io/assets/pdf/whitepapers/AiCE_DLR_introducing.pdf)
-* [Advanced intelligent Clear-IQ Engine (AiCE) Interpretable Model with Robust and Generalized Performance: Beyond Brain and Knee](https://hdocmsu.github.io/assets/pdf/whitepapers/AiCE_DLR_extension_wp.pdf)
-* [Advanced intelligent Clear-IQ Engine (AiCE) Deep Learning Reconstruction: Effectively Removes Noise while Maintaining MR Signal](https://hdocmsu.github.io/assets/pdf/whitepapers/AiCE_DLR_structure_integrity.pdf)
-* [Good to Know: Advanced intelligent Clear-IQ Engine (AiCE) Deep Learning Reconstruction](https://hdocmsu.github.io/assets/pdf/whitepapers/VISIONS_MR_special_No1_with_G2K_AiCE.pdf)
+<ul>
+<li><strong>Do, Hung P.</strong> and Berkeley, Dawn. “Advanced intelligent Clear-IQ Engine (AiCE) Deep Learning Reconstruction (DLR): Translating the Power of Deep Learning to MR Image Reconstruction.” Canon Medical Systems USA, 2020. <a href="/assets/pdf/whitepapers/AiCE_DLR_introducing.pdf" target="_blank">PDF</a></li>
+<li><strong>Do, Hung P.</strong> “Advanced intelligent Clear-IQ Engine (AiCE) Interpretable Model with Robust and Generalized Performance: Beyond Brain and Knee.” Canon Medical Systems USA, 2021. <a href="/assets/pdf/whitepapers/AiCE_DLR_extension_wp.pdf" target="_blank">PDF</a></li>
+<li><strong>Do, Hung P.</strong> "Advanced intelligent Clear-IQ Engine (AiCE) Deep Learning Reconstruction: Effectively Removes Noise while Maintaining MR Signal." Canon Medical Systems USA, 2021. <a href="/assets/pdf/whitepapers/AiCE_DLR_structure_integrity.pdf" target="_blank">PDF</a></li>
+<li><strong>Do, Hung P.</strong> "Good to Know: Advanced intelligent Clear-IQ Engine (AiCE) Deep Learning Reconstruction." Canon Medical Systems USA. <a href="/assets/pdf/whitepapers/VISIONS_MR_special_No1_with_G2K_AiCE.pdf" target="_blank">PDF-Page53</a></li>
+</ul>
 
 **Peer-reviewed scientific publication**:
-* [Improved Resolution and Image Quality of Musculoskeletal Magnetic Resonance Imaging using Deep Learning-based Denoising Reconstruction: A Prospective Clinical Study.](https://link.springer.com/article/10.1007/s00256-024-04679-3)
+<ul>
+<li><strong>HP Do</strong>, CA Lockard, D Berkeley, B Tymkiw, N Dulude, S Tashman, G Gold, J Gross, E Kelly, and CP Ho. “Improved Resolution and Image Quality of Musculoskeletal Magnetic Resonance Imaging using Deep Learning-based Denoising Reconstruction: A Prospective Clinical Study.” Skeletal Radiology 2024. <a href="https://link.springer.com/epdf/10.1007/s00256-024-04679-3?sharing_token=Q-ue9HHksgf2Lfeax7RMT_e4RwlQNchNByi7wbcMAY5Gd107bLG7C6yZmIRrFz3LRceyo_0SXq37qCmdZjm2s-XhcpgcYQnXiv0cs9PtD4v9SeDFuh7ZtIyas-uiwvf_XTjfURbktgr5tdUm1Dwd6k_TbwspQHKJOWDirlq4FiE%3D" target="_blank">PDF</a> <a href="https://link.springer.com/article/10.1007/s00256-024-04679-3">JRNL-HTML</a></li>
+</ul>
 
 **Impact of MRI-DLR can be seen through a series of challenges below**:
+
+Since its inception more than 50 years ago, MRI has been governed by a fundamental trade-off, described as the MRI triangle trade-off, among signal-to-noise ratio (SNR), spatial resolution, and scan time. This trade-off is dictated by MRI physics: improving one parameter necessarily comes at the expense of one or both of the others.
+
+For example, achieving higher SNR typically requires longer scan times or reduced spatial resolution, both of which are undesirable in clinical practice. Alternatively, higher field-strength scanners may be used to boost SNR, but these systems are more expensive and introduce additional challenges related to field inhomogeneity.
+
+Deep learning-based MRI reconstruction (MRI-DLR) has been shown to mitigate this long-standing triangle trade-off by enabling, to some extent, the acquisition of image quality previously constrained by conventional MRI physics.
+
+**One example is the ability to achieve image quality comparable to that of high-field (e.g., 3 T) MRI using lower field-strength systems (e.g., 1.5 T). Take the AiCE Challenges #1 and #2.**
+
 * [MRI-DLR Challenge #1](https://us.medical.canon/promo/magnetic-resonance/aice/1/)
 * [MRI-DLR Challenge #2](https://us.medical.canon/promo/magnetic-resonance/aice/2/)
+<figure>
+  <img src="/assets/img/proj/cmsu_aice2.png" alt="MRI-DLR 1.5T vs. 3T" style="max-width: 100%; height: auto;">
+  <figcaption style="font-size: 0.85em; font-style: italic; text-align: right;">Source: <a href="https://us.medical.canon/products/magnetic-resonance/aice/">Canon Medical Systems USA</a></figcaption>
+</figure>
+
+**Another example is the ability to achieve higher SNR and spatial resolution without increasing scan time, and in some cases, with even shorter scan times. See the AiCE Challenges #3 and #4.**
+
 * [MRI-DLR Challenge #3](https://us.medical.canon/promo/magnetic-resonance/aice/3/)
 * [MRI-DLR Challenge #4](https://us.medical.canon/promo/magnetic-resonance/aice/4/)
+<figure>
+  <img src="/assets/img/proj/cmsu_aice3.png" alt="MRI-DLR Faster Scan time" style="max-width: 100%; height: auto;">
+  <figcaption style="font-size: 0.85em; font-style: italic; text-align: right;">Source: <a href="https://us.medical.canon/products/magnetic-resonance/aice/">Canon Medical Systems USA</a></figcaption>
+</figure>
