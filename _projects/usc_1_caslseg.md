@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Accuracy, Uncertainty, and Adaptability of Automatic Myocardial ASL Segmentation using Deep CNN
-description: Deep CNN is tailored for medical imaging application by not only achieving accurate segmentation but also the ability to quantify the uncertainty and to adapt to pre-specified false positive and false negative rate.
+description: The proposed deep CNN is designed for medical imaging, providing accurate segmentation while quantifying uncertainty and allowing control over false-positive and false-negative rates.
 img: assets/img/proj/usc_caslseg.png
 importance: 1
 category: USC
