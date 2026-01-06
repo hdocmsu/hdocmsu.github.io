@@ -130,6 +130,42 @@ li {
 
 <div class="card_for_cv">
 <ul>
+  <li><a href="https://www.coursera.org/account/accomplishments/certificate/4RGD4N2EFA6Y">Neural Networks for Machine Learning</a>, Prof. Geoffrey E. Hinton, University of Toronto</li>
+  
+  <li><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/8J8WWCZTK8L5">Deep Learning, a 5-Course Specialization</a>, Prof. Andrew Ng, deeplearning.ai and Stanford University</li>
+  <ul>
+      <li>Course 1: Neural Networks and Deep Learning</li>
+      <li>Course 2: Improving Deep Neural Networks: Hyper-parameter tuning, Regularization and Optimization</li>
+      <li>Course 3: Structuring Machine Learning Projects</li>
+      <li>Course 4: Convolutional Neural Networks</li>
+      <li>Course 5: Sequence Models</li>
+    </ul>
+
+ <li><a href="https://www.coursera.org/account/accomplishments/certificate/57W43BTTTCH3">Machine Learning</a>, Prof. Andrew Ng, Stanford University</li>
+
+ <li><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/NUUS7BB6YCSR">AI for Healthcare, a 5-Course Specialization</a>, Profs. Nigam Shah, Laurence Baker, David Magnus, Serena Yeung, Mildred Cho, Steven Bagley, Matthew Lungren, Tina Hernandez-Boussard, Stanford University </li>
+    <ul>
+      <li>Course 1: Introduction to Healthcare</li>
+      <li>Course 2: Introduction to Clinical Data</li>
+      <li>Course 3: Fundamentals of Machine Learning for Healthcare</li>
+      <li>Course 4: Evaluations of AI applications in Healthcare</li>
+      <li>Course 5: AI in Healthcare Capstone Projects</li>
+    </ul>
+
+  <li><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/63Q826DGTWNB">AI for Medicine, a 3-Course Specialization</a>, Pranav Rajpurkar PhD, Stanford University and deeplerning.ai </li>
+    <ul>
+      <li>Course 1: AI for Medical Diagnosis</li>
+      <li>Course 2: AI for Medical Prognosis</li>
+      <li>Course 3: AI for Medical Treatment</li>
+    </ul>
+
+  <li><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/XF9F6LBKG4NA">Statistics with Python, a 3-Course Specialization</a>, Brenda Gunderson PhD, Brady T. West PhD, Kerby Shedden PhD, University of Michigan </li>
+    <ul>
+      <li>Course 1: Understanding and Visualizing Data with Python</li>
+      <li>Course 2: Inferential Statistical Analysis with Python</li>
+      <li>Course 3: Fitting Statistical Models to Data with Python</li>
+    </ul>
+
   <li><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/59SX95VDRUQK">Data Science: Statistics and Machine Learning, a 5-Course Specialization</a>, Profs. Jeff Leek, Roger Peng, Brian Caffo, Department of Biostatistics, Johns Hopkins Bloomberg School of Public Health, Johns Hopkins University </li>
     <ul>
       <li>Course 1: Statistical Inference</li>
@@ -148,45 +184,9 @@ li {
       <li>Course 5: Reproducible Research</li>
     </ul>
 
-  <li><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/NUUS7BB6YCSR">AI for Healthcare, a 5-Course Specialization</a>, Profs. Nigam Shah, Laurence Baker, David Magnus, Serena Yeung, Mildred Cho, Steven Bagley, Matthew Lungren, Tina Hernandez-Boussard, Stanford University </li>
-    <ul>
-      <li>Course 1: Introduction to Healthcare</li>
-      <li>Course 2: Introduction to Clinical Data</li>
-      <li>Course 3: Fundamentals of Machine Learning for Healthcare</li>
-      <li>Course 4: Evaluations of AI applications in Healthcare</li>
-      <li>Course 5: AI in Healthcare Capstone Projects</li>
-    </ul>
-
-  <li><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/XF9F6LBKG4NA">Statistics with Python, a 3-Course Specialization</a>, Brenda Gunderson PhD, Brady T. West PhD, Kerby Shedden PhD, University of Michigan </li>
-    <ul>
-      <li>Course 1: Understanding and Visualizing Data with Python</li>
-      <li>Course 2: Inferential Statistical Analysis with Python</li>
-      <li>Course 3: Fitting Statistical Models to Data with Python</li>
-    </ul>
-
-  <li><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/63Q826DGTWNB">AI for Medicine, a 3-Course Specialization</a>, Pranav Rajpurkar PhD candidate, Stanford University and deeplerning.ai </li>
-    <ul>
-      <li>Course 1: AI for Medical Diagnosis</li>
-      <li>Course 2: AI for Medical Prognosis</li>
-      <li>Course 3: AI for Medical Treatment</li>
-    </ul>
-
   <li><a href="/assets/pdf/certs/2020-improving-statistical-inferences.png" target="_blank">Improving your statistical inferences</a>, Daniel Lakens PhD, Eindhoven University of Technology</li>
   
   <li><a href="/assets/pdf/certs/2020-improving-statistical-questions.png" target="_blank">Improving Your Statistical Questions</a>, by Daniel Lakens PhD, Eindhoven University of Technology</li>
-  
-  <li><a href="https://www.coursera.org/account/accomplishments/certificate/4RGD4N2EFA6Y">Neural Networks for Machine Learning</a>, Prof. Geoffrey E. Hinton, University of Toronto</li>
-  
-  <li><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/8J8WWCZTK8L5">Deep Learning, a 5-Course Specialization</a>, Prof. Andrew Ng, deeplearning.ai and Stanford University</li>
-  <ul>
-      <li>Course 1: Neural Networks and Deep Learning</li>
-      <li>Course 2: Improving Deep Neural Networks: Hyper-parameter tuning, Regularization and Optimization</li>
-      <li>Course 3: Structuring Machine Learning Projects</li>
-      <li>Course 4: Convolutional Neural Networks</li>
-      <li>Course 5: Sequence Models</li>
-    </ul>
-
- <li><a href="https://www.coursera.org/account/accomplishments/certificate/57W43BTTTCH3">Machine Learning</a>, Prof. Andrew Ng, Stanford University</li>
 
 </ul>
 </div>
@@ -230,11 +230,11 @@ Full list of talks can be seen at [Talks](https://hdocmsu.github.io/talks/)
 
 <div class="card_for_cv">
 <ul>
-<li><strong>HP Do</strong>, et al. "Accelerated 1.2-minute 4-echo UTE-based CT-like Imaging using CG-SENSE and Deep Learning-based Denoising Reconstruction (DLR).” International Society for Magnetic Resonance in Medicine Scientific Meeting, Hawaii, May 2025. <a href="/assets/pdf/slides/HungDo_ismrm25_ute_talk.pdf" target="_blank">SLIDES-PDF</a></li>
-<li><strong>HP Do</strong>, et al. "Accelerated 2-3-Minute Multi-echo Ultra-short Echo Time (mecho UTE) using Conjugate Gradient SENSE (CG-SENSE) Reconstruction.” The Radiological Society of North America (RSNA) Scientific Session, Chicago, Nov 2023. <a href="/assets/pdf/slides/HungDo_rsna23_talk_ute_cgsense_rev5.1_toHTML.pdf" target="_blank">SLIDES-PDF</a> <a href="https://youtu.be/0uR8YGvkJo8" target="_blank">VIDEO</a></li>
+<li><strong>HP Do</strong>, et al. "Accelerated 1.2-minute 4-echo UTE-based CT-like Imaging using CG-SENSE and Deep Learning-based Denoising Reconstruction (DLR).” International Society for Magnetic Resonance in Medicine Scientific Meeting, Hawaii, May 2025. <a href="/assets/pdf/slides/HungDo_ismrm25_ute_talk.pdf" target="_blank">SLIDES-PDF</a> <a href="https://youtu.be/VUuOUfhyGZk" target="_blank">VIDEO-YouTube</a></li>
+<li><strong>HP Do</strong>, et al. "Accelerated 2-3-Minute Multi-echo Ultra-short Echo Time (mecho UTE) using Conjugate Gradient SENSE (CG-SENSE) Reconstruction.” The Radiological Society of North America (RSNA) Scientific Session, Chicago, Nov 2023. <a href="/assets/pdf/slides/HungDo_rsna23_talk_ute_cgsense_rev5.1_toHTML.pdf" target="_blank">SLIDES-PDF</a> <a href="https://youtu.be/i2oL1sIr0x8" target="_blank">VIDEO-YouTube</a></li>
 <li><strong>HP Do</strong>, et al. "Eleven-minute Comprehensive MSK Imaging Using Deep Learning Reconstruction (DLR) and Multi-echo Ultrashort Echo-Time (UTE)." The Radiological Society of North America (RSNA) Scientific Session, Chicago, Nov 2022. <a href="/assets/pdf/slides/HungDo_rsna22_talk_rev4.0_web.pdf" target="_blank">SLIDES-PDF</a></li>
 <li><strong>HP Do</strong>, et al. "dnoiseNET: Deep Convolutional Neural Network for Image Denoising." The ISMRM &amp; SCMR Co-Provided Workshop on the Emerging Role of Machine Learning in Cardiovascular Magnetic Resonance Imaging, Seattle, Feb 2019. <a href="/assets/pdf/slides/2019-02-06-HungDo_dnoiseNET_web.pdf" target="_blank">SLIDES-PDF</a></li>
-<li><strong>HP Do</strong>, et al. "Deep Convolutional Neural Network for Segmentation of Myocardial ASL Short-Axis Data: Accuracy, Uncertainty, and Adaptability." The ISMRM Workshop on Machine Learning, Part II, Washington D.C., Oct 2018. <a href="/assets/pdf/slides/2018-10-28-HungDo_MLworkshop2018_web.pdf" target="_blank">SLIDES-PDF</a> <a href="https://youtu.be/w1k2FU0T37k" target="_blank">VIDEO</a></li>
+<li><strong>HP Do</strong>, et al. "Deep Convolutional Neural Network for Segmentation of Myocardial ASL Short-Axis Data: Accuracy, Uncertainty, and Adaptability." The ISMRM Workshop on Machine Learning, Part II, Washington D.C., Oct 2018. <a href="/assets/pdf/slides/2018-10-28-HungDo_MLworkshop2018_web.pdf" target="_blank">SLIDES-PDF</a> <a href="https://youtu.be/Qt5SdPFkAg4" target="_blank">VIDEO-YouTube</a></li>
 </ul>
 </div>
 <br />
