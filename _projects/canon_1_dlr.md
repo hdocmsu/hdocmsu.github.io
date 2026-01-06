@@ -8,7 +8,7 @@ category: Canon
 ---
 
 <figure>
-  <img src="/assets/img/proj/cmsu_aice1.png" alt="MRI Deep Learning Reconstruction" style="max-width: 100%; height: auto;">
+  <img src="/assets/img/proj/cmsu_aice0.png" alt="MRI Deep Learning Reconstruction" style="max-width: 100%; height: auto;">
   <figcaption style="font-size: 0.85em; font-style: italic; text-align: right;">Source: <a href="https://us.medical.canon/products/magnetic-resonance/aice/">Canon Medical Systems USA</a></figcaption>
 </figure>
 
@@ -52,5 +52,10 @@ Deep learning-based MRI reconstruction (MRI-DLR) has been shown to mitigate this
 * [MRI-DLR Challenge #4](https://us.medical.canon/promo/magnetic-resonance/aice/4/)
 <figure>
   <img src="/assets/img/proj/cmsu_aice3.png" alt="MRI-DLR Faster Scan time" style="max-width: 100%; height: auto;">
+  <figcaption style="font-size: 0.85em; font-style: italic; text-align: right;">Source: <a href="https://us.medical.canon/products/magnetic-resonance/aice/">Canon Medical Systems USA</a></figcaption>
+</figure>
+
+<figure>
+  <img src="/assets/img/proj/cmsu_aice1.png" alt="MRI Deep Learning Reconstruction" style="max-width: 100%; height: auto;">
   <figcaption style="font-size: 0.85em; font-style: italic; text-align: right;">Source: <a href="https://us.medical.canon/products/magnetic-resonance/aice/">Canon Medical Systems USA</a></figcaption>
 </figure>

@@ -17,7 +17,12 @@ This work addresses three interrelated challenges in musculoskeletal (MSK) imagi
 
 Zero-echo-time (ZTE) and single-echo ultrashort-echo-time (UTE) techniques have demonstrated the ability to provide CT-like bone-weighted contrast; however, they do not provide assessment of short-T2 tissues. Multi-echo UTE allows simultaneous generation of CT-like contrast and quantitative T2* mapping of short-T2 tissues, but its clinical adoption has been limited because of long scan times and insufficient spatial resolution.
 
-In this work, we demonstrate the feasibility of a fast, 2-minute multi-echo UTE acquisition that provides CT-like bone-weighted contrast and quantitative T2* mapping of short-T2 tissues. With the integration of deep learning-based reconstruction, routine MSK MRI can be completed in under 8 minutes. Together, this enables a comprehensive MRI-only MSK examination in under 10 minutes.
+In this work, we demonstrate the feasibility of a fast, 2-minute multi-echo UTE acquisition that provides CT-like bone-weighted contrast and quantitative T2* mapping of short-T2 tissues. With the integration of deep learning-based reconstruction ([MRI-DLR](https://hdocmsu.github.io/projects/canon_1_dlr/)), routine MSK MRI can be completed in under 8 minutes. Together, this enables a comprehensive MRI-only MSK examination in under 10 minutes.
+
+Total scan time can be further reduced by combining a 2-minute multi-echo UTE acquisition with an abbreviated musculoskeletal (MSK) MRI protocol, in which sequences are selected to maximize diagnostic yield per unit scan time. The abbreviated MSK-MRI protocol is indication-specific and can be completed in well under 3 minutes.
+
+Together, this approach enables a comprehensive, MRI-only MSK examination in under 5 minutes. As a result, a single MRI-only exam can provide information traditionally obtained from both MRI and CT, while achieving CT-like throughput. This capability has the potential to position MRI as a first-line imaging modality, particularly by reducing or eliminating the need for subsequent MRI and/or CT examinations.
+
 
 **Whitepaper:**
 * [Good to Know: Multi-echo Ultrashort Echo Time (UTE)](https://hdocmsu.github.io/assets/pdf/whitepapers/G2K_UTE_final.pdf)
