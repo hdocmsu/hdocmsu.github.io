@@ -11,15 +11,8 @@ importance: 4
 ---
 <br />
 <center>
-:warning:
-:construction: :construction: :construction:
-:warning:
 
-<b>UNDER CONSTRUCTION</b>
-
-:warning:
-:construction: :construction: :construction:
-:warning:
+<b>Work in progress. More updates coming soon.</b>
 
 </center>
 
