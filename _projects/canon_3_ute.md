@@ -1,7 +1,7 @@
 ---
 layout: page
 title: MRI-only Comprehensive Musculoskeletal Imaging
-description: Multi-echo UTE, CG-SENSE, and deep learning–based reconstruction enabled comprehensive imaging of all musculoskeletal tissues in under 10 minutes, making what was previously impossible achievable.
+description: Multi-echo UTE, CG-SENSE, and deep learning-based reconstruction enabled comprehensive imaging of all musculoskeletal tissues in under 10 minutes, making what was previously impossible achievable.
 img: assets/img/proj/cmsu_ute.png
 importance: 97
 category: Canon
@@ -17,7 +17,7 @@ This work addresses three interrelated challenges in musculoskeletal (MSK) imagi
 
 Zero-echo-time (ZTE) and single-echo ultrashort-echo-time (UTE) techniques have demonstrated the ability to provide CT-like bone-weighted contrast; however, they do not provide assessment of short-T2 tissues. Multi-echo UTE allows simultaneous generation of CT-like contrast and quantitative T2* mapping of short-T2 tissues, but its clinical adoption has been limited because of long scan times and insufficient spatial resolution.
 
-In this work, we demonstrate the feasibility of a fast, 2-minute multi-echo UTE acquisition that provides CT-like bone-weighted contrast and quantitative T2* mapping of short-T2 tissues. With the integration of deep learning–based reconstruction, routine MSK MRI can be completed in under 8 minutes. Together, this enables a comprehensive MRI-only MSK examination in under 10 minutes.
+In this work, we demonstrate the feasibility of a fast, 2-minute multi-echo UTE acquisition that provides CT-like bone-weighted contrast and quantitative T2* mapping of short-T2 tissues. With the integration of deep learning-based reconstruction, routine MSK MRI can be completed in under 8 minutes. Together, this enables a comprehensive MRI-only MSK examination in under 10 minutes.
 
 **Whitepaper:**
 * [Good to Know: Multi-echo Ultrashort Echo Time (UTE)](https://hdocmsu.github.io/assets/pdf/whitepapers/G2K_UTE_final.pdf)
