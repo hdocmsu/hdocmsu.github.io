@@ -9,7 +9,7 @@ social: true
 category: Misc
 ---
 
-I am now using `Quarto` instead of `R Markdown` for documentation.
+`R Markdown` is a wonderful tool but I am now transitioning into `Quarto` for documentation.
 
 <h2> Report generated using R Markdown </h2>
 

@@ -16,16 +16,16 @@ I developed the company’s first end-to-end pipeline for executing and analyzin
 
 It is gratifying to see the technology I helped validate now being used clinically across Canon MRI systems worldwide.
 
-Here are whitepapers that I wrote:
+**Here are whitepapers that I wrote**:
 * [Advanced intelligent Clear-IQ Engine (AiCE) Deep Learning Reconstruction (DLR): Translating the Power of Deep Learning to MR Image Reconstruction](https://hdocmsu.github.io/assets/pdf/whitepapers/AiCE_DLR_introducing.pdf)
 * [Advanced intelligent Clear-IQ Engine (AiCE) Interpretable Model with Robust and Generalized Performance: Beyond Brain and Knee](https://hdocmsu.github.io/assets/pdf/whitepapers/AiCE_DLR_extension_wp.pdf)
 * [Advanced intelligent Clear-IQ Engine (AiCE) Deep Learning Reconstruction: Effectively Removes Noise while Maintaining MR Signal](https://hdocmsu.github.io/assets/pdf/whitepapers/AiCE_DLR_structure_integrity.pdf)
 * [Good to Know: Advanced intelligent Clear-IQ Engine (AiCE) Deep Learning Reconstruction](https://hdocmsu.github.io/assets/pdf/whitepapers/VISIONS_MR_special_No1_with_G2K_AiCE.pdf)
 
-Peer-reviewed scientific publication:
+**Peer-reviewed scientific publication**:
 * [Improved Resolution and Image Quality of Musculoskeletal Magnetic Resonance Imaging using Deep Learning-based Denoising Reconstruction: A Prospective Clinical Study.](https://link.springer.com/article/10.1007/s00256-024-04679-3)
 
-Impact of MRI-DLR can be seen through a series of challenges below:
+**Impact of MRI-DLR can be seen through a series of challenges below**:
 * [MRI-DLR Challenge #1](https://us.medical.canon/promo/magnetic-resonance/aice/1/)
 * [MRI-DLR Challenge #2](https://us.medical.canon/promo/magnetic-resonance/aice/2/)
 * [MRI-DLR Challenge #3](https://us.medical.canon/promo/magnetic-resonance/aice/3/)

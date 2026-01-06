@@ -12,7 +12,7 @@ importance: 4
 <br />
 <center>
 
-<b>Work in progress. More updates coming soon.</b>
+<i>Work in progress. More updates coming soon.</i>
 
 </center>
 
