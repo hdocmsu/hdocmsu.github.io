@@ -3,7 +3,7 @@ layout: post
 title: Another test BLOG Post - on Jan 06 2025 
 date: 2025-01-06 10:00:00
 description:
-tags: mri physics
+tags: mri physics quantum magnetic spin relaxation quantification imaging resonance real-time people pet dog cat mouse deer green red blue heaven sky
 categories: research
 img: /assets/img/blog/2025-01-06/cmsu_cs5.png
 ---

@@ -31,7 +31,7 @@ pagination:
     {% endfor %}
     {% assign all_years = all_years | uniq | sort | reverse %}
     {% for year in all_years %}
-      <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl }}" class="badge badge-info" style="margin: 0.2rem;">
+      <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl }}" class="badge badge-info" style="margin: 0.2rem; background-color: #117a8b !important;">
         <i class="fas fa-calendar fa-sm"></i> {{ year }}
       </a>
     {% endfor %}
@@ -43,7 +43,7 @@ pagination:
     {% assign all_categories = site.posts | map: 'categories' | join: ',' | split: ',' | uniq | sort %}
     {% for category in all_categories %}
       {% if category != "" %}
-        <a href="{{ category | prepend: '/blog/category/' | prepend: site.baseurl }}" class="badge badge-secondary" style="margin: 0.2rem;">
+        <a href="{{ category | prepend: '/blog/category/' | prepend: site.baseurl }}" class="badge badge-secondary" style="margin: 0.2rem; background-color: #6e0777 !important;">
           <i class="fas fa-tag fa-sm"></i> {{ category }}
         </a>
       {% endif %}
@@ -56,7 +56,7 @@ pagination:
     {% assign all_tags = site.posts | map: 'tags' | join: ',' | split: ',' | uniq | sort %}
     {% for tag in all_tags %}
       {% if tag != "" %}
-        <a href="{{ tag | prepend: '/blog/tag/' | prepend: site.baseurl }}" class="badge badge-primary" style="margin: 0.2rem;">
+        <a href="{{ tag | prepend: '/blog/tag/' | prepend: site.baseurl }}" class="badge badge-primary" style="margin: 0.2rem; background-color: #0056b3 !important;">
           <i class="fas fa-hashtag fa-sm"></i> {{ tag }}
         </a>
       {% endif %}
