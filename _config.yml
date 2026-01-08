@@ -83,7 +83,7 @@ google_analytics: G-PK7WD7056C #UA-128649878-1 # out your google-analytics code
 # -----------------------------------------------------------------------------
 
 blog_name: hdoMRIphysics # your blog must have a name for it to show up in the nav bar
-blog_description: blog (under construction!)
+blog_description: blog (under construction!) blog (under construction!)
 permalink: /blog/:year/:month/:day/:title/
 
 # Pagination

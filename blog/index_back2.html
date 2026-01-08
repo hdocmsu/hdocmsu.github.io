@@ -73,16 +73,16 @@ pagination:
     {% assign tags = post.tags | join: "" %}
     {% assign categories = post.categories | join: "" %}
 
-    <li style="display: flex; flex-wrap: wrap; align-items: center; margin-bottom: 0rem;">
+    <li style="display: flex; align-items: center; margin-bottom: 2rem;">
       {% if post.img %}
-      <div class="post-thumbnail" style="flex: 0 1 40%; min-width: min(100%, 300px); margin-right: 20px; margin-bottom: 1rem;">
+      <div class="post-thumbnail">
         <a href="{{ post.url | prepend: site.baseurl }}">
-          <img src="{{ post.img }}" alt="{{ post.title }}" style="width: 100%; height: auto;">
+          <img src="{{ post.img }}" alt="{{ post.title }}" style="max-width: 300px; height: auto; margin-right: 20px;">
         </a>
       </div>
       {% endif %}
 
-      <div style="flex: 1; min-width: 250px;">
+      <div style="flex: 1;">
         <h4><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h4>
         <p>{{ post.description }}</p>
