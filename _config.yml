@@ -16,7 +16,7 @@ footer_text: >
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🏡 # the emoji used as the favicon
 url: https://hdocmsu.github.io # the base hostname & protocol for your site
-baseurl: / # the subpath of your site, e.g. /blog/
+baseurl: # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
@@ -79,19 +79,19 @@ google_analytics: G-PK7WD7056C #UA-128649878-1 # out your google-analytics code
 # panelbear_analytics: DEJEU7j7UXe # panelbear analytics site ID
 
 # -----------------------------------------------------------------------------
-# Blog - disable now
+# Blog
 # -----------------------------------------------------------------------------
 
-# blog_name: al-folio # your blog must have a name for it to show up in the nav bar
-# blog_description: a simple whitespace theme for academics
-# permalink: /blog/:year/:title/
+blog_name: hdoMRIphysics # your blog must have a name for it to show up in the nav bar
+blog_description: blog (under construction!)
+permalink: /blog/:year/:month/:day/:title/
 
 # Pagination
-# pagination:
-#    enabled: true
+pagination:
+   enabled: true
 
 # Comments
-# disqus_shortname: al-folio # put your disqus shortname
+# disqus_shortname: hdoMRIphysics # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # -----------------------------------------------------------------------------

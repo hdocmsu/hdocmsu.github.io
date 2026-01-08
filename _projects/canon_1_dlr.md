@@ -37,7 +37,7 @@ For example, achieving higher SNR typically requires longer scan times or reduce
 
 Deep learning-based MRI reconstruction (MRI-DLR) has been shown to mitigate this long-standing triangle trade-off by enabling, to some extent, the acquisition of image quality previously constrained by conventional MRI physics.
 
-**One example is the ability to achieve image quality comparable to that of high-field (e.g., 3 T) MRI using lower field-strength systems (e.g., 1.5 T). Take the AiCE Challenges #1 and #2.**
+**One example is the ability to achieve image quality comparable to that of high-field (e.g., 3 T) MRI using lower field-strength systems (e.g., 1.5 T). Take the AiCE Challenges #1 and #2 to see the demonstrations.**
 
 * [MRI-DLR Challenge #1](https://us.medical.canon/promo/magnetic-resonance/aice/1/)
 * [MRI-DLR Challenge #2](https://us.medical.canon/promo/magnetic-resonance/aice/2/)
@@ -46,7 +46,7 @@ Deep learning-based MRI reconstruction (MRI-DLR) has been shown to mitigate this
   <figcaption style="font-size: 0.85em; font-style: italic; text-align: right;">Source: <a href="https://us.medical.canon/products/magnetic-resonance/aice/">Canon Medical Systems USA</a></figcaption>
 </figure>
 
-**Another example is the ability to achieve higher SNR and spatial resolution without increasing scan time, and in some cases, with even shorter scan times. See the AiCE Challenges #3 and #4.**
+**Another example is the ability to achieve higher SNR and spatial resolution without increasing scan time, and in some cases, with even shorter scan times. See the AiCE Challenges #3 and #4 to see the demonstrations.**
 
 * [MRI-DLR Challenge #3](https://us.medical.canon/promo/magnetic-resonance/aice/3/)
 * [MRI-DLR Challenge #4](https://us.medical.canon/promo/magnetic-resonance/aice/4/)

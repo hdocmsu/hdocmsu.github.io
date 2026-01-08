@@ -9,12 +9,6 @@ horizontal: true
 social: true
 importance: 4
 ---
-<br />
-<center>
-
-<i>Work in progress. More updates coming soon.</i>
-
-</center>
 
 <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}
