@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: This page is under construction!
+description: Selected projects I have worked on. See the Publications section for a complete list.
 nav: true
 display_categories: [Canon, USC, ICTP, Misc]
 horizontal: true
