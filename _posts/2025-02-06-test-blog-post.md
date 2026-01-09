@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Another Test BLOG Post - On Feb 06, 2025
+title: Another Test BLOG Post
 date: 2025-02-06 10:00:00
 description:
 tags: 
@@ -13,7 +13,7 @@ My another blog post.
 ## Heading 1
 Blah blah
 
-## Heading 2 - On Feb 06, 2025
+## Heading 2 
 
 Some text with **bold** and *italic*.
 

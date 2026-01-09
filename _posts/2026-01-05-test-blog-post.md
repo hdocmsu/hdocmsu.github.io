@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Test Re-direct Link Blog Post - Jan 05, 2026
+title: My Test Re-direct Link Blog Post
 date: 2026-01-05 10:10:10
 description:
 tags: 

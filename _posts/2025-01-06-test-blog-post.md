@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Another Test BLOG Post - on Jan 06 2025 
+title: Another Test BLOG Post without IMAGE
 date: 2025-01-06 10:00:00
 description:
 tags:
 categories: 
-img: /assets/img/blog/2025-01-06/cmsu_cs5.png
+img: #/assets/img/blog/2025-01-06/cmsu_cs5.png
 ---
 
 My oldest blog post.
@@ -13,7 +13,7 @@ My oldest blog post.
 ## Heading 1
 Blah
 
-## Heading 2 - on Jan 06 2025 
+## Heading 2 
 
 Some text with **bold** and *italic*.
 

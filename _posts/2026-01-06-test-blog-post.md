@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Test Blog Post - Jan 01, 2026
+title: My Test Blog Post
 date: 2026-01-06 10:00:00
 description:
 tags:
