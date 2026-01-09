@@ -1,0 +1,39 @@
+<!-- GLightbox -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Initialize GLightbox for all images in content
+    const lightbox = GLightbox({
+      touchNavigation: true,
+      loop: true,
+      autoplayVideos: true,
+      closeButton: true,
+      zoomable: true,
+      draggable: true
+    });
+
+    // Automatically wrap content images with lightbox
+    const contentImages = document.querySelectorAll('.post img, .page-content img, article img');
+    contentImages.forEach(function(img) {
+      if (!img.closest('a')) {
+        const link = document.createElement('a');
+        link.href = img.src;
+        link.className = 'glightbox';
+        link.setAttribute('data-gallery', 'content-gallery');
+        
+        // Add alt text as description if available
+        if (img.alt) {
+          link.setAttribute('data-description', img.alt);
+        }
+        
+        img.parentNode.insertBefore(link, img);
+        link.appendChild(img);
+      }
+    });
+
+    // Reinitialize after wrapping
+    lightbox.reload();
+  });
+</script>
