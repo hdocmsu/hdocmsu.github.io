@@ -41,6 +41,13 @@ layout: default
       {% include selected_papers.html %}
     {% endif %}
 
+    {% if page.substack %}
+    <!-- Substack Subscribe -->
+    <center> 
+      {% include substack.html %}
+    </center>
+    {% endif %}
+
     {% if page.social %}
     <div class="social">
       <div class="contact-icons">

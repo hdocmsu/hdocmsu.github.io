@@ -7,6 +7,7 @@ nav: true
 social: true # includes social icons at the bottom of the page
 importance: 5
 toc: true
+substack: true
 ---
 
 <style>
@@ -282,6 +283,8 @@ Full list of talks can be seen at [Talks](https://hdocmsu.github.io/talks/)
 <ul>
 <li>Jogging, Hiking, Nature Walk</li>
 <li>Programming, Science, Technology</li>
+<li><strong>Update:</strong> I’m starting a personal blog where I share <em>“cool stuff”</em>, ideas and insights at the intersection of MRI physics, mathematics, and innovation. With over 8 years of experience training sales teams on MRI physics and the latest MRI technologies, my goal is to make technical concepts that were once inaccessible feel clear, engaging, and enjoyable. If this sounds interesting to you, the best way to stay informed about future posts is to subscribe to the newsletter below and receive new posts directly in your inbox.</li>
+
 </ul>
 </div>
 

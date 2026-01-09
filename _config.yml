@@ -14,7 +14,7 @@ footer_text: >
      Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🏡 # the emoji used as the favicon
+icon: /assets/img/favicon.png # the emoji used as the favicon
 url: https://hdocmsu.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
@@ -82,8 +82,8 @@ google_analytics: G-PK7WD7056C #UA-128649878-1 # out your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: hdoMRIphysics # your blog must have a name for it to show up in the nav bar
-blog_description: blog -- under construction!
+blog_name: The Art of MRI Physics # your blog must have a name for it to show up in the nav bar
+blog_description: hdoMRIphysics's blog -- under construction!
 permalink: /blog/:year/:month/:day/:title/
 
 # Pagination

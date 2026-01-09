@@ -7,6 +7,7 @@ importance: 1
 redirect:
 social: true
 category: ICTP
+substack: true
 ---
 
 This research project was an excerpt of my Postgraduate Diploma Thesis supervised by [Prof. Sandro Scandolo](https://www.ictp.it/member/sandro-scandolo#biography){:target="\_blank"} at the Abdus Centre for Theoretical Physics [(ICTP)](https://www.ictp.it/){:target="\_blank"}, Trieste, Italy, 2008-2009. [SLIDES](https://rpubs.com/hdo2021/IctpThesis){:target="\_blank"}

@@ -5,6 +5,8 @@ description: Deep learning has transformed MRI image reconstruction by alleviati
 img: assets/img/proj/cmsu_aice.png
 importance: 98
 category: Canon
+social: true
+substack: true
 ---
 
 <figure>

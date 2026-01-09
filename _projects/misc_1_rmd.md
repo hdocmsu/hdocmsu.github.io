@@ -7,6 +7,7 @@ importance: 99
 redirect:
 social: true
 category: Misc
+substack: true
 ---
 
 `R Markdown` is a wonderful tool but I am now transitioning into `Quarto` for documentation.

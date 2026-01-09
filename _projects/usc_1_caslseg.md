@@ -5,6 +5,8 @@ description: The proposed deep CNN is designed for medical imaging, providing ac
 img: assets/img/proj/usc_caslseg.png
 importance: 1
 category: USC
+social: true
+substack: true
 ---
 
 <figure>

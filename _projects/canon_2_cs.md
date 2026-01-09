@@ -5,6 +5,8 @@ description: Compressed sensing theory has been incorporated into MRI image reco
 img: assets/img/proj/cmsu_cs.png
 importance: 99
 category: Canon
+social: true
+substack: true
 ---
 
 Similar to my work on [MRI-DLR](https://hdocmsu.github.io/projects/canon_1_dlr/), I contributed to the validation efforts that supported FDA 510(k) clearance for Compressed SPEEDER for clinical use.

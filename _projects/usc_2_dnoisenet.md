@@ -5,6 +5,8 @@ description: We incorporated two key innovations (residual learning & skip conne
 img: assets/img/proj/usc_dnoisenet.png
 importance: 2
 category: USC
+social: true
+substack: true
 ---
 
 <figure>
