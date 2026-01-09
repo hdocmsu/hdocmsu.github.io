@@ -25,10 +25,6 @@ From 1,448 included patients:
 + 600 patients were used for fine-tuning GPT-4o, in which 300 patients were used for training and 300 patients for validation
 + 548 remaining patients were used as the test set to compare the performance of "prompting-only" GPT-4o, "fine-tuned" GPT-4o, and original human protocolers, including residents, fellows, and radiologists, who were originally selected the CT protocols.
 
-<figure>
-  <img src="/assets/img/blog/2026-01-08/pic2.png" alt="GPT-4o's CT protocol selection study" style="max-width: 100%; height: auto;">
-</figure>
-
 ## Reference standard
 
 To define the reference standard protocol for each case, the patient demographics, procedure code, and clinical information (“requisition details”) from the remaining cases were independently reviewed by two subspecialty radiologists (A.B.D. and S.K., with 5 and 10 years of experience, respectively), blinded to the originally selected protocol. Reviewers were asked to pick the single best protocol from our protocol list for each case in consultation with the institutional guidelines.

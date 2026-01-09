@@ -1,10 +1,10 @@
 ---
 layout: post
-title: My Test Test Blog Post - Jan 01, 2026
+title: My Test Blog Post - Jan 01, 2026
 date: 2026-01-06 10:00:00
 description:
-tags: mri physics
-categories: research
+tags:
+categories:
 img: /assets/img/blog/2026-01-06/cmsu_aice0.png
 ---
 

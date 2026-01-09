@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Another test BLOG Post - on May 06, 2025
+title: Another Test BLOG Post - on May 06, 2025
 date: 2025-05-06 10:00:00
 description:
-tags: mri physics
-categories: research
+tags: 
+categories: 
 img: /assets/img/blog/2025-05-06/cmsu_cs5.png
 ---
 
