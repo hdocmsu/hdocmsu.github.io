@@ -8,17 +8,11 @@ categories: news
 img: /assets/img/blog/2026-01-08/pic3.png
 ---
 
-A study published on [Jan 06, 2026 in RADIOLOGY](https://doi.org/10.1148/radiol.252105) journal demonstrated that GPT-4o model selected optimal abdominal and pelvic CT protocols **more frequently than radiologists**. The study also found that fine-tuning did not further improve GPT-4o's performance.
-
-**Below is my summary of the study, based on selected quotes extract from the original publication.**
+A study published on [Jan 06, 2026 in RADIOLOGY](https://doi.org/10.1148/radiol.252105) demonstrated that GPT-4o model selected optimal abdominal and pelvic CT protocols **more frequently than radiologists**. Below is my summary of the study.
 
 ## Study Description
 
 This retrospective study included 1,448 patients randomly selected from a pool of 29,114 patients underwent abdominal and pelvic CT scans between Jan 01, 2024 and Jun 30, 2024.
-
-<figure>
-  <img src="/assets/img/blog/2026-01-08/pic1.png" alt="GPT-4o's CT protocol selection study" style="max-width: 100%; height: auto;">
-</figure>
 
 From 1,448 included patients:
 + 300 patients were selected for optimizing the prompting of GPT-4o
@@ -27,26 +21,26 @@ From 1,448 included patients:
 
 ## Reference standard
 
-To define the reference standard protocol for each case, the patient demographics, procedure code, and clinical information (“requisition details”) from the remaining cases were independently reviewed by two subspecialty radiologists (A.B.D. and S.K., with 5 and 10 years of experience, respectively), blinded to the originally selected protocol. Reviewers were asked to pick the single best protocol from our protocol list for each case in consultation with the institutional guidelines.
+Two subspecialty radiologists independently reviewed each case in the study cohort without knowledge of the original protocol selected. If the two radiologists agreed on the protocol selected, that protocol was used as the reference standard.
 
-Discrepancies were discussed with a third subspecialist expert radiologist (A.K., with 18 years of experience, institutional quality improvement lead) to define the reference standard.
+If there was disagreement between the two radiologists, the case was discussed with the third subspecialist expert radiologist to define the reference standard.
 
 ## Model
-GPT-4o (version 2024-08-06) was used as the base model. Model temperature was set at zero, as default higher temperature settings have poor repeatability. All other parameters were kept at default values.
+GPT-4o (version 2024-08-06) was used as the base model. Model temperature was set at zero, which has better repeatability. All other parameters were kept at default values.
 
-## Context engineering
-Context engineering involved constructing a detailed prompt and iteratively refining it through repeated testing and review of outputs with the 300 prompting set cases. The prompt instructed the model to select the single best protocol and included our list of 46 institutional protocols alongside detailed per-protocol selection criteria.
+## Prompt optimization
+Relevant clinical information were given to GPT-4o in the form of detailed prompts. The prompt was iteratively optimized using the 300 cases reserved for prompt optimization.
 
 ## Fine-tuning
-GPT-4o was fine-tuned using Azure AI Foundry with the 600 cases reserved for training and validation, with each example including the detailed prompt along with requisition details and reference standard protocol. For fine-tuning, 300 cases were used for training (training set) and 300 cases were used for validation (validation set).
+GPT-4o was fine-tuned on 300 cases and then validated on another 300 cases. 
 
 
 ## Testing and evaluation
-Two models were tested in an internal test set, each provided with the same detailed prompt: default GPT-4o (prompting-only) and the fine-tuned version of GPT-4o (fine-tuned). 
+Testing was performed on 548 held-out internal cases. The model-selected and the original human-selected protocols were compared with the reference standard. 
 
-For each case in the internal test set (n = 548), requisition details were input into each model, and the model protocol selections were recorded. 
+For protocols that did not match the reference standard, they were further classified as "equal alternative", "reasonable but suboptimal", or "inappropriate".
 
-The model protocol selections and original human-selected protocols were then compared with the reference standard. Where protocols matched the reference standard, they were categorized as an exact match.
+Exact matches and "equal alternative" matches were considered optimal selections.
 
 ## Results
 
@@ -54,11 +48,13 @@ The model protocol selections and original human-selected protocols were then co
   <img src="/assets/img/blog/2026-01-08/pic3.png" alt="GPT-4o's CT protocol selection study" style="max-width: 100%; height: auto;">
 </figure>
 
-In this retrospective study of 1448 patients, GPT-4o (version 2024-08-06; Open AI) optimized with detailed prompt instructions selected optimal CT abdomen and pelvis protocols **more frequently than radiologists** (96.2% [527 of 548 patients] vs 88.3% [484 of 548 patients]; P < 0.001) with no evidence of a difference in inappropriate protocols (1.3% [seven of 548 patients] vs 2.4% [13 of 548 patients]; P = 0.21).
-
-Fine-tuning GPT-4o with labeled examples **did not improve performance** over prompting only (96.2% [527 of 548 patients] vs 96.2% [527 of 548 patients]; P > 0.99).
-
-In subgroup analyses, there was **no evidence of a difference in optimal protocol selection among radiologists** (89.4% [195 of 218 patients]), fellows (87.7% [192 of 219 patients]), and residents (87.4% [97 of 111 patients]) (P = 0.80).
 
 ## Conclusion
-For protocoling abdominal and pelvic CT scans, the large language model (LLM) GPT-4o selected optimal protocols more frequently than radiologists when optimized with detailed prompting instructions. Fine-tuning with labeled examples did not further improve performance.
+GPT-4o selected optimal abdominal and pelvic CT protocols **more frequently than radiologists** when optimized with detailed prompting instructions. 
+
+Fine-tuning with labeled examples did not further improve performance. 
+
+There were **no significant differences in performance between residents, fellows, and attending radiologists**.
+
+## References
+Buckley BW, Dias AB, Deng Y, Schmidt H, Kielar A, Krishna S, Bhayana R. Optimizing Large Language Models for Automated Protocoling of Abdominal and Pelvic CT Scans: The Power of Context. Radiology. 2026 Jan 6;318(1):e252105. [https://doi.org/10.1148/radiol.252105](https://doi.org/10.1148/radiol.252105)
