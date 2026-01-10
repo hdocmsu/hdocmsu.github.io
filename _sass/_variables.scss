@@ -27,13 +27,14 @@ $pink-color-light:    #ffdddd !default;
 $yellow-color:        #efcc00 !default;
 
 $grey-color:          #828282 !default;
-$grey-color-light:    lighten($grey-color, 40%);
+$grey-color-light:    lighten($grey-color, 20%);
 $grey-color-dark:     #1C1C1D;
-$grey-900:            #18181a;
-$grey-100:            #f1e9f1;
+$grey-900:            #131a20;
+$grey-100:            #eee6ee;
 
-$white-color: #f5f0f5 !default;
-$black-color: #121213 !default;
+$white-color: #e4dce4 !default;
+$black-color: #0f141a !default;
+// $black-text: #DADEE2
 
 
 // Theme colors

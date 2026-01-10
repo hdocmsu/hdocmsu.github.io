@@ -336,6 +336,7 @@ footer.sticky-bottom {
     border: 1px solid var(--global-divider-color);
     padding-top: 20px;
     padding-bottom: 5px;
+    padding-right: 5px;
 
     .list-group-item {
       background-color: inherit;
@@ -711,3 +712,7 @@ nav[data-toggle="toc"] {
   margin-left: 0px;  /* Adjust the value as needed */
   margin-right: 0px; /* Adjust the value as needed */
 }
+
+// body {
+//   font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans;
+// }
