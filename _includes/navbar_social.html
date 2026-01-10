@@ -1,0 +1,9 @@
+<div style="font-size: 22px;">
+    {% if site.substack_username %}<a href="https://substack.com/@{{ site.substack_username }}" title="Substack" target="_blank"><i class="fas fa-newspaper"></i></a>{% endif %}
+    {% if site.youtube_username %}<a href="https://www.youtube.com/@{{ site.youtube_username }}" title="YouTube" target="_blank"><i class="fab fa-youtube"></i></a>{% endif %}
+    {% if site.linkedin_username %}<a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>{% endif %}
+    {% if site.twitter_username %}<a href="https://x.com/{{ site.twitter_username }}" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>{% endif %}
+    {% if site.scholar_userid %}<a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar" target="_blank"><i class="ai ai-google-scholar"></i></a>{% endif %}
+    {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}" title="GitHub" target="_blank"><i class="fab fa-github"></i></a>{% endif %}
+    {% if site.email %}<a href="mailto:{{ site.email | encode_email }}" title="Email"><i class="fas fa-envelope"></i></a>{% endif %}
+</div>
