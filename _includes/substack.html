@@ -51,7 +51,7 @@
   <center>
     <p style="margin-bottom: 0.5rem;"><strong style="color: #b30e81 !important;">Get future posts delivered to your inbox.</strong> <br/> <em style="color: #b30e81 !important;">Occasional emails. No noise. Unsubscribe anytime.</em></p>
     <div style="background-color: var(--global-bg-color); padding: 1.5rem; max-width: 480px; margin: 0 auto; border: 1px solid var(--global-divider-color); border-radius: 5px;">
-        <form action="https://hdoMRIphysics.substack.com/api/v1/free?nojs=true" method="post" style="margin: 0.0rem; margin-bottom: 1.0rem;">
+        <form action="https://{{ site.substack_username }}.substack.com/api/v1/free?nojs=true" method="post" style="margin: 0.0rem; margin-bottom: 1.0rem;">
         <input type="email" name="email" placeholder="Enter your email" required 
                style="width: 100%; padding: 0.75rem; margin-bottom: 0.75rem; border: 1px solid var(--global-divider-color); border-radius: 4px; background-color: var(--global-bg-color); color: var(--global-text-color); font-size: 1rem;">
         <button type="submit" 
@@ -59,13 +59,13 @@
           Subscribe
         </button>
       </form>
-      <a href="https://hdoMRIphysics.substack.com" target="_blank">
+      <a href="https://{{ site.substack_username }}.substack.com/about" target="_blank">
         <img src="/assets/img/favicon.png" alt="Logo" style="width: 80px; height: auto; margin-bottom: 0.0rem; margin-top: 0.0; transition: transform 0.3s ease, opacity 0.3s ease;" 
              onmouseover="this.style.transform='scale(1.1) rotate(70deg)'; this.style.opacity='0.8';" 
              onmouseout="this.style.transform='scale(1) rotate(0deg)'; this.style.opacity='1';">
       </a>
       <p style="margin-top: 0.75rem; margin-bottom: 0;">
-        <a href="https://hdoMRIphysics.substack.com" target="_blank" 
+        <a href="https://{{ site.substack_username }}.substack.com/about" target="_blank" 
            style="text-decoration: none; font-size: 1.0rem; transition: color 0.3s ease, transform 0.3s ease; display: inline-block;" 
            onmouseover="this.style.transform='scale(1.05)';" 
            onmouseout="this.style.transform='scale(1)';">
