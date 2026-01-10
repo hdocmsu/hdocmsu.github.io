@@ -38,7 +38,7 @@ html[data-theme="light"] {
     --global-footer-link-color: #{$white-color};
     --global-distill-app-color: #{$grey-color};
     --global-divider-color: rgba(0, 0, 0, 0.1);
-    --global-card-bg-color: #{$white-color};
+    --global-card-bg-color: #{$grey-100};
 	
     .fa-sun {
         display: none;
