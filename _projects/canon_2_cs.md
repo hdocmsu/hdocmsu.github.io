@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: Compressed Sensing MRI
 description: Compressed sensing theory has been incorporated into MRI image reconstruction, allowing substantial reductions in scan time.
 img: assets/img/proj/cmsu_cs.png

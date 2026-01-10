@@ -3,8 +3,8 @@ layout: post
 title: My Test Blog Post
 date: 2026-01-07 10:10:10
 description:
-tags:
-categories:
+tags:  ai ct # lowercase only
+categories: news # lowercase only
 img: /assets/img/blog/2026-01-06/cmsu_aice0.png
 ---
 

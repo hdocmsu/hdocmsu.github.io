@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: MRI Deep Learning Reconstruction
 description: Deep learning has transformed MRI image reconstruction by alleviating the inherent trade-off among signal-to-noise ratio (SNR), spatial resolution, and scan time.
 img: assets/img/proj/cmsu_aice.png

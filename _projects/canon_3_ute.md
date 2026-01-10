@@ -1,7 +1,7 @@
 ---
-layout: page
-title: MRI-only Comprehensive Musculoskeletal Imaging
-description: Multi-echo UTE, CG-SENSE, and deep learning-based reconstruction enabled comprehensive imaging of all musculoskeletal tissues in under 10 minutes, making what was previously impossible achievable.
+layout: project
+title: Fast MRI-only Comprehensive Musculoskeletal Imaging
+description: Making what was previously impossible achievable.
 img: assets/img/proj/cmsu_ute.png
 importance: 97
 category: Canon

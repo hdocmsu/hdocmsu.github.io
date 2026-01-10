@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: R Markdown Report, Slides, and Shiny App
 description: Report, slides, and Shiny app, generated using R and R Markdown
 img: assets/img/proj/md_report.png
