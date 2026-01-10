@@ -5,7 +5,7 @@ date: 2026-01-08 10:10:10
 description:
 tags: ai ct # lowercase only
 categories: news # lowercase only
-img: /assets/blog/2026-01-08/gpt4o_ct_results.png
+img: /assets/blog/2026-01-08/gpt4o_ct.png
 redirect: #https://hdocmsu.github.io/projects/canon_1_dlr/
 ---
 
@@ -47,7 +47,7 @@ Exact matches and "equal alternative" matches were considered optimal selections
 ### Results
 
 <figure>
-  <img src="/assets/blog/2026-01-08/gpt4o_ct_results.png" alt="GPT-4o's CT protocol selection study" style="max-width: 100%; height: auto;">
+  <img src="/assets/blog/2026-01-08/results.png" alt="GPT-4o's CT protocol selection study" style="max-width: 100%; height: auto;">
 </figure>
 
 
