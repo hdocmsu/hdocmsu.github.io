@@ -2,7 +2,7 @@
 layout: project
 title: MRI Deep Learning Reconstruction
 description: Deep learning has transformed MRI image reconstruction by alleviating the inherent trade-off among signal-to-noise ratio (SNR), spatial resolution, and scan time.
-img: assets/img/proj/cmsu_aice.png
+img: assets/proj/canon_1_dlr/canon_1_dlr.png
 importance: 98
 category: Canon
 social: true
@@ -10,7 +10,7 @@ substack: true
 ---
 
 <figure>
-  <img src="/assets/img/proj/cmsu_aice0.png" alt="MRI Deep Learning Reconstruction" style="max-width: 100%; height: auto;">
+  <img src="/assets/proj/canon_1_dlr/pic1.png" alt="MRI Deep Learning Reconstruction" style="max-width: 100%; height: auto;">
   <figcaption style="font-size: 0.85em; font-style: italic; text-align: right;">Source: <a href="https://us.medical.canon/products/magnetic-resonance/aice/">Canon Medical Systems USA</a></figcaption>
 </figure>
 
@@ -44,7 +44,7 @@ Deep learning-based MRI reconstruction (MRI-DLR) has been shown to mitigate this
 * [MRI-DLR Challenge #1](https://us.medical.canon/promo/magnetic-resonance/aice/1/)
 * [MRI-DLR Challenge #2](https://us.medical.canon/promo/magnetic-resonance/aice/2/)
 <figure>
-  <img src="/assets/img/proj/cmsu_aice2.png" alt="MRI-DLR 1.5T vs. 3T" style="max-width: 100%; height: auto;">
+  <img src="/assets/proj/canon_1_dlr/pic2.png" alt="MRI-DLR 1.5T vs. 3T" style="max-width: 100%; height: auto;">
   <figcaption style="font-size: 0.85em; font-style: italic; text-align: right;">Source: <a href="https://us.medical.canon/products/magnetic-resonance/aice/">Canon Medical Systems USA</a></figcaption>
 </figure>
 
@@ -53,11 +53,11 @@ Deep learning-based MRI reconstruction (MRI-DLR) has been shown to mitigate this
 * [MRI-DLR Challenge #3](https://us.medical.canon/promo/magnetic-resonance/aice/3/)
 * [MRI-DLR Challenge #4](https://us.medical.canon/promo/magnetic-resonance/aice/4/)
 <figure>
-  <img src="/assets/img/proj/cmsu_aice3.png" alt="MRI-DLR Faster Scan time" style="max-width: 100%; height: auto;">
+  <img src="/assets/proj/canon_1_dlr/pic3.png" alt="MRI-DLR Faster Scan time" style="max-width: 100%; height: auto;">
   <figcaption style="font-size: 0.85em; font-style: italic; text-align: right;">Source: <a href="https://us.medical.canon/products/magnetic-resonance/aice/">Canon Medical Systems USA</a></figcaption>
 </figure>
 
 <figure>
-  <img src="/assets/img/proj/cmsu_aice1.png" alt="MRI Deep Learning Reconstruction" style="max-width: 100%; height: auto;">
+  <img src="/assets/proj/canon_1_dlr/pic4.png" alt="MRI Deep Learning Reconstruction" style="max-width: 100%; height: auto;">
   <figcaption style="font-size: 0.85em; font-style: italic; text-align: right;">Source: <a href="https://us.medical.canon/products/magnetic-resonance/aice/">Canon Medical Systems USA</a></figcaption>
 </figure>

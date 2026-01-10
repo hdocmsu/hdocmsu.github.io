@@ -2,7 +2,7 @@
 layout: project
 title: dnoiseNET - A Deep CNN for Image Denoising
 description: We incorporated two key innovations (residual learning & skip connection) into our Deep CNN for improving MRI denoising performance.
-img: assets/img/proj/usc_dnoisenet.png
+img: assets/proj/usc_dnoisenet/usc_dnoisenet.png
 importance: 2
 category: USC
 social: true
@@ -10,7 +10,7 @@ substack: true
 ---
 
 <figure>
-  <img src="/assets/img/proj/usc_dnoisenet.png" alt="Accuracy, Uncertainty, and Adaptability" style="max-width: 100%; height: auto;">
+  <img src="/assets/proj/usc_dnoisenet/usc_dnoisenet.png" alt="Accuracy, Uncertainty, and Adaptability" style="max-width: 100%; height: auto;">
 </figure>
 
 

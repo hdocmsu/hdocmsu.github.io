@@ -2,7 +2,7 @@
 layout: project
 title: Compressed Sensing MRI
 description: Compressed sensing theory has been incorporated into MRI image reconstruction, allowing substantial reductions in scan time.
-img: assets/img/proj/cmsu_cs.png
+img: assets/proj/canon_2_cs/canon_2_cs.png
 importance: 99
 category: Canon
 social: true
@@ -13,21 +13,21 @@ Similar to my work on [MRI-DLR](https://hdocmsu.github.io/projects/canon_1_dlr/)
 
 **Peer-reviewed publications:**
 <ul>
-<li>Matcuk, George; <strong>Do, Hung P.</strong> and others. “Compressed Sensing Magnetic Resonance Imaging (CS-MRI) for Accelerated Knee MR Imaging.” Proceedings of the Radiological Society of North America Education Exhibits, Chicago, Nov 2018. <a href="/assets/pdf/cmsu_cs_publication.pdf" target="_blank">PDF-SLIDES</a></li>
+<li>Matcuk, George; <strong>Do, Hung P.</strong> and others. “Compressed Sensing Magnetic Resonance Imaging (CS-MRI) for Accelerated Knee MR Imaging.” Proceedings of the Radiological Society of North America Education Exhibits, Chicago, Nov 2018. <a href="/assets/proj/canon_2_cs/cs_rsna.pdf" target="_blank">PDF-SLIDES</a></li>
 </ul>
 
 <figure>
-  <img src="/assets/img/proj/cmsu_cs2.png" alt="MRI Compressed Sensing Reconstruction" style="max-width: 100%; height: auto;">
+  <img src="/assets/proj/canon_2_cs/pic1.png" alt="MRI Compressed Sensing Reconstruction" style="max-width: 100%; height: auto;">
 </figure>
 
 <figure>
-  <img src="/assets/img/proj/cmsu_cs3.png" alt="MRI Compressed Sensing Reconstruction" style="max-width: 100%; height: auto;">
+  <img src="/assets/proj/canon_2_cs/pic2.png" alt="MRI Compressed Sensing Reconstruction" style="max-width: 100%; height: auto;">
 </figure>
 
 <figure>
-  <img src="/assets/img/proj/cmsu_cs4.png" alt="MRI Compressed Sensing Reconstruction" style="max-width: 100%; height: auto;">
+  <img src="/assets/proj/canon_2_cs/pic3.png" alt="MRI Compressed Sensing Reconstruction" style="max-width: 100%; height: auto;">
 </figure>
 
 <figure>
-  <img src="/assets/img/proj/cmsu_cs5.png" alt="MRI Compressed Sensing Reconstruction" style="max-width: 100%; height: auto;">
+  <img src="/assets/proj/canon_2_cs/pic4.png" alt="MRI Compressed Sensing Reconstruction" style="max-width: 100%; height: auto;">
 </figure>

@@ -2,7 +2,7 @@
 layout: project
 title: Accuracy, Uncertainty, and Adaptability of a Deep CNN
 description: It provides accurate segmentation while quantifying uncertainty and allowing control over false-positive and false-negative rates.
-img: assets/img/proj/usc_caslseg.png
+img: assets/proj/usc_caslseg/usc_caslseg.png
 importance: 1
 category: USC
 social: true
@@ -10,7 +10,7 @@ substack: true
 ---
 
 <figure>
-  <img src="/assets/img/proj/usc_caslseg.png" alt="Accuracy, Uncertainty, and Adaptability" style="max-width: 100%; height: auto;">
+  <img src="/assets/proj/usc_caslseg/usc_caslseg.png" alt="Accuracy, Uncertainty, and Adaptability" style="max-width: 100%; height: auto;">
 </figure>
 
 Cardiac arterial spin-labeled MRI (Cardiac ASL) is a radiation-free, noninvasive, quantitative imaging technique that measures myocardial blood flow without the use of exogenous contrast agents. However, Cardiac ASL suffers from intrinsically low signal-to-noise ratio (SNR), which limits reliable pixel-wise analysis. As a result, perfusion quantification is typically performed using segmental analysis based on the American Heart Association (AHA) 17-segment model of the myocardium. This approach requires manual segmentation of the myocardium, which is tedious, time-consuming, and operator dependent.

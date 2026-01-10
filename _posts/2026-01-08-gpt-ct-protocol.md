@@ -1,11 +1,12 @@
 ---
 layout: post
-title: Test blog - GPT-4o is better than radiologists at selecting CT protocols 
+title: TEST BLOG - GPT-4o is better than radiologists at selecting CT protocols 
 date: 2026-01-08 10:10:10
 description:
 tags: ai ct # lowercase only
 categories: news # lowercase only
-img: /assets/img/blog/2026-01-08/pic3.png
+img: /assets/blog/2026-01-08/pic3.png
+redirect: #https://hdocmsu.github.io/projects/canon_1_dlr/
 ---
 
 A study published on [Jan 06, 2026 in RADIOLOGY](https://doi.org/10.1148/radiol.252105) demonstrated that GPT-4o model selected optimal abdominal and pelvic CT protocols **more frequently than radiologists**. 
@@ -46,7 +47,7 @@ Exact matches and "equal alternative" matches were considered optimal selections
 ### Results
 
 <figure>
-  <img src="/assets/img/blog/2026-01-08/pic3.png" alt="GPT-4o's CT protocol selection study" style="max-width: 100%; height: auto;">
+  <img src="/assets/blog/2026-01-08/pic3.png" alt="GPT-4o's CT protocol selection study" style="max-width: 100%; height: auto;">
 </figure>
 
 

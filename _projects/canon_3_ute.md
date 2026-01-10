@@ -2,7 +2,7 @@
 layout: project
 title: Fast MRI-only Comprehensive Musculoskeletal Imaging
 description: Making what was previously impossible achievable.
-img: assets/img/proj/cmsu_ute.png
+img: assets/proj/canon_3_ute/canon_3_ute.png
 importance: 97
 category: Canon
 social: true
@@ -13,29 +13,29 @@ This work addresses three interrelated challenges in musculoskeletal (MSK) imagi
 
 **First**, Medicare and Medicaid reimbursement for MRI has steadily declined. Huang et al. (*Clinical Imaging, 2025*) reported that reimbursement for extremity MRI in 2025 has decreased by up to 77% compared with its peak in 2004. These economic pressures motivate the development of faster MSK MRI examinations.
 <figure>
-  <img src="/assets/img/proj/cmsu_ute1.png" alt="Comprehensive MRI-only MSK Exam" style="max-width: 100%; height: auto;">
+  <img src="/assets/proj/canon_3_ute/pic1.png" alt="Comprehensive MRI-only MSK Exam" style="max-width: 100%; height: auto;">
 </figure>
 
 **Second**, short-T2 tissues including tendons, ligaments, and menisci are poorly visualized by CT and by standard-of-care routine MSK MRI until relatively late stages of injury or disease, when they appear hyperintense or morphologically deformed on conventional MRI. Earlier visualization and quantitative assessment of short-T2 tissues would enable not only earlier detection but also more objective evaluation of disease progression and treatment response.
 <figure>
-  <img src="/assets/img/proj/cmsu_ute2.png" alt="Comprehensive MRI-only MSK Exam" style="max-width: 100%; height: auto;">
+  <img src="/assets/proj/canon_3_ute/pic2.png" alt="Comprehensive MRI-only MSK Exam" style="max-width: 100%; height: auto;">
 </figure>
 
 **Third**, when comprehensive assessment of both bone and soft tissue is required, patients typically undergo both CT and MRI examinations. Although MRI may not fully replace CT, MRI-derived CT-like bone-weighted images can, when appropriate, obviate the need for a CT scan, thereby streamlining clinical workflow, reducing costs, and eliminating ionizing radiation exposure, particularly important for pediatric and pregnant patients and for individuals requiring repeated CT imaging.
 <figure>
-  <img src="/assets/img/proj/cmsu_ute3.png" alt="Comprehensive MRI-only MSK Exam" style="max-width: 100%; height: auto;">
+  <img src="/assets/proj/canon_3_ute/pic3.png" alt="Comprehensive MRI-only MSK Exam" style="max-width: 100%; height: auto;">
 </figure>
 
 Zero-echo-time (ZTE) and single-echo ultrashort-echo-time (UTE) techniques have demonstrated the ability to provide CT-like bone-weighted contrast; however, they do not provide assessment of short-T2 tissues. Multi-echo UTE allows simultaneous generation of CT-like contrast and quantitative T2* mapping of short-T2 tissues, but its clinical adoption has been limited because of long scan times and insufficient spatial resolution.
 
 In this work, we demonstrate the feasibility of a fast, 2-minute multi-echo UTE acquisition that provides CT-like bone-weighted contrast and quantitative T2* mapping of short-T2 tissues. With the integration of deep learning-based reconstruction ([MRI-DLR](https://hdocmsu.github.io/projects/canon_1_dlr/)), routine MSK MRI can be completed in under 8 minutes. Together, this enables a comprehensive MRI-only MSK examination in under 10 minutes.
 <figure>
-  <img src="/assets/img/proj/cmsu_ute4.png" alt="Comprehensive MRI-only MSK Exam" style="max-width: 100%; height: auto;">
+  <img src="/assets/proj/canon_3_ute/pic4.png" alt="Comprehensive MRI-only MSK Exam" style="max-width: 100%; height: auto;">
 </figure>
 
 Total scan time can be further reduced by combining a 2-minute multi-echo UTE acquisition with an abbreviated musculoskeletal (MSK) MRI protocol, in which sequences are selected to maximize diagnostic yield per unit scan time. The abbreviated MSK-MRI protocol is indication-specific and can be completed in well under 3 minutes.
 <figure>
-  <img src="/assets/img/proj/cmsu_ute5.png" alt="Comprehensive MRI-only MSK Exam" style="max-width: 100%; height: auto;">
+  <img src="/assets/proj/canon_3_ute/pic5.png" alt="Comprehensive MRI-only MSK Exam" style="max-width: 100%; height: auto;">
 </figure>
 
 Together, this approach enables a comprehensive, MRI-only MSK examination in under 5 minutes. As a result, a single MRI-only exam can provide information traditionally obtained from both MRI and CT, while achieving CT-like throughput. This capability has the potential to position MRI as a first-line imaging modality, particularly by reducing or eliminating the need for subsequent MRI and/or CT examinations.
@@ -58,6 +58,6 @@ Together, this approach enables a comprehensive, MRI-only MSK examination in und
 <center>
 <div class="iframe-container">
 <iframe class="responsive-iframe"
-src="/assets/pdf/cmsu_ute1.pdf" width="100%" height="850px" allowfullscreen="" frameborder="0"></iframe>
+src="/assets/proj/canon_3_ute/ute_review.pdf" width="100%" height="850px" allowfullscreen="" frameborder="0"></iframe>
 </div>
 </center>

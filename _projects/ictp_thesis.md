@@ -2,7 +2,7 @@
 layout: project
 title: Crystal Structure Search using Constrained Optimization
 description: Postgraduate Diploma Thesis at the Abdus Salam International Centre for Theoretical Physics (ICTP), Trieste, Italy
-img: assets/img/proj/ictp_title_img2.png
+img: assets/proj/ictp_thesis/ictp_thesis.png
 importance: 1
 redirect:
 social: true
