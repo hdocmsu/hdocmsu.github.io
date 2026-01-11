@@ -49,20 +49,21 @@ li {
 ###### <a href="https://{{ site.substack_username }}.substack.com/about"><i class="fas fa-newspaper"></i> Substack Blog</a> &nbsp; <a href="https://www.youtube.com/@{{ site.youtube_username }}"><i class="fab fa-youtube"></i> YouTube</a> &nbsp; <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fab fa-twitter"></i> Twitter</a> &nbsp; <a href="https://www.instagram.com/{{ site.instagram_username }}"><i class="fab fa-instagram"></i> Instagram</a> &nbsp; <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}"><i class="fab fa-linkedin"></i> LinkedIn</a> &nbsp; <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}"><i class="ai ai-google-scholar"></i> Google Scholar</a> &nbsp; <a href="{{ site.work_url }}"><i class="fas fa-briefcase"></i> Work</a> &nbsp; <a href="mailto:{{ site.email | encode_email }}"><i class="fas fa-envelope"></i> Email</a>
 
 ---
-
+<br/>
 <div style="text-align: center; margin: 1rem 0; padding: 1.5rem; background-color: var(--global-card-bg-color); border-radius: 9px;">
   <h6 style="margin-bottom: 1.0rem; color: var(--global-text-color);"><strong>Quick Navigation</strong></h6>
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem;">
     <a href="#expertise-and-skills" style="text-decoration: none;"><i class="fas fa-brain"></i> Expertise and Skills</a>
     <a href="#experience" style="text-decoration: none;"><i class="fas fa-briefcase"></i> Work Experience</a>
     <a href="#education" style="text-decoration: none;"><i class="fas fa-graduation-cap"></i> Education</a>
-    <a href="#honors-and-awards" style="text-decoration: none;"><i class="fas fa-trophy"></i> Awards</a>
+    <a href="#honors-and-awards" style="text-decoration: none;"><i class="fas fa-trophy"></i> Honors and Awards</a>
     <a href="#certificates" style="text-decoration: none;"><i class="fas fa-certificate"></i> Certificates</a>
     <a href="#selected-publications" style="text-decoration: none;"><i class="fas fa-file-alt"></i> Publications</a>
     <a href="#selected-talks" style="text-decoration: none;"><i class="fas fa-microphone"></i> Talks</a>
     <a href="#teaching-and-training-experience" style="text-decoration: none;"><i class="fas fa-chalkboard-teacher"></i> Teaching Experience</a>
   </div>
 </div>
+<br/>
 
 ### **Expertise and Skills**
 
