@@ -46,7 +46,7 @@ li {
 
 ---
 
-###### <a href="https://{{ site.substack_username }}.substack.com/about"><i class="fas fa-newspaper"></i> Substack Blog</a> &nbsp; <a href="https://www.youtube.com/@{{ site.youtube_username }}"><i class="fab fa-youtube"></i> YouTube</a> &nbsp; <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fab fa-twitter"></i> Twitter</a> &nbsp; <a href="https://www.instagram.com/{{ site.instagram_username }}"><i class="fab fa-instagram"></i> Instagram</a> &nbsp; <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}"><i class="fab fa-linkedin"></i> LinkedIn</a> &nbsp; <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}"><i class="ai ai-google-scholar"></i> Google Scholar</a> &nbsp; <a href="{{ site.work_url }}"><i class="fas fa-briefcase"></i> Work</a> &nbsp; <a href="mailto:{{ site.email | encode_email }}"><i class="fas fa-envelope"></i> Email</a>
+###### <a href="https://{{ site.substack_username }}.substack.com/about"><i class="fas fa-newspaper"></i> Substack Blog</a> &nbsp; <a href="https://www.youtube.com/@{{ site.youtube_username }}"><i class="fab fa-youtube"></i> YouTube</a> &nbsp; <a href="https://www.instagram.com/{{ site.instagram_username }}"><i class="fab fa-instagram"></i> Instagram</a> &nbsp; <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}"><i class="fab fa-linkedin"></i> LinkedIn</a> &nbsp; <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}"><i class="ai ai-google-scholar"></i> Google Scholar</a> &nbsp; <a href="{{ site.work_url }}"><i class="fas fa-briefcase"></i> Work</a> &nbsp; <a href="mailto:{{ site.email | encode_email }}"><i class="fas fa-envelope"></i> Email</a>
 
 ---
 <br/>
