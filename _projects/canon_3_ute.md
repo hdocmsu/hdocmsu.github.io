@@ -9,6 +9,8 @@ social: true
 substack: true
 ---
 
+> Both MRI and CT are traditionally required for comprehensive evaluation of soft tissue and osseous structures. However, advances in MRI, including multi-echo ultrashort echo time (UTE), conjugate-gradient SENSE, and deep learning–based reconstruction, now enable a comprehensive MRI-only musculoskeletal (MSK) examination in under 10 minutes. This approach reduces cost, streamlines clinical workflow, and eliminates ionizing radiation exposure.
+
 This work addresses three interrelated challenges in musculoskeletal (MSK) imaging. 
 
 **First**, Medicare and Medicaid reimbursement for MRI has steadily declined. Huang et al. (*Clinical Imaging, 2025*) reported that reimbursement for extremity MRI in 2025 has decreased by up to 77% compared with its peak in 2004. These economic pressures motivate the development of faster MSK MRI examinations.

@@ -9,12 +9,17 @@ social: true
 substack: true
 ---
 
+> Deep learning has transformed MRI image reconstruction by alleviating the inherent trade-off among field strength, signal-to-noise ratio (SNR), spatial resolution, and scan time. With deep learning-based MRI reconstruction (MRI-DLR), it is now possible to achieve higher SNR and spatial resolution without increasing scan time, and in some cases, with even shorter scan times. This advancement has significant implications for clinical practice, enabling improved image quality and patient throughput.
+
+
 <figure>
   <img src="/assets/proj/canon_1_dlr/pic1.png" alt="MRI Deep Learning Reconstruction" style="max-width: 100%; height: auto;">
   <figcaption style="font-size: 0.85em; font-style: italic; text-align: right;">Source: <a href="https://us.medical.canon/products/magnetic-resonance/aice/">Canon Medical Systems USA</a></figcaption>
 </figure>
 
-I developed the company’s first end-to-end pipeline for executing and analyzing a randomized, blinded human-observer (radiologist) study to clinically validate an MRI deep learning-based denoising reconstruction (MRI-DLR) in 2019. This pipeline has since been used within Canon Medical Systems for the clinical validation of new technologies. In addition, I contributed to the technical review, bench testing, and broader validation of the technology. My contribution supported Canon in securing FDA 510(k) clearance on March 9, 2020, resulting in the world’s first fully integrated MRI-DLR technology introduced by a major medical imaging vendor (Canon, Fujifilm, GE, Philips, Siemens, United Imaging). 
+
+
+I developed the company’s first end-to-end pipeline for executing and analyzing a randomized, blinded human-observer (radiologist) study to clinically validate an MRI deep learning-based denoising reconstruction (MRI-DLR) in 2019. This pipeline has since been used within Canon Medical Systems for the clinical validation of new technologies. In addition, I contributed to the technical review, bench testing, and broader validation of the technology. My contribution supported Canon in securing FDA 510(k) clearance on March 9, 2020, resulting in the world’s first fully integrated deep learning-based MRI reconstruction technology introduced by a major medical imaging vendor (Canon, Fujifilm, GE, Philips, Siemens, United Imaging). 
 
 It is gratifying to see the technology I helped validate now being used clinically across Canon MRI systems worldwide.
 

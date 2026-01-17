@@ -10,6 +10,8 @@ category: ICTP
 substack: true
 ---
 
+> This project focuses on developing a constrained optimization algorithm to search for crystal structures with minimum energy configurations.
+
 This research project was an excerpt of my Postgraduate Diploma Thesis supervised by [Prof. Sandro Scandolo](https://www.ictp.it/member/sandro-scandolo#biography){:target="\_blank"} at the Abdus Centre for Theoretical Physics [(ICTP)](https://www.ictp.it/){:target="\_blank"}, Trieste, Italy, 2008-2009. [SLIDES](https://rpubs.com/hdo2021/IctpThesis){:target="\_blank"}
 
 <center>

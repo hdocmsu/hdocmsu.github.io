@@ -9,9 +9,13 @@ social: true
 substack: true
 ---
 
+> This project aims to develop a deep convolutional neural network (CNN) for automatic segmentation of the myocardium in cardiac arterial spin-labeled MRI (Cardiac ASL) images. The proposed method not only provides accurate segmentation but also quantifies uncertainty in the segmentation results and allows control over false-positive and false-negative rates to better align with clinical priorities.
+
+
 <figure>
   <img src="/assets/proj/usc_caslseg/usc_caslseg.png" alt="Accuracy, Uncertainty, and Adaptability" style="max-width: 100%; height: auto;">
 </figure>
+
 
 Cardiac arterial spin-labeled MRI (Cardiac ASL) is a radiation-free, noninvasive, quantitative imaging technique that measures myocardial blood flow without the use of exogenous contrast agents. However, Cardiac ASL suffers from intrinsically low signal-to-noise ratio (SNR), which limits reliable pixel-wise analysis. As a result, perfusion quantification is typically performed using segmental analysis based on the American Heart Association (AHA) 17-segment model of the myocardium. This approach requires manual segmentation of the myocardium, which is tedious, time-consuming, and operator dependent.
 

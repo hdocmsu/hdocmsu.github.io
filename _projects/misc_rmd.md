@@ -10,9 +10,9 @@ category: Misc
 substack: true
 ---
 
-`R Markdown` is a wonderful tool but I am now transitioning into `Quarto` for documentation.
+> R Markdown is a powerful tool for reproducible and automated document generation; however, I now use Quarto, which offers greater flexibility and a unified publishing workflow. More importantly, Quarto seamlessly integrates with Jupyter notebooks and Python, making it my preferred choice for report generation and documentation. Below are past reports, slides, and Shiny apps that I created using R and R Markdown.
 
-<h2> Report generated using R Markdown </h2>
+### Report generated using R Markdown
 
 <h1><a href="/assets/proj/misc_rmd/sample_report1.pdf" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a> </h1> <a href="/assets/proj/misc_rmd/sample_report1.pdf" target="_blank">Sample report generated using R Markdown</a>
 
@@ -27,7 +27,7 @@ src="/assets/proj/misc_rmd/sample_report1.pdf" width="100%" height="1050px" allo
 <br />
 
 
-<h2> Slides generated using R Markdown </h2>
+### Slides generated using R Markdown
 
 
 [SLIDES](https://rpubs.com/hdo2021/HungDo_template){:target="\_blank"}
@@ -52,7 +52,7 @@ src="/assets/htmls/ggplotly.html" width="80%" height="480px" allowfullscreen="" 
 <br />
 <br />
 
-<h2> Shiny app generated using R </h2>
+### Shiny app generated using R
 
 Simulations of a Non-linear Least Squares fit of an Exponential Decay Process with R Shiny App
 

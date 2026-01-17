@@ -9,9 +9,13 @@ social: true
 substack: true
 ---
 
+> This project proposes a deep convolutional neural network (CNN) for MRI denoising that integrates residual learning and skip connections to achieve improved noise suppression without compromising clinically-relevant quantitative MRI metrics.
+
+
 <figure>
   <img src="/assets/proj/usc_dnoisenet/usc_dnoisenet.png" alt="Accuracy, Uncertainty, and Adaptability" style="max-width: 100%; height: auto;">
 </figure>
+
 
 
 **Conference Talk:**
