@@ -79,7 +79,7 @@ li {
   <li>Programmable animation, data visualization, data analysis, and statistics using Python and R</li>
   <li>Bayesian methods and probabilistic programming for quantitative imaging with uncertainty quantification</li>
   <li>Mathematical modeling, numerical simulations, and optimization</li>
-  <li>Automatic and reproducible pipelines for data curation, cleaning, and visualization, statistical analysis, and report/presentation generation using Git version control, Bash, Python, R, and related packages</li>
+  <li>Automatic and reproducible pipelines for data curation, cleaning, and visualization, statistical analysis, and report/presentation generation using Git version control, Bash, Python, R, quarto, nbdev, and related packages</li>
   <li>Operating Systems: Linux, macOS, and Microsoft Windows</li>
   <li>Programming Languages: Python, R, Matlab, Bash, EPIC (General Electric (GE) Healthcare's C-based MRI pulse sequence programming language)</li>
   <li>Packages and Libraries: Pandas, NumPy, PyDicom, SciPy, Matplotlib, Tidyverse, ggplot2, Seaborn, fastai, TensorFlow-Keras, PyTorch, nbdev</li>
