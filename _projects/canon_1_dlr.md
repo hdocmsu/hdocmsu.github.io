@@ -9,7 +9,7 @@ social: true
 substack: true
 ---
 
-> Deep learning has transformed MRI image reconstruction by alleviating the inherent trade-off among field strength, signal-to-noise ratio (SNR), spatial resolution, and scan time. It is now possible to achieve higher SNR and spatial resolution without increasing scan time, and in some cases, with even shorter scan times. This advancement enables improved image quality and patient throughput.
+> Deep learning has transformed MRI image reconstruction by alleviating the inherent trade-off among field strength, signal-to-noise ratio (SNR), spatial resolution, and scan time. It is now possible to achieve higher SNR and spatial resolution without increasing scan time, and in some cases, with even shorter scan times. This advancement has reshaped our understanding of the MRI triangle trade-off and has significant implications for clinical practice.
 
 
 <figure>
