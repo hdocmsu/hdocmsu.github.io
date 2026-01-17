@@ -27,5 +27,5 @@ backup_source:
 	echo "done pushing source code for hdocmsu.github.io"
 
 both_deploy_and_backup_source:
-	make deploy
+	yes | make deploy
 	make backup_source
