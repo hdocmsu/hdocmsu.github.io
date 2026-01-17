@@ -9,7 +9,7 @@ social: true
 substack: true
 ---
 
-> Both MRI and CT are traditionally required for comprehensive evaluation of soft tissue and osseous structures. However, advances in MRI, including multi-echo ultrashort echo time (UTE), conjugate-gradient SENSE, and deep learning–based reconstruction, now enable a comprehensive MRI-only musculoskeletal (MSK) examination in under 10 minutes. This approach reduces cost, streamlines clinical workflow, and eliminates ionizing radiation exposure.
+> Both MRI and CT are traditionally required for comprehensive evaluation of soft tissue and bony structures. However, advances in MRI, including multi-echo ultrashort echo time (UTE), conjugate-gradient SENSE, and deep learning–based reconstruction, now enable a comprehensive MRI-only musculoskeletal (MSK) examination in under 10 minutes. This approach reduces cost, streamlines clinical workflow, and eliminates ionizing radiation exposure, especially important for pediatric and pregnant patients and for individuals requiring repeated CT imaging.
 
 This work addresses three interrelated challenges in musculoskeletal (MSK) imaging. 
 
