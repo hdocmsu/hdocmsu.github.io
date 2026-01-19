@@ -9,7 +9,7 @@ img: /assets/blog/2026-01-08/gpt4o_ct.png
 redirect: #https://hdocmsu.github.io/projects/canon_1_dlr/
 ---
 
-A study published on [Jan 06, 2026 in RADIOLOGY](https://doi.org/10.1148/radiol.252105) demonstrated that GPT-4o model selected optimal abdominal and pelvic CT protocols **more frequently than radiologists**. 
+A study published on [Jan 06, 2026 in RADIOLOGY](https://doi.org/10.1148/radiol.252105) demonstrated that GPT-4o model selected optimal abdominal and pelvic CT protocols ***more frequently than radiologists***. 
 
 Below is my summary of the study.
 
@@ -52,11 +52,11 @@ Exact matches and "equal alternative" matches were considered optimal selections
 
 
 ### Conclusion
-**GPT-4o is better than radiologists** in selecting optimal abdominal and pelvic CT protocols. 
+***GPT-4o is better than radiologists*** in selecting optimal abdominal and pelvic CT protocols. 
 
-Fine-tuning with labeled examples **did not further improve performance** beyond prompt optimization with detailed prompting instructions. 
+Fine-tuning with labeled examples ***did not further improve performance*** beyond prompt optimization with detailed prompting instructions. 
 
-There were **no significant differences in performance between residents, fellows, and attending radiologists**.
+There were ***no significant differences in performance between residents, fellows, and attending radiologists***.
 
 ### References
 Buckley BW, Dias AB, Deng Y, Schmidt H, Kielar A, Krishna S, Bhayana R. Optimizing Large Language Models for Automated Protocoling of Abdominal and Pelvic CT Scans: The Power of Context. Radiology. 2026 Jan 6;318(1):e252105. [https://doi.org/10.1148/radiol.252105](https://doi.org/10.1148/radiol.252105)

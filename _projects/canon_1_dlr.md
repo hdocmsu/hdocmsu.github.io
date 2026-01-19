@@ -40,7 +40,7 @@ It is gratifying to see the technology I helped validate now being used clinical
 
 ### Impact of MRI-DLR
 
-Since its inception more than 50 years ago, MRI has been governed by a fundamental trade-off, described as the **MRI triangle trade-off**, among field strength, signal-to-noise ratio (SNR), spatial resolution, and scan time. This trade-off is dictated by MRI physics: improving one parameter necessarily comes at the expense of one or both of the others.
+Since its inception more than 50 years ago, MRI has been governed by a fundamental trade-off, described as the ***MRI triangle trade-off***, among field strength, signal-to-noise ratio (SNR), spatial resolution, and scan time. This trade-off is dictated by MRI physics: improving one parameter necessarily comes at the expense of one or both of the others.
 
 <figure>
   <img src="/assets/proj/canon_1_dlr/MRTetrahedron3D.png" alt="MRI-DLR 1.5T vs. 3T" style="max-width: 100%; height: auto;">
