@@ -66,7 +66,7 @@ src="/assets/htmls/ExpFit.html" width="100%" height="600px" allowfullscreen="" f
 </center>
 
 <br>
-[Shiny App](https://hdo2021.shinyapps.io/ExpFit/){:target="\_blank"}
+[Link to the Shiny App](https://hdo2021.shinyapps.io/ExpFit/){:target="\_blank"} or you can interact with it below:
 <center>
 <div class="iframe-container">
 <iframe class="responsive-iframe"
