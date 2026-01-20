@@ -11,7 +11,7 @@ substack: true
 
 > Deep learning has transformed MRI image reconstruction by alleviating the inherent trade-off among field strength, signal-to-noise ratio (SNR), spatial resolution, and scan time. It is now possible to achieve higher SNR and spatial resolution without increasing scan time, and in some cases, with even shorter scan times. This advancement has reshaped our understanding of the MRI triangle trade-off and has significant implications for clinical practice.
 > 
->> FYI: I led the clinical validation of the world’s first FDA-cleared deep learning-based MRI reconstruction technology introduced by a major medical imaging vendor.
+>> I led the clinical validation of the world’s first FDA-cleared deep learning-based MRI reconstruction technology introduced by a major medical imaging vendor.
 
 
 <figure>
@@ -23,7 +23,7 @@ substack: true
 
 I developed the company’s first end-to-end pipeline for executing and analyzing a randomized, blinded human-observer (radiologist) study to clinically validate an MRI deep learning-based denoising reconstruction (MRI-DLR, commercially known as [Advanced intelligent Clear-IQ Engine (AiCE)](https://us.medical.canon/products/magnetic-resonance/aice/)) in 2019. This pipeline has since been used within Canon Medical Systems for the clinical validation of new technologies. In addition, I contributed to the technical review, bench testing, and broader validation of the technology. My contribution supported Canon in securing FDA 510(k) clearance on March 9, 2020, resulting in the world’s first fully integrated deep learning-based MRI reconstruction technology introduced by a major medical imaging vendor (Canon, Fujifilm, GE, Philips, Siemens, United Imaging). 
 
-It is gratifying to see the technology I helped validate now being used clinically across Canon MRI systems worldwide.
+**It is gratifying to see the technology I helped validate now being used clinically across Canon MRI systems worldwide.**
 
 ### Whitepapers
 <ul>
