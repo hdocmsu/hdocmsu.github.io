@@ -1,7 +1,7 @@
 ---
 layout: project
 title: MRI Deep Learning Reconstruction
-description: Deep learning has transformed MRI image reconstruction by alleviating the inherent trade-off among signal-to-noise ratio (SNR), spatial resolution, and scan time.
+description: Alleviating the fundamental MRI triangle trade-off.
 img: assets/proj/canon_1_dlr/canon_1_dlr.png
 importance: 1
 category: Canon

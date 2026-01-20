@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Compressed Sensing MRI
-description: Compressed sensing theory has been incorporated into MRI image reconstruction, allowing substantial reductions in scan time.
+description: Translating compressed sensing theory into clinical environment.
 img: assets/proj/canon_2_cs/canon_2_cs.png
 importance: 99
 category: Canon

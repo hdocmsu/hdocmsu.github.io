@@ -34,7 +34,7 @@ navbar_fixed: true
 footer_fixed: true
 
 # Dimensions
-max_width: 800px
+max_width: 725px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -83,7 +83,7 @@ google_analytics: G-PK7WD7056C #UA-128649878-1 # out your google-analytics code
 # -----------------------------------------------------------------------------
 
 blog_name: The Art of MRI Physics # your blog must have a name for it to show up in the nav bar
-blog_description: hdoMRIphysics's blog -- under construction!
+blog_description: #hdoMRIphysics's blog -- under construction!
 permalink: /blog/:year/:month/:day/:title/
 
 # Pagination

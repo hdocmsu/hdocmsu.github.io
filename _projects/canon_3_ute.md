@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Fast MRI-only Comprehensive Musculoskeletal Imaging
-description: Making what was previously impossible achievable.
+description: Seeing the previously unseen.
 img: assets/proj/canon_3_ute/canon_3_ute.png
 importance: 2
 category: Canon

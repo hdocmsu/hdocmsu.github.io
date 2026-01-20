@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Accuracy, Uncertainty, and Adaptability of a Deep CNN
-description: It provides accurate segmentation while quantifying uncertainty and allowing control over false-positive and false-negative rates.
+description: Tailoring black-box deep learning model to clinical priorities and safety.
 img: assets/proj/usc_caslseg/usc_caslseg.png
 importance: 1
 category: USC
