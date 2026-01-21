@@ -10,7 +10,9 @@ category: Misc
 substack: true
 ---
 
-> R Markdown is a powerful tool for reproducible and automated document generation; however, I now use Quarto, which offers greater flexibility and a unified publishing workflow. More importantly, Quarto seamlessly integrates with Jupyter notebooks and Python, making it my preferred choice. Below are past reports, slides, and Shiny apps that I created a while ago using R and R Markdown.
+> R Markdown is a powerful tool for reproducible and automated document generation; however, I now use Quarto, which offers greater flexibility and a unified publishing workflow. More importantly, Quarto seamlessly integrates with Jupyter notebooks and Python, making it my preferred choice. 
+> 
+> Below are past reports, slides, and Shiny apps that I created a while ago using R and R Markdown.
 
 ### Report generated using R Markdown
 
