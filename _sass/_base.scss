@@ -809,3 +809,12 @@ h5 {
     letter-spacing: 0.25px;
   }
 }
+
+#mmv-container {
+  width: 200px;          /* desired size */
+  height: 200px;
+  margin-top: 35px;
+  // overflow: hidden;
+  // transform: scale(0.7); /* shrink or enlarge */
+  // transform-origin: top left;
+}
