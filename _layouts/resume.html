@@ -4,6 +4,22 @@ layout: default
 
 <div class="post">
  
+    <!-- <header class="post-header">
+    <h2 class="post-title">
+     {% if site.title == "blank" %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{% else %}{{ site.title }}{% endif %}
+    </h2>
+     <p class="post-description">{{ page.description }}</p>
+  </header> -->
+  
+  <header class="post-header">
+    <h2 class="post-title">
+     {% if site.title == "blank" %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{% else %}{{ site.title }}{% endif %}
+    </h2>
+  <center>
+     <p class="post-description">{{ page.description }}</p>
+  </center>
+</header>
+
   <article>
     {% if page.profile %}
     <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">

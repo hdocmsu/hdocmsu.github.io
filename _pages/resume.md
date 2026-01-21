@@ -6,18 +6,18 @@ description: Senior MRI Physicist, Canon Medical Systems USA
 nav: true
 social: true # includes social icons at the bottom of the page
 importance: 5
-toc: true
+# toc: true
 substack: true
 ---
 
-<style>
+<!-- <style>
 h2 {text-align: center;}
 h3 {text-align: left;}
 h4 {text-align: center;}
 h5 {text-align: center;}
 h6 {text-align: center;}
 
-// List
+/* // List */
 ul {
     line-height: 1.5; /* Adjust the line spacing as desired */
   }
@@ -27,22 +27,32 @@ li {
     margin-right: 5px;
 }
 
+</style> -->
+
+<style>
+h2 {text-align: center;}
+h3 {text-align: left;}
+h4 {text-align: center;}
+h5 {text-align: center;}
+h6 {text-align: center;}
+
+/* Scope list styles to resume content only */
+.resume-content ul {
+  line-height: 1.5; /* Adjust the line spacing as desired */
+}
+
+.resume-content li {
+  padding-bottom: 10px; /* Adjust the spacing as desired */
+  margin-right: 5px;
+}
 </style>
+<!-- <div class="resume-content"> -->
 
 <!-- <center>
 <a href="https://hdocmsu.github.io/"><img src="/assets/img/HungDO.jpg" height="auto" width="180" style="border-radius:50%" class="img-fluid z-depth-1"></a>
 </center> -->
 
 <!-- <br /> -->
-
-<header class="post-header">
-    <h2 class="post-title">
-     {% if site.title == "blank" %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{% else %}{{ site.title }}{% endif %}
-    </h2>
-  <center>
-     <p class="post-description">{{ page.description }}</p>
-  </center>
-</header>
 
 <div style="text-align: center; margin: 1rem 0; padding: 1.0rem; background-color: var(--global-card-bg-color); border-radius: 9px;">
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.1rem;">
@@ -306,3 +316,5 @@ Full list of talks can be seen at [Talks](https://hdocmsu.github.io/talks/)
 
 <br />
 <br />
+<!-- </div> -->
+

@@ -799,3 +799,13 @@ h5 {
 .post-content h6 {
   color: #0073ff; /* blue */
 }
+
+.navbar.navbar-light {
+  .navbar-nav .nav-item .nav-link {
+    font-weight: 600;
+    font-size: 1.0rem;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    letter-spacing: 0.25px;
+  }
+}
