@@ -60,10 +60,15 @@ Since its inception more than 50 years ago, MRI has been governed by a fundament
 For example, achieving higher SNR typically requires longer scan times or reduced spatial resolution, both of which are undesirable in clinical practice. Alternatively, higher field-strength scanners may be used to boost SNR, but these systems are more expensive and introduce additional challenges related to field inhomogeneity.
 
 
-Deep learning-based MRI reconstruction (MRI-DLR) has been shown to mitigate this long-standing triangle trade-off by enabling, to some extent, the acquisition of image quality previously unattainable due to constraints imposed by MRI physics.
+Deep learning-based MRI reconstruction (MRI-DLR) has been shown to mitigate this long-standing triangle trade-off by enabling, to some extent, the acquisition of image quality **previously unattainable** due to constraints imposed by MRI physics.
 
 #### High-field MRI image quality on lower field-strength systems
-**One example** is the ability to achieve image quality comparable to that of high-field (e.g., 3 T) MRI using lower field-strength systems (e.g., 1.5 T). Take the AiCE **challenges #1 and #2** to see the demonstrations.
+
+**One example** is the ability to achieve image quality comparable to that of high-field (e.g., 3 T) MRI using lower field-strength systems (e.g., 1.5 T).
+
+Review the whitepaper titled [Advanced intelligent Clear-IQ Engine (AiCE) Deep Learning Reconstruction (DLR): Translating the Power of Deep Learning to MR Image Reconstruction](https://hdocmsu.github.io/assets/pdf/whitepapers/AiCE_DLR_introducing.pdf) for details.
+
+Take the AiCE **challenges #1 and #2** to see illustrations of this capability.
 
 * [MRI-DLR Challenge #1](https://us.medical.canon/promo/magnetic-resonance/aice/1/)
 * [MRI-DLR Challenge #2](https://us.medical.canon/promo/magnetic-resonance/aice/2/)
@@ -74,10 +79,16 @@ Deep learning-based MRI reconstruction (MRI-DLR) has been shown to mitigate this
 </figure>
 
 #### Higher SNR and spatial resolution with same or faster scan time
-**Another example** is the ability to achieve higher SNR and spatial resolution without increasing scan time, and in some cases, with even shorter scan times. See the AiCE **challenges #3 and #4** to see the demonstrations.
+
+**Another example** is the ability to achieve higher SNR and spatial resolution without increasing scan time, and in some cases, with even shorter scan times. 
+
+Review the whitepaper titled [Advanced intelligent Clear-IQ Engine (AiCE) Interpretable Model with Robust and Generalized Performance: Beyond Brain and Knee](https://hdocmsu.github.io/assets/pdf/whitepapers/AiCE_DLR_extension_wp.pdf) for details.
+
+Take the AiCE **challenges #3 and #4** to see illustrations of this capability.
 
 * [MRI-DLR Challenge #3](https://us.medical.canon/promo/magnetic-resonance/aice/3/)
 * [MRI-DLR Challenge #4](https://us.medical.canon/promo/magnetic-resonance/aice/4/)
+  
 <figure>
   <img src="/assets/proj/canon_1_dlr/pic3.png" alt="MRI-DLR Faster Scan time" style="max-width: 100%; height: auto;">
   <figcaption style="font-size: 0.85em; font-style: italic; text-align: right;">Source: <a href="https://us.medical.canon/products/magnetic-resonance/aice/">Canon Medical Systems USA</a></figcaption>
