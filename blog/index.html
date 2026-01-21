@@ -42,7 +42,7 @@ pagination:
     
     <h1 style="font-size: 1.75rem;">
       <a href="https://{{ site.substack_username }}.substack.com/about" target="_blank" class="logo-link" style="text-decoration: none; color: inherit;">
-        <img src="{{ site.icon }}" alt="favicon" style="width: 8.5rem; height: 8.5rem; vertical-align: middle; margin-bottom: 0.5rem; transition: transform 0.3s ease, opacity 0.3s ease;"
+        <img src="{{ site.icon }}" alt="favicon" style="width: 8.5rem; height: 8.5rem; vertical-align: middle; margin-bottom: 1.0rem; transition: transform 0.3s ease, opacity 0.3s ease;"
             onmouseover="this.style.transform='scale(1.1) rotate(70deg)'; this.style.opacity='0.8';" 
             onmouseout="this.style.transform='scale(1) rotate(0deg)'; this.style.opacity='1';">
       </a><br/>
@@ -58,7 +58,7 @@ pagination:
     <br/>
 
     <!-- Years List -->
-    <div style="margin-bottom: 0rem; padding: 0.25rem; background-color: var(--global-bg-color); border-radius: 5px;">
+    <div style="font-size: 1.0rem; padding: 0.0rem; background-color: var(--global-bg-color); border-radius: 5px;">
       <strong>Years:</strong>
       {% assign all_years = "" | split: "" %}
       {% for post in site.posts %}
@@ -76,7 +76,7 @@ pagination:
     </div>
 
     <!-- Categories List -->
-    <div style="margin-bottom: 0rem; padding: 0.25rem; background-color: var(--global-bg-color); border-radius: 5px;">
+    <div style="font-size: 1.0rem; margin-bottom: 0rem; padding: 0.0rem; background-color: var(--global-bg-color); border-radius: 5px;">
       <strong>Categories:</strong>
       {% assign all_categories = site.posts | map: 'categories' | join: ',' | split: ',' | uniq | sort %}
       {% for category in all_categories %}
@@ -89,7 +89,7 @@ pagination:
     </div>
 
     <!-- Tags List -->
-    <div style="margin-bottom: 0rem; padding: 0.25rem; background-color: var(--global-bg-color); border-radius: 5px;">
+    <div style="font-size: 1.0rem; margin-bottom: 0rem; padding: 0.0rem; background-color: var(--global-bg-color); border-radius: 5px;">
       <strong>Tags:</strong>
       {% assign all_tags = site.posts | map: 'tags' | join: ',' | split: ',' | uniq | sort %}
       {% for tag in all_tags %}
