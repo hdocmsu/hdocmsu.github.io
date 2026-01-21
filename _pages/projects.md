@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: Selected projects I have worked on. See the Publications section for a complete list.
+description: Selected projects. See Publications for the complete list.
 nav: true
 display_categories: [Canon, USC, ICTP, Misc]
 horizontal: true

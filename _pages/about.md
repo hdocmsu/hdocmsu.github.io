@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 description: Senior MRI Physicist, <a href="https://us.medical.canon/">Canon Medical Systems USA</a>
 permalink: /
 importance: 1
