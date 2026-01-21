@@ -39,7 +39,7 @@ h6 {text-align: center;}
 </style>
 <br/>
 <div style="text-align: center; margin: 1rem 0; padding: 1.0rem; background-color: var(--global-card-bg-color); border-radius: 9px;">
-  <h6 style="margin-bottom: 1.0rem; color: var(--global-text-color);"><strong>Quick Navigation</strong></h6>
+  <h5 style="margin-bottom: 0.5rem; color: var(--global-text-color);"><strong>Quick Navigation</strong></h5>
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem;">
     <a href="#journal-papers" style="text-decoration: none;"><i class="fas fa-file-alt"></i> Journal Papers</a>
     <a href="#patent-application" style="text-decoration: none;"><i class="fas fa-lightbulb"></i> Patent Application</a>
