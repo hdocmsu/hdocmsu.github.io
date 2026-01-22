@@ -21,6 +21,10 @@ Similar to my work on [MRI-DLR](https://hdocmsu.github.io/projects/canon_1_dlr/)
 </ul>
 
 <figure>
+  <img src="/assets/proj/canon_2_cs/canon_2_cs.png" alt="MRI Compressed Sensing Reconstruction" style="max-width: 100%; height: auto;">
+</figure>
+
+<figure>
   <img src="/assets/proj/canon_2_cs/pic1.png" alt="MRI Compressed Sensing Reconstruction" style="max-width: 100%; height: auto;">
 </figure>
 
