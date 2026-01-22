@@ -12,6 +12,8 @@ substack: true
 > This project aims to develop a deep convolutional neural network (CNN) for automatic segmentation of the myocardium in cardiac arterial spin-labeled MRI (Cardiac ASL) images. 
 > 
 > The proposed method not only provides accurate segmentation but also quantifies uncertainty in the segmentation results and allows control over false-positive and false-negative rates to better align with clinical priorities.
+>
+> Importantly, the accuracy of clinical measurements derived from the segmentation should be the ultimate metric of success, rather than traditional segmentation metrics alone. 
 
 
 <figure>
@@ -19,11 +21,13 @@ substack: true
 </figure>
 
 
-Cardiac arterial spin-labeled MRI (Cardiac ASL) is a radiation-free, noninvasive, quantitative imaging technique that measures myocardial blood flow without the use of exogenous contrast agents. However, Cardiac ASL suffers from intrinsically low signal-to-noise ratio (SNR), which limits reliable pixel-wise analysis. As a result, perfusion quantification is typically performed using segmental analysis based on the American Heart Association (AHA) 17-segment model of the myocardium. This approach requires manual segmentation of the myocardium, which is tedious, time-consuming, and operator dependent.
+Cardiac arterial spin-labeled MRI (Cardiac ASL) is a **radiation-free, noninvasive, quantitative** imaging technique that measures myocardial blood flow **without the use of exogenous contrast agents**. However, Cardiac ASL suffers from intrinsically low signal-to-noise ratio (SNR), which limits reliable pixel-wise analysis. As a result, perfusion quantification is typically performed using segmental analysis based on the American Heart Association (AHA) 17-segment model of the myocardium. This approach requires manual segmentation of the myocardium, which is tedious, time-consuming, and operator dependent.
 
-The goal of this project is to develop an automatic myocardial segmentation method using a deep convolutional neural network (CNN). Given the safety-critical nature of medical imaging applications, we aim to address not only segmentation accuracy but also estimation of segmentation uncertainty, enabling users to identify cases that may require manual review or intervention.
+The goal of this project is to develop an **automatic** myocardial segmentation method using a deep convolutional neural network (CNN). Given the **safety-critical nature** of medical imaging applications, we aim to address not only segmentation accuracy but also estimation of segmentation uncertainty, enabling users to **automatically identify** cases that may require manual review or intervention.
 
-Furthermore, the myocardium is anatomically adjacent to the endocardial blood pool and epicardial fat, both of which can contaminate myocardial perfusion measurements. In this context, false-positive segmentation errors are more detrimental than false negatives. Commonly used loss functions such as the Dice loss weight false positives and false negatives equally and therefore do not reflect this clinical asymmetry. To address this, we adopt the Tversky loss function, which allows explicit control over the relative weighting of false positives and false negatives to better align the optimization objective with clinical priorities.
+Furthermore, the myocardium is anatomically adjacent to the endocardial blood pool and epicardial fat, both of which can contaminate myocardial perfusion measurements. In the cardiac MRI application, false-positive (thicker mask, i.e., identified as myocardium but actually not) segmentation errors are **more detrimental** than false negatives (thinner mask, i.e., identified as not myocardium but actually is). 
+
+For automatic segmentation task, commonly used loss functions such as the Dice loss weight false positives and false negatives equally and therefore do not reflect this **anatomical asymmetry**. To address this, we adopt the **Tversky loss function**, which allows **explicit control** over the relative weighting of false positives and false negatives to **better align the optimization objective with clinical priorities**.
 
 
 ### Conference talk

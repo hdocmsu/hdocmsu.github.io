@@ -13,7 +13,7 @@ substack: true
 
 
 <figure>
-  <img src="/assets/proj/usc_dnoisenet/usc_dnoisenet.png" alt="Accuracy, Uncertainty, and Adaptability" style="max-width: 100%; height: auto;">
+  <img src="/assets/proj/usc_dnoisenet/usc_dnoisenet.png" alt="dnoiseNET" style="max-width: 100%; height: auto;">
 </figure>
 
 
