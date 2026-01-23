@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Compressed Sensing MRI
-description: Translating compressed sensing theory into clinical environment.
+description: Translating compressed sensing theory into clinical environments to accelerate MRI scans.
 img: assets/proj/canon_2_cs/canon_2_cs.png
 importance: 99
 category: Canon
