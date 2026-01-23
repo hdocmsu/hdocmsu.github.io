@@ -1,7 +1,7 @@
 ---
 layout: project
 title: MRI Deep Learning Reconstruction
-description: Achieving image quality previously thought impossible due to constraints dictated by physics.
+description: Achieving image quality previously thought impossible due to constraints dictated by MRI physics.
 img: assets/proj/canon_1_dlr/canon_1_dlr.png
 importance: 1
 category: Canon
