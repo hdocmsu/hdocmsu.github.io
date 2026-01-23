@@ -1,7 +1,7 @@
 ---
 layout: project
-title: R Markdown Report, Slides, and Shiny App
-description: Report, slides, and Shiny app, generated using R and R Markdown
+title: Report, Slides, and Shiny App
+description: Generated using R and R Markdown
 img: assets/proj/misc_rmd/misc_rmd.png
 importance: 1
 redirect:
