@@ -66,7 +66,6 @@ Together, this approach enables a comprehensive, MRI-only MSK examination in und
 <li><strong>HP Do</strong>, et al. "Eleven-minute Comprehensive MSK Imaging Using Deep Learning Reconstruction (DLR) and Multi-echo Ultrashort Echo-Time (UTE)." The Radiological Society of North America (RSNA) Scientific Session, Chicago, Nov 2022. <a href="/assets/pdf/slides/HungDo_rsna22_talk_rev4.0_web.pdf" target="_blank">SLIDES-PDF</a></li>
 </ul>
 
-<br/>
 
 ### High-level overview
 <center>

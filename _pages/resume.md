@@ -68,7 +68,7 @@ h6 {text-align: center;}
 <br/>
 
 <div style="text-align: center; margin: 1rem 0; padding: 1.0rem; background-color: var(--global-card-bg-color); border-radius: 9px;">
-  <h5 style="margin-bottom: 0.5rem; color: var(--global-text-color);"><strong>Quick Navigation</strong></h5>
+  <h5 style="margin-top: 0.0rem; margin-bottom: 0.25rem; color: var(--global-text-color);"><strong>Quick Navigation</strong></h5>
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem;">
     <a href="#expertise-and-skills" style="text-decoration: none;"><i class="fas fa-brain"></i> Expertise and Skills</a>
     <a href="#experience" style="text-decoration: none;"><i class="fas fa-briefcase"></i> Work Experience</a>
@@ -222,7 +222,7 @@ h6 {text-align: center;}
 
 ### **Selected Publications**
 
-Full list of publications can be seen at [Publications](https://hdocmsu.github.io/publications/)
+See [Publications](https://hdocmsu.github.io/publications/) for the complete list.
 
 ##### **Selected Peer-reviewed Journal Papers**
 
@@ -253,7 +253,7 @@ Full list of publications can be seen at [Publications](https://hdocmsu.github.i
 
 ### **Selected Talks**
 
-Full list of talks can be seen at [Talks](https://hdocmsu.github.io/talks/)
+See [Talks](https://hdocmsu.github.io/talks/) for the complete list.
 
 <div class="card_for_cv">
 <ul>
@@ -271,7 +271,7 @@ Full list of talks can be seen at [Talks](https://hdocmsu.github.io/talks/)
 
 <div class="card_for_cv">
 <ul>
-<li><strong>2017 - present</strong>: Distill MRI technical concepts into forms of case studies, white papers, and training lectures making them accessible to the sales and applications team at <a href="https://us.medical.canon/" target="_blank">Canon Medical System USA</a>, Tustin, California</li>
+<li><strong>2017 - present</strong>: Distill lastest MRI innovations into forms of case studies, white papers, and training lectures making them accessible to the sales and applications teams at <a href="https://us.medical.canon/" target="_blank">Canon Medical System USA</a>, Tustin, California</li>
 <li><strong>2015 - 2017</strong>: MRI sequence design and MRI safety supervisor at the <a href="https://mrel.usc.edu/" target="_blank">Magnetic Resonance Engineering Lab</a> in the <a href="https://www.usc.edu/" target="_blank">University of Southern California (USC)</a>, Los Angeles, California</li>
 <li><strong>2010 - 2017</strong>: Physics Graduate Teaching Assistant at the <a href="https://dornsife.usc.edu/physics/" target="_blank">Department of Physics and Astronomy</a>, the <a href="https://www.usc.edu/" target="_blank">University of Southern California (USC)</a>, Los Angeles, California</li>
 <li><strong>2006 - 2007</strong>: Practical Teacher Training at Truc Ninh High School in Spring 2006 &amp; 2007 as part of the Physics Teacher Training Curriculum at the <a href="https://hnue.edu.vn/" target="_blank">Hanoi National University of Education</a>, Hanoi, Vietnam</li>
@@ -309,8 +309,17 @@ Full list of talks can be seen at [Talks](https://hdocmsu.github.io/talks/)
 <ul>
 <li>Jogging, Hiking, Nature Walk</li>
 <li>Programming, Science, Technology</li>
-<li><strong>Update:</strong> I’m starting a personal blog where I share <em>“cool stuff”</em>, ideas and insights at the intersection of MRI physics, mathematics, and innovation. With over 8 years of experience training sales teams on MRI physics and the latest MRI technologies, my goal is to make technical concepts that were once inaccessible feel clear, engaging, and enjoyable. If this sounds interesting to you, the best way to stay informed about future posts is to subscribe to the newsletter below and receive new posts directly in your inbox.</li>
+</ul>
+</div>
+<br />
+### **Update**
 
+<div class="card_for_cv">
+<ul>
+<li>I’m starting a personal blog where I share <em>“cool stuff”</em>, ideas and insights at the intersection of MRI physics, mathematics, and innovation. With over 8 years of experience training sales teams on MRI physics and the latest MRI technologies, my goal is to make technical concepts that were once inaccessible feel clear, engaging, and enjoyable. 
+</li>
+<li>
+If this sounds interesting to you, the best way to stay informed about future posts is to subscribe to the newsletter below and receive new posts directly in your inbox.</li>
 </ul>
 </div>
 
