@@ -40,11 +40,11 @@ I developed the company’s first end-to-end pipeline for executing and analyzin
 
 ### Impact of MRI-DLR
 
-Since its inception more than 50 years ago, MRI has been governed by a fundamental trade-off, described as the **MRI triangle trade-off**, among field strength, signal-to-noise ratio (SNR), spatial resolution, and scan time. This trade-off is dictated by MRI physics: improving one parameter necessarily comes at the expense of one or both of the others.
+Since its inception more than 50 years ago, MRI has been governed by a fundamental trade-off, described as the **MRI trade-off triangle**, among field strength, signal-to-noise ratio (SNR), spatial resolution, and scan time. This trade-off is dictated by MRI physics: improving one parameter necessarily comes at the expense of one or both of the others.
 
 <figure>
   <img src="/assets/proj/canon_1_dlr/MRTetrahedron3D.png" alt="MRI-DLR 1.5T vs. 3T" style="max-width: 100%; height: auto;">
-  <figcaption style="font-size: 0.85em; font-style: italic; text-align: right;">The MRI triangle trade-off</figcaption>
+  <figcaption style="font-size: 0.85em; font-style: italic; text-align: right;">The MRI trade-off triangle</figcaption>
 </figure>
 
 <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 2rem 0;">
@@ -60,7 +60,7 @@ Since its inception more than 50 years ago, MRI has been governed by a fundament
 For example, achieving higher SNR typically requires longer scan times or reduced spatial resolution, both of which are undesirable in clinical practice. Alternatively, higher field-strength scanners may be used to boost SNR, but these systems are more expensive and introduce additional challenges related to field inhomogeneity.
 
 
-Deep learning-based MRI reconstruction (MRI-DLR) has been shown to mitigate this long-standing triangle trade-off by enabling, to some extent, the acquisition of image quality **previously unattainable** due to constraints imposed by MRI physics.
+Deep learning-based MRI reconstruction (MRI-DLR) has been shown to mitigate this long-standing trade-off triangle by enabling, to some extent, the acquisition of image quality **previously unattainable** due to constraints imposed by MRI physics.
 
 #### High-field MRI image quality on lower field-strength systems
 
