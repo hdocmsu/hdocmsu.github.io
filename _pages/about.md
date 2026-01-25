@@ -6,7 +6,7 @@ permalink: /
 importance: 1
 profile:
     align: right
-    image: HungDO_gen.jpg
+    image: HungDO_small.jpg
     more_info:
 
 news: false # includes a list of news items
