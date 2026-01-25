@@ -40,7 +40,7 @@ In my spare time, I enjoy walking, jogging, running, and learning the latest adv
 <br />
 #### **Update**
 
-I’m starting a personal blog where I share *“cool stuff”*, ideas and insights at the intersection of MRI physics, mathematics, and innovation. With over 8 years of experience training sales teams on MRI physics and the latest MRI technologies, my goal is to make technical concepts that were once inaccessible feel clear, engaging, and enjoyable.
+I’m starting a [personal blog](https://hdocmsu.github.io/blog/) where I share *“cool stuff”*, ideas and insights at the intersection of MRI physics, mathematics, and innovation. With over 8 years of experience training sales teams on MRI physics and the latest MRI technologies, my goal is to make technical concepts that were once inaccessible feel clear, engaging, and enjoyable.
 
-If this sounds interesting to you, the best way to stay informed about future posts is to subscribe to the newsletter below and receive new posts directly in your inbox.
+If this sounds interesting to you, the best way to stay informed about future posts is to subscribe to the [newsletter](https://hdomriphysics.substack.com/about) below and receive new posts directly in your inbox.
 
