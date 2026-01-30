@@ -9,12 +9,12 @@ social: true
 substack: true
 ---
 
-> This project proposes a deep convolutional neural network (CNN) for MRI denoising that integrates residual learning and skip connections to achieve improved noise suppression without compromising clinically-relevant quantitative MRI metrics.
+> This project proposes a deep convolutional neural network (CNN) for MRI denoising that integrates residual learning and skip connections to achieve improved noise suppression without compromising clinically-relevant quantitative metrics.
 
 
 ### Overview
 
-In MRI, there exists an inherent trade-off between field strength, signal-to-noise ratio (SNR), spatial resolution, and scan time. Achieving higher SNR often requires longer scan times or reduced spatial resolution, both of which are undesirable in clinical practice. Traditional denoising methods can help improve SNR but may inadvertently alter important quantitative metrics used for diagnosis. This project introduces **dnoiseNET**, a deep convolutional neural network (CNN) designed to effectively denoise MRI images while preserving critical quantitative information.
+In MRI, there exists an inherent trade-off between field strength, signal-to-noise ratio (SNR), spatial resolution, and scan time. Achieving higher resolution often requires longer scan times and/or reduced SNR, both of which are undesirable in clinical practice. Traditional denoising methods can help improve SNR but may inadvertently alter important quantitative metrics used for diagnosis. This project introduces **dnoiseNET**, a deep convolutional neural network (CNN) designed to effectively denoise MRI images while preserving critical quantitative information.
 
 <figure>
   <img src="/assets/proj/canon_1_dlr/MRTetrahedron3D.png" alt="MRI-DLR 1.5T vs. 3T" style="max-width: 100%; height: auto;">
