@@ -10,8 +10,6 @@ substack: true
 ---
 
 > Deep learning has transformed MRI image reconstruction by alleviating the inherent trade-off among field strength, signal-to-noise ratio (SNR), spatial resolution, and scan time. It is now possible to achieve higher SNR and spatial resolution without increasing scan time, and in some cases, with even shorter scan times. This advancement has reshaped our understanding of the MRI physics and has significant implications for clinical practice.
-> 
->> I led the clinical validation of the world’s first FDA-cleared deep learning-based MRI reconstruction technology introduced by a major medical imaging vendor.
 
 I developed the company’s first end-to-end pipeline for executing and analyzing a randomized, blinded human-observer (radiologist) study to clinically validate an MRI deep learning-based denoising reconstruction (MRI-DLR, commercially known as [Advanced intelligent Clear-IQ Engine (AiCE)](https://us.medical.canon/products/magnetic-resonance/aice/)) in 2019. This pipeline has since been used within Canon Medical Systems for the clinical validation of new technologies. In addition, I contributed to the technical review, bench testing, and broader validation of the technology. My contribution supported Canon in securing FDA 510(k) clearance on March 9, 2020, resulting in the world’s first fully integrated deep learning-based MRI reconstruction technology introduced by a major medical imaging vendor (Canon, Fujifilm, GE, Philips, Siemens, United Imaging). 
 
@@ -47,21 +45,11 @@ Deep learning-based MRI reconstruction (MRI-DLR) has been shown to mitigate this
 
 Review the whitepaper titled [Advanced intelligent Clear-IQ Engine (AiCE) Deep Learning Reconstruction (DLR): Translating the Power of Deep Learning to MR Image Reconstruction](https://hdocmsu.github.io/assets/pdf/whitepapers/AiCE_DLR_introducing.pdf) for details.
 
-Take the AiCE **challenges #1 and #2** to see illustrations of this capability.
-
-* [MRI-DLR Challenge #1](https://us.medical.canon/promo/magnetic-resonance/aice/1/)
-* [MRI-DLR Challenge #2](https://us.medical.canon/promo/magnetic-resonance/aice/2/)
-
 #### Higher SNR and spatial resolution with same or faster scan time
 
 **Another example** is the ability to achieve higher SNR and spatial resolution without increasing scan time, and in some cases, with even shorter scan times. 
 
 Review the whitepaper titled [Advanced intelligent Clear-IQ Engine (AiCE) Interpretable Model with Robust and Generalized Performance: Beyond Brain and Knee](https://hdocmsu.github.io/assets/pdf/whitepapers/AiCE_DLR_extension_wp.pdf) for details.
-
-Take the AiCE **challenges #3 and #4** to see illustrations of this capability.
-
-* [MRI-DLR Challenge #3](https://us.medical.canon/promo/magnetic-resonance/aice/3/)
-* [MRI-DLR Challenge #4](https://us.medical.canon/promo/magnetic-resonance/aice/4/)
 
 ### Whitepapers
 <ul>
