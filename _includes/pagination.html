@@ -1,4 +1,5 @@
-{% if paginator.total_pages > 1 %}
+<!-- {% if paginator.total_pages > 1 %}
+<div class="card_for_cv" style="padding: 0.75rem; margin-top: 0rem; margin-bottom: 0rem; text-align: center;"> 
 <nav aria-label="Blog page naviation">
   <ul class="pagination pagination-lg justify-content-center">
     <li class="page-item {% unless paginator.previous_page %}disabled{% endunless %}">
@@ -14,4 +15,25 @@
     </li>
   </ul>
 </nav>
+</div>
+{% endif %} -->
+
+{% if paginator.total_pages > 1 %}
+<div class="card_for_cv" style="padding: 1.0rem; margin-top: 0.0rem; margin-bottom: 0rem; text-align: center;"> 
+<nav aria-label="Blog page naviation" style="margin-bottom: 0;">
+  <ul class="pagination pagination-lg justify-content-center" style="margin-bottom: 0;">
+    <li class="page-item {% unless paginator.previous_page %}disabled{% endunless %}">
+      <a class="page-link" href="{{ paginator.previous_page_path | relative_url }}" tabindex="-1" aria-disabled="{{ paginator.previous_page }}">Newer</a>
+    </li>
+    {% if paginator.page_trail %}
+      {% for trail in paginator.page_trail %}
+        <li class="page-item {% if page.url == trail.path %}active{% endif %}"><a class="page-link" href="{{ trail.path | relative_url }}" title="{{trail.title}}">{{ trail.num }}</a></li>
+      {% endfor %}
+    {% endif %}
+    <li class="page-item {% unless paginator.next_page %}disabled{% endunless %}">
+      <a class="page-link" href="{{ paginator.next_page_path | relative_url }}">Older</a>
+    </li>
+  </ul>
+</nav>
+</div>
 {% endif %}

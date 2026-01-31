@@ -1,7 +1,7 @@
 ---
 layout: post
-title: TEST 1 -- GPT-4o is better than radiologists at selecting CT protocols 
-date: 2026-01-08 10:10:10
+title: TEST 2 -- GPT-4o is better than radiologists at selecting CT protocols 
+date: 2026-01-09 10:10:10
 description:
 tags: ai ct # lowercase only
 categories: news # lowercase only

@@ -49,14 +49,17 @@ layout: default
       {{ content }}
     </div>
   </article>
-
+<br />
   <!-- Substack Subscribe -->
   <center> 
     {% include substack.html %}
   </center>
-
-  <center> 
-    {% include social.html %}
+    <center> 
+    <div class="social">
+      <div class="contact-icons">
+        {% include social.html %}
+      </div>
+    </div>
   </center>
 
   {% if site.disqus_shortname and page.comments %}
