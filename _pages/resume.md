@@ -319,7 +319,7 @@ See [Talks](https://hdocmsu.github.io/talks/) for the complete list.
 <li>I’m starting a <a href="https://hdocmsu.github.io/blog/" target="_blank">personal blog</a> where I share *“cool stuff”*, ideas and insights at the intersection of MRI physics, mathematics, and innovation. With over 15 years of experience on MRI physics and the latest MRI technologies, my goal is to make MRI physics that were once inaccessible feel clear, engaging, and enjoyable.
 </li>
 <li>
-I prioritize quality over quantity, so posts and videos are published at irregular intervals. The best way to stay informed about future posts is to subscribe to the <a href="https://hdomriphysics.substack.com/about" target="_blank">free newsletter</a> below and receive new posts directly in your inbox.</li>
+I prioritize <strong>quality over quantity</strong>, so posts and videos are published at irregular intervals. The best way to stay informed about future posts is to subscribe to the <a href="https://hdomriphysics.substack.com/about" target="_blank">free newsletter</a> below and receive new posts directly in your inbox.</li>
 </ul>
 </div>
 
