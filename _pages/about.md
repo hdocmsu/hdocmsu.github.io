@@ -23,7 +23,7 @@ I enjoy learning new knowledge, generating new ideas, experimenting with new too
 
 ## **Update:**
 
-I’m starting a [personal blog](https://hdocmsu.github.io/blog/) where I share *“cool stuff”*, ideas and insights at the intersection of MRI physics, mathematics, and innovation. With over 15 years of experience on MRI physics and the latest MRI technologies, my goal is to make MRI physics that were once inaccessible feel clear, engaging, and enjoyable.
+I’m starting a [personal blog](https://hdocmsu.github.io/blog/) where I share *“cool stuff”*, ideas and insights at the intersection of MRI physics, mathematics, and innovation. With over 15 years of experience in MRI physics and the latest MRI technologies, my goal is to make MRI physics that were once inaccessible feel clear, engaging, and enjoyable.
 
 I prioritize **quality over quantity**, so posts and videos are published at irregular intervals. The best way to stay informed about future posts is to subscribe to the [free newsletter](https://hdomriphysics.substack.com/about) below and receive new posts directly in your inbox.
 
