@@ -21,10 +21,10 @@ Since its inception more than 50 years ago, MRI has been governed by a fundament
 
 <figure>
   <img src="/assets/proj/canon_1_dlr/MRTetrahedron3D.png" alt="MRI-DLR 1.5T vs. 3T" style="max-width: 100%; height: auto;">
-  <figcaption style="font-size: 0.85em; font-style: italic; text-align: right;">The 3D MRI trade-off tetrahedron</figcaption>
+  <figcaption style="font-size: 0.85em; font-style: italic; text-align: center;">The 3D MRI trade-off tetrahedron</figcaption>
 </figure>
 
-<div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 2rem 0;">
+<div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 2rem 0 0;">
   <iframe 
     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
     src="https://www.youtube.com/embed/1Tf27CyMENE" 
@@ -33,6 +33,8 @@ Since its inception more than 50 years ago, MRI has been governed by a fundament
     allowfullscreen>
   </iframe>
 </div>
+<div style="font-size: 0.85em; font-style: italic; text-align: center; margin-bottom: 2rem;">The 3D MRI trade-off tetrahedron (see <a href="https://www.youtube.com/watch?v=1Tf27CyMENE" target="_blank">YouTube</a> if the video does not load)</div>
+
 
 For example, achieving higher resolution typically requires longer scan times or reduced SNR, both of which are undesirable in clinical practice. Alternatively, higher field-strength scanners may be used to boost SNR, but these systems are more expensive and introduce additional challenges related to field inhomogeneity.
 
@@ -41,7 +43,7 @@ Deep learning-based MRI reconstruction (MRI-DLR) has been shown to alleviate thi
 
 #### High-field MRI image quality on lower field-strength systems
 
-**One example** is the ability to achieve image quality comparable to that of high-field (e.g., 3 T) MRI using lower field-strength systems (e.g., 1.5 T).
+**One example** is that lower field-strength systems (e.g., 1.5 T) with DLR can, in certain cases, achieve image quality comparable to high-field (e.g., 3 T) MRI without DLR.
 
 Review the whitepaper titled [Advanced intelligent Clear-IQ Engine (AiCE) Deep Learning Reconstruction (DLR): Translating the Power of Deep Learning to MR Image Reconstruction](https://hdocmsu.github.io/assets/pdf/whitepapers/AiCE_DLR_introducing.pdf) for details.
 

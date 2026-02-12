@@ -1,8 +1,8 @@
 ---
 layout: post
-title: TEST 1 -- GPT-4o is better than radiologists at selecting CT protocols 
+title: "<span style='color: #ff7300;'>Test Post:</span> <span style='color: #ce00c3;'>GPT-4o is better than radiologists at selecting CT protocols</span>"
 date: 2026-01-08 10:10:10
-description:
+description: An application of LLM in radiology.
 tags: ai ct # lowercase only
 categories: news # lowercase only
 img: /assets/blog/2026-01-08/gpt4o_ct.png

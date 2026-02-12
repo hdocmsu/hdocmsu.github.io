@@ -7,7 +7,7 @@ pagination:
   enabled: true
   collection: posts
   permalink: /page/:num/
-  per_page: 1
+  per_page: 1000
   sort_field: date
   sort_reverse: true
   trail:
@@ -114,18 +114,17 @@ pagination:
 
     <li style="display: flex; flex-wrap: wrap; align-items: center; margin-bottom: 0rem;">
   <div style="flex: 1; min-width: 250px;">
-    <h4><a class="post-title" href="{% if post.redirect %}{{ post.redirect }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{{ post.title }}</a>
-    </h4>
-    
+    <h3><a class="post-title" href="{% if post.redirect %}{{ post.redirect }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{{ post.title }}</a>
+    </h3>
+    <p style="color:#98C8C8; font-style: italic;">{{ post.description }}</p>
     {% if post.img %}
     <div class="post-thumbnail" style="margin-bottom: 1rem;">
       <a href="{% if post.redirect %}{{ post.redirect }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">
-        <img src="{{ post.img }}" alt="{{ post.title }}" style="width: 75%; height: auto;">
+        <img src="{{ post.img }}" alt="{{ post.title }}" style="width: 100%; height: auto;">
       </a>
     </div>
     {% endif %}
     
-    <p>{{ post.description }}</p>
     <p class="post-meta"> {{read_time}} min read &nbsp; &middot; &nbsp;
       {{ post.date | date: '%B %-d, %Y' }}
     </p>

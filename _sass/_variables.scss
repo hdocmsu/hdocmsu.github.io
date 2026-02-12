@@ -7,7 +7,8 @@
 // Colors
 $red-color:           #FF3636 !default;
 $red-color-dark:      #B71C1C !default;
-$orange-color:        #F29105 !default;
+$orange-color:        #ff7300 !default; // bold text color
+$teal-color:          #98C8C8 !default; // post description color
 $blue-color:          #0076df !default;
 $blue-color-dark:     #00369f !default;
 $blue-dark-backup:    #00369f !default;
@@ -18,7 +19,7 @@ $green-color-lime:    #B7D12A !default;
 $green-color-dark:    #009f06 !default;
 $green-color-light:   #ddffdd !default;
 $green-color-bright:  #11D68B !default;
-$purple-color:        #ce00c3 !default; //https://colorpalettes.net/color-palette-4791/
+$purple-color:        #ce00c3 !default; // link color, post title color
 $purple-color-backup: #B509AC !default;
 $purple-substack:     #9333EA !default;
 $light-purple-color:  lighten($purple-color, 25%);
