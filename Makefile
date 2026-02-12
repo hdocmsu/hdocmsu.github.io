@@ -17,7 +17,7 @@ serve_docs_drafts:
 	bundle exec jekyll build --drafts
 	bundle exec jekyll serve --drafts --livereload --open-url http://localhost:4000/ 2> /dev/null
 
-preview_drafts:
+drafts_preview:
 	make serve_docs_drafts
 
 deploy:
