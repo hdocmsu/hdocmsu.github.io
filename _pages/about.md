@@ -15,7 +15,7 @@ social: true # includes social icons at the bottom of the page
 substack: true
 ---
 
-I’m an MRI physicist at [Canon Medical USA](https://us.medical.canon/), where I work to translate innovative imaging solutions, including [deep learning reconstruction (DLR)](https://hdocmsu.github.io/projects/canon_1_dlr/), ultra-short echo time (UTE) imaging, compressed sensing (CS), into the clinical practice through hypothesis-driven research, clinical validation studies, and direct involvement in FDA 510(k) submissions. Proven record of leading and contributing to interdisciplinary collaborations across clinical, technical, and regulatory teams.
+I’m an MRI physicist at [Canon Medical USA](https://us.medical.canon/), where I work to translate innovative imaging solutions, including [deep learning reconstruction (DLR)](https://hdocmsu.github.io/projects/canon_1_dlr/), ultra-short echo time (UTE) imaging, compressed sensing (CS), into the clinical practice through hypothesis-driven research, clinical validation studies, and direct involvement in FDA 510(k) submissions. Proven record of leading and contributing to interdisciplinary collaborations across clinical, technical, commercial, legal, and regulatory teams.
 
 I enjoy learning new concepts, generating ideas, experimenting with tools, and solving impactful problems in principled ways.
 
