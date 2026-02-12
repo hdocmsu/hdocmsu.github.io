@@ -47,17 +47,21 @@ pagination:
             onmouseover="this.style.transform='scale(1.1) rotate(70deg)'; this.style.opacity='0.8';" 
             onmouseout="this.style.transform='scale(1) rotate(0deg)'; this.style.opacity='1';">
       </a><br/>
-      <a href="https://{{ site.substack_username }}.substack.com/about" target="_blank" class="title-link" style="text-decoration: none; color: inherit;">
+      <a href="https://{{ site.substack_username }}.substack.com/about" target="_blank" class="title-link" style="text-decoration: none; color: var(--global-post-title-color);">
         {{ site.blog_name }}
       </a>
     </h1>
     <h2 style="margin-top: -0.25rem; margin-bottom: 0.5rem; font-size: 1.0rem;">
-      <a href="https://{{ site.substack_username }}.substack.com/about" target="_blank" class="subtitle-link" style="font-size: 1.0rem; color: #98C8C8; font-weight: 450;">
+      <a href="https://{{ site.substack_username }}.substack.com/about" target="_blank" class="subtitle-link" style="font-size: 1.0rem; color: var(--global-post-description-color); font-weight: 450;">
         {{ site.blog_description }}
       </a>
     </h2>
     <br/>
-
+    <div> 
+      <center> 
+        {% include substack_top.html %}
+      </center>
+    </div>
     <!-- Years List -->
     <div style="font-size: 1.0rem; padding: 0.0rem; background-color: var(--global-bg-color); border-radius: 5px;">
       <strong>Years:</strong>
@@ -116,7 +120,7 @@ pagination:
   <div style="flex: 1; min-width: 250px;">
     <h3><a class="post-title" href="{% if post.redirect %}{{ post.redirect }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{{ post.title }}</a>
     </h3>
-    <p style="color:#98C8C8; font-style: italic;">{{ post.description }}</p>
+    <p style="color: var(--global-post-description-color); font-style: italic;">{{ post.description }}</p>
     {% if post.img %}
     <div class="post-thumbnail" style="margin-bottom: 1rem;">
       <a href="{% if post.redirect %}{{ post.redirect }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">

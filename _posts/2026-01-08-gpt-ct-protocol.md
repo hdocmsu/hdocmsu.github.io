@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<span style='color: #ff7300;'>Test Post:</span> <span style='color: #ce00c3;'>GPT-4o is better than radiologists at selecting CT protocols</span>"
+title: "<span style='color: var(--global-post-pre-title-color);'>Test Post:</span> <span style='color: var(--global-post-title-color);'>GPT-4o is better than radiologists at selecting CT protocols</span>"
 date: 2026-01-08 10:10:10
 description: An application of LLM in radiology.
 tags: ai ct # lowercase only

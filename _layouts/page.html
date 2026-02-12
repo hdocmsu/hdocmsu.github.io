@@ -5,7 +5,7 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-description" style="font-size: 1.0rem; color: #98C8C8;">{{ page.description }}</p>
+    <p class="post-description" style="font-size: 1.0rem; color: var(--global-post-description-color);">{{ page.description }}</p>
   </header>
 
   <article>
@@ -25,7 +25,7 @@ layout: default
       <div class="contact-icons">
         {% include social.html %}
       </div>
-      <div class="contact-note">{{ site.contact_note }}</div>
+      <div class="contact-note;" style="color: var(--global-post-description-color);">{{ site.contact_note }}</div>
     </div>
   {% endif %}
     
