@@ -324,6 +324,5 @@ I prioritize <strong>quality over quantity</strong>, so posts and videos are pub
 </div>
 
 <br />
-<br />
 <!-- </div> -->
 
