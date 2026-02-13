@@ -44,6 +44,7 @@ layout: default
   <article class="post-content">
     {% if page.toc and page.toc.beginning %}
     <div id="table-of-contents">
+      <h5>Table of Contents</h5>
       {% toc %}
     </div>
     <hr>
@@ -51,7 +52,14 @@ layout: default
     <div id="markdown-content">
       {{ content }}
     </div>
+    {% if page.citation %}
+      {% include citation.html %}
+    {% endif %}
+
   </article>
+
+
+
 <!-- <br /> -->
   <!-- Substack Subscribe -->
   <center> 
@@ -65,19 +73,8 @@ layout: default
     </div>
   </center>
 
-  {% if site.disqus_shortname and page.comments %}
-    <div id="disqus_thread"></div>
-    <script type="text/javascript">
-      var disqus_shortname  = '{{ site.disqus_shortname }}';
-      var disqus_identifier = '{{ page.id }}';
-      var disqus_title      = {{ page.title | jsonify }};
-      (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-      })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  {% endif %}
-
 </div>
+
+{% if site.disqus_shortname and page.disqus_comments %}
+  {% include disqus.html %}
+{% endif %}

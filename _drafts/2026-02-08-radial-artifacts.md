@@ -7,6 +7,9 @@ tags: mri math physics # lowercase only
 categories: challenges # lowercase only
 img: /assets/blog/2026-02-08/radial_artifacts.png
 redirect: #https://hdocmsu.github.io/projects/canon_1_dlr/
+toc: 
+  beginning: true
+citation: true
 ---
 
 

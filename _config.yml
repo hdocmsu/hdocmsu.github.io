@@ -89,7 +89,7 @@ pagination:
    enabled: true
 
 # Comments
-# disqus_shortname: hdoMRIphysics # put your disqus shortname
+disqus_shortname: hdoMRIphysics # put your disqus shortname here to enable disqus comments on posts. You can also set it to true to use the same shortname as the site-wide one, or set it to false to disable disqus comments on posts.
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # -----------------------------------------------------------------------------

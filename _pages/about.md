@@ -13,6 +13,9 @@ news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 substack: true
+latest_posts:
+  limit: 5
+  scrollable: false
 ---
 
 I’m an MRI physicist at [Canon Medical USA](https://us.medical.canon/), where I work to translate innovative imaging solutions, including [deep learning reconstruction (DLR)](https://hdocmsu.github.io/projects/canon_1_dlr/), ultra-short echo time (UTE) imaging, compressed sensing (CS), into the clinical practice through hypothesis-driven research, clinical validation studies, and direct involvement in FDA 510(k) submissions. Proven record of leading and contributing to interdisciplinary collaborations across clinical, technical, commercial, legal, and regulatory teams.
@@ -26,3 +29,6 @@ I’m starting a [personal blog](https://hdocmsu.github.io/blog/) where I share 
 
 I prioritize **quality over quantity**, so posts and videos are published at irregular intervals. The best way to stay informed about future posts is to subscribe to the [free newsletter](https://hdomriphysics.substack.com/about) below and receive new posts directly in your inbox.
 
+
+<!-- <h5 style="margin-top: 1rem; text-align: center;">Latest Posts</h5>
+{% include latest_posts.html %} -->

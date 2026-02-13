@@ -1,0 +1,17 @@
+{% assign pinned_posts = site.posts | where: "pinned", true %}
+
+{% if pinned_posts.size > 0 %}
+<h3 style="margin-top: 1rem; text-align: left;">Selected Posts</h3>
+<ul class="pinned-post-list" style="list-style: disc; padding-left: 1.25rem; margin: 0.5rem 0 0;">
+  {% for post in pinned_posts limit: 5 %}
+    <li style="list-style: disc; margin: 0.35rem 0;">
+      <h5 style="margin: 0; text-align: left;">
+        <a class="post-title" href="{% if post.redirect %}{{ post.redirect }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">
+          {{ post.title }}
+        </a>
+      </h5>
+    </li>
+  {% endfor %}
+</ul>
+<hr style="width:100%; margin-top: 2rem; margin-bottom: 0rem;">
+{% endif %}

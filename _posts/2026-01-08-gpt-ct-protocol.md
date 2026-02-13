@@ -7,6 +7,11 @@ tags: ai ct # lowercase only
 categories: news # lowercase only
 img: /assets/blog/2026-01-08/gpt4o_ct.png
 redirect: #https://hdocmsu.github.io/projects/canon_1_dlr/
+toc: 
+  beginning: true
+citation: true
+disqus_comments: true
+pinned: true
 ---
 
 A study published on [Jan 06, 2026 in RADIOLOGY](https://doi.org/10.1148/radiol.252105) demonstrated that GPT-4o model selected optimal abdominal and pelvic CT protocols **more frequently** than radiologists. 
@@ -14,6 +19,7 @@ A study published on [Jan 06, 2026 in RADIOLOGY](https://doi.org/10.1148/radiol.
 Below is my summary of the study.
 
 ### Study population
+
 This retrospective study included 1,448 patients randomly selected from a pool of 29,114 patients underwent abdominal and pelvic CT scans between Jan 01, 2024 and Jun 30, 2024.
 
 From 1,448 included patients:

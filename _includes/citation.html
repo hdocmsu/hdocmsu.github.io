@@ -1,0 +1,72 @@
+{% assign citation_title = page.title | strip_html | normalize_whitespace | strip %}
+
+<h3>Citing this work</h3>
+
+If you found this useful, please cite this as:
+
+{% capture citation_quote -%}
+> Hung P. Do, PhD, MSEE ({{ page.date | date: "%b %Y" }}). {{ page.title }}. The Art of MRI physics (AoMP). {{ site.url }}.
+{%- endcapture %}
+{{ citation_quote | markdownify }}
+
+<p>or as a BibTeX entry:</p>
+
+<!-- {% capture citation_code -%}
+```bibtex
+@article{do{{ page.date | date: "%Y%m%d" }},
+  title   = { {{- citation_title -}} },
+  author  = {Do, Hung P. PhD, MSEE},
+  journal = {The Art of MRI Physics (AoMP)},
+  year    = { {{- page.date | date: "%Y" -}} },
+  month   = { {{- page.date | date: "%b" -}} },
+  url     = { {{- site.url }}{{ page.url -}} }
+}
+```
+{%- endcapture %}
+{{ citation_code | markdownify }} -->
+
+<div class="bibtex-card">
+  <button type="button" class="bibtex-copy-btn" aria-label="Copy BibTeX">Copy</button>
+  <div class="bibtex-code">
+    {{ citation_code | markdownify }}
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('.bibtex-card').forEach(function (card) {
+    const btn = card.querySelector('.bibtex-copy-btn');
+    const code = card.querySelector('.bibtex-code pre code');
+    if (!btn || !code) return;
+
+    if (!btn.dataset.defaultLabel) btn.dataset.defaultLabel = btn.textContent.trim();
+    let resetTimer = null;
+
+    btn.addEventListener('click', async function () {
+      const text = code.innerText;
+
+      try {
+        await navigator.clipboard.writeText(text);
+      } catch {
+        const ta = document.createElement('textarea');
+        ta.value = text;
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand('copy');
+        document.body.removeChild(ta);
+      }
+
+      if (resetTimer) clearTimeout(resetTimer);
+
+      btn.classList.add('copied');
+      btn.textContent = 'Copied';
+
+      resetTimer = setTimeout(function () {
+        btn.classList.remove('copied');
+        btn.textContent = btn.dataset.defaultLabel || 'Copy';
+        btn.blur(); // remove hover/focus visual residue
+      }, 1200);
+    });
+  });
+});
+</script>
