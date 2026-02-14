@@ -14,10 +14,10 @@ layout: default
 
 <div class="post">
 
-  <header class="post-header">
-    <h2 class="post-title">{{ page.title }}</h2>
+  <header class="post-header" style="text-align: center;">
+    <h2 class="post-title" style="text-align: center;">{{ page.title }}</h2>
     
-    <p class="post-description" style="font-size: 1.0rem; color: var(--global-post-description-color);">{{ page.description }}</p>
+    <p class="post-description" style="font-size: 1.0rem; color: var(--global-post-description-color); text-align: center;">{{ page.description }}</p>
 
     <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
     <p class="post-tags">

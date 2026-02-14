@@ -1,4 +1,5 @@
 {% assign citation_title = page.title | strip_html | normalize_whitespace | strip %}
+{% assign citation_first_word = citation_title | split: ' ' | first | slugify %}
 
 <h3>Citing this work</h3>
 
@@ -13,7 +14,7 @@ If you found this useful, please cite this as:
 
 <!-- {% capture citation_code -%}
 ```bibtex
-@article{do{{ page.date | date: "%Y%m%d" }},
+@article{do-{{ page.date | date: "%Y%m%d" }}-{{ citation_first_word }},
   title   = { {{- citation_title -}} },
   author  = {Do, Hung P. PhD, MSEE},
   journal = {The Art of MRI Physics (AoMP)},
