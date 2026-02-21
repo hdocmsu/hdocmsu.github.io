@@ -12,7 +12,7 @@ substack: true
 > This project proposes a deep convolutional neural network (CNN) for MRI denoising that integrates residual learning and skip connections to achieve improved noise suppression without compromising clinically-relevant quantitative metrics.
 
 
-### Overview
+## Overview
 
 In MRI, there exists an inherent trade-off between field strength, signal-to-noise ratio (SNR), spatial resolution, and scan time. Achieving higher resolution often requires longer scan times and/or reduced SNR, both of which are undesirable in clinical practice. Traditional denoising methods can help improve SNR but may inadvertently alter important quantitative metrics used for diagnosis. This project introduces **dnoiseNET**, a deep convolutional neural network (CNN) designed to effectively denoise MRI images while preserving critical quantitative information.
 
@@ -22,7 +22,7 @@ In MRI, there exists an inherent trade-off between field strength, signal-to-noi
 </figure>
 
 
-### dnoiseNET: A Deep CNN for MRI Image Denoising
+## dnoiseNET: A Deep CNN for MRI Image Denoising
 
 dnoiseNET incorporates residual learning and skip connections proposed in dnCNN (Zhang et al., 2017) and U-Net (Ronneberger et al., 2015), respectively, to enhance denoising performance:
 
@@ -35,7 +35,7 @@ dnoiseNET incorporates residual learning and skip connections proposed in dnCNN 
 
 See the [conference talk's slides](https://hdocmsu.github.io/assets/pdf/slides/2019-02-06-HungDo_dnoiseNET_web.pdf) for more details.
 
-### Conference talk
+## Conference talk
 <ul>
 <li><strong>HP Do</strong>, et al. "dnoiseNET: Deep Convolutional Neural Network for Image Denoising." The ISMRM &amp; SCMR Co-Provided Workshop on the Emerging Role of Machine Learning in Cardiovascular Magnetic Resonance Imaging, Seattle, Feb 2019. <a href="/assets/pdf/slides/2019-02-06-HungDo_dnoiseNET_web.pdf" target="_blank">SLIDES-PDF</a></li>
 </ul>

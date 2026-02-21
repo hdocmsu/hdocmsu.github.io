@@ -44,7 +44,7 @@ layout: default
   <article class="post-content">
     {% if page.toc and page.toc.beginning %}
     <div id="table-of-contents">
-      <h5>Table of Contents</h5>
+      <h3>Table of Contents</h3>
       {% toc %}
     </div>
     <hr>
@@ -53,6 +53,7 @@ layout: default
       {{ content }}
     </div>
     {% if page.citation %}
+    <hr>
       {% include citation.html %}
     {% endif %}
 
