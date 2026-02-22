@@ -25,7 +25,7 @@ a, table.table a {
 
 blockquote {
   background: var(--global-bg-color);
-  border-left: 2.5px solid var(--global-theme-color);
+  border-left: 4.0px solid var(--global-theme-color);
   margin: 1.5em 20px 1.5em 20px;
   padding: 1.5em 20px;
   font-size: 1.1rem;
@@ -601,8 +601,9 @@ html.transition *:after {
   }
   .post-content{
         blockquote {
-          border-left: 2.5px solid var(--global-theme-color);
+          border-left: 4.0px solid var(--global-theme-color);
           padding: 8px;
+          border-radius: 6px;
       }
 }
 }
@@ -919,4 +920,52 @@ h5 {
   padding-top: 0.35rem;
   padding-bottom: 0.35rem;
   border-bottom: 0;
+}
+
+// .callout-tip {
+//   margin: 1rem 0;
+//   padding: 0.9rem 1rem;
+//   border-left: 4px solid #2da44e;
+//   background: var(--global-card-bg-color);
+//   border-radius: 6px;
+// }
+
+// .callout-tip > h3:first-child {
+//   margin-top: 0;
+//   color: #1f6f3f;
+// }
+
+.callout-tip {
+  margin: 1rem 0;
+  border: 1px solid #595b5e;
+  border-left: 4px solid #2da44e;
+  border-radius: 6px;
+  overflow: hidden;
+  background: var(--global-card-bg-color);
+}
+
+/* Top banner (Quarto-like) */
+.callout-tip > h3:first-child {
+  margin: 0;
+  padding: 0.55rem 0.85rem;
+  font-size: 1rem;
+  line-height: 1.2;
+  background: #b7ffcd;
+  color: #000000;
+  border-bottom: 1px solid #000000;
+  opacity: 0.75;
+}
+
+.callout-tip > h3:first-child::before {
+  content: "📌 ";
+}
+
+/* Body spacing */
+.callout-tip > :not(h3:first-child) {
+  padding-left: 0.85rem;
+  padding-right: 0.85rem;
+}
+
+.callout-tip > p:last-child {
+  margin-bottom: 0.85rem;
 }
