@@ -23,7 +23,7 @@ I’m an MRI physicist at [Canon Medical USA](https://us.medical.canon/), where 
 I enjoy learning new concepts, generating ideas, experimenting with tools, and solving impactful problems in principled ways.
 
 
-## **Update:**
+## Update
 
 I’m starting a [personal blog](https://hdocmsu.github.io/blog/) where I share *“cool stuff”*, ideas and insights at the intersection of MRI physics, mathematics, and innovation. With over 15 years of experience in MRI physics and the latest MRI technologies, my goal is to make MRI physics that were once inaccessible feel clear, engaging, and enjoyable.
 
