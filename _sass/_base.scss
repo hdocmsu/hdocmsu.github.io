@@ -928,19 +928,7 @@ h5 {
   border-bottom: 0;
 }
 
-// .callout-tip {
-//   margin: 1rem 0;
-//   padding: 0.9rem 1rem;
-//   border-left: 4px solid #2da44e;
-//   background: var(--global-card-bg-color);
-//   border-radius: 6px;
-// }
-
-// .callout-tip > h3:first-child {
-//   margin-top: 0;
-//   color: #1f6f3f;
-// }
-
+// Callout Tip (for AOMP blog series)
 .callout-tip {
   margin: 1rem 0;
   border: 1px solid #595b5e;
@@ -959,7 +947,7 @@ h5 {
   background: #b7ffcd;
   color: #000000;
   border-bottom: 1px solid #000000;
-  opacity: 0.75;
+  // opacity: 0.75;
 }
 
 .callout-tip > h3:first-child::before {
@@ -970,6 +958,15 @@ h5 {
 .callout-tip > :not(h3:first-child) {
   padding-left: 0.85rem;
   padding-right: 0.85rem;
+}
+
+.callout-tip > h3:first-child + * {
+  margin-top: 0.6rem;
+}
+
+.callout-tip ul,
+.callout-tip ol {
+  padding-left: 2.25rem !important;
 }
 
 .callout-tip > p:last-child {
