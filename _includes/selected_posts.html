@@ -1,4 +1,4 @@
-{% assign pinned_posts = site.posts | where: "selected_post", true %}
+<!-- {% assign pinned_posts = site.posts | where: "selected_post", true %}
 
 {% if pinned_posts.size > 0 %}
 <div class="card_for_cv" style="padding: 0.75rem; margin-top: 1rem; margin-bottom: 1rem; text-align: center;">   
@@ -15,5 +15,42 @@
   {% endfor %}
 </ul>
 </div>
-<!-- <hr style="width:100%; margin-top: 2rem; margin-bottom: 0rem;"> -->
+{% endif %} -->
+
+<!-- {% assign pinned_posts = site.posts | where: "selected_post", true | where_exp: "post", "post.unlisted != true" %}
+
+{% if pinned_posts.size > 0 %}
+<div class="card_for_cv" style="padding: 0.75rem; margin-top: 1rem; margin-bottom: 1rem; text-align: center;">   
+<h2 style="margin-top: 1rem; text-align: left; color: var(--global-heading-color)">Selected Posts</h2>
+<ul class="pinned-post-list" style="list-style: disc; padding-left: 1.25rem; margin: 0.5rem 0 0;">
+  {% for post in pinned_posts limit: 5 %}
+    <li style="list-style: disc; margin: 0.35rem 0;">
+      <h6 style="margin: 0; text-align: left;">
+        <a class="post-title" href="{% if post.redirect %}{{ post.redirect }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">
+          <strong>{{ post.title }}</strong>
+        </a>
+      </h6>
+    </li>
+  {% endfor %}
+</ul>
+</div>
+{% endif %} -->
+
+{% assign pinned_posts = site.posts | where: "selected_post", true | where_exp: "post", "post.unlisted != true and post.unlisted != 'true'" %}
+
+{% if pinned_posts.size > 0 %}
+<div class="card_for_cv" style="padding: 0.75rem; margin-top: 1rem; margin-bottom: 1rem; text-align: center;">   
+<h2 style="margin-top: 1rem; text-align: left; color: var(--global-heading-color)">Selected Posts</h2>
+<ul class="pinned-post-list" style="list-style: disc; padding-left: 1.25rem; margin: 0.5rem 0 0;">
+  {% for post in pinned_posts limit: 5 %}
+    <li style="list-style: disc; margin: 0.35rem 0;">
+      <h6 style="margin: 0; text-align: left;">
+        <a class="post-title" href="{% if post.redirect %}{{ post.redirect }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">
+          <strong>{{ post.title }}</strong>
+        </a>
+      </h6>
+    </li>
+  {% endfor %}
+</ul>
+</div>
 {% endif %}
