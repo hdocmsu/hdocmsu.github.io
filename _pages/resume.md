@@ -30,7 +30,7 @@ li {
 </style> -->
 
 <style>
-h2 {text-align: center;}
+h2 {text-align: left;}
 h3 {text-align: left;}
 h4 {text-align: center;}
 h5 {text-align: center;}
@@ -82,7 +82,7 @@ h6 {text-align: center;}
 </div>
 <br/>
 
-### **Expertise and Skills**
+## Expertise and Skills
 
 <div class="card_for_cv">
 <ul>
@@ -108,7 +108,7 @@ h6 {text-align: center;}
 
 <br />
 
-### **Experience**
+## Experience
 
 <div class="card_for_cv">
 <ul>
@@ -124,7 +124,7 @@ h6 {text-align: center;}
 
 <br />
 
-### **Education**
+## Education
 
 <div class="card_for_cv">
 <ul>
@@ -138,7 +138,7 @@ h6 {text-align: center;}
 
 <br />
 
-### **Honors and Awards**
+## Honors and Awards
 
 <div class="card_for_cv">
 <ul>
@@ -153,7 +153,8 @@ h6 {text-align: center;}
 </div>
 
 <br />
-### **Certificates**
+
+## Certificates
 
 <div class="card_for_cv">
 <ul>
@@ -220,11 +221,11 @@ h6 {text-align: center;}
 
 <br />
 
-### **Selected Publications**
+## Selected Publications
 
 See [Publications](https://hdocmsu.github.io/publications/) for the complete list.
 
-##### **Selected Peer-reviewed Journal Papers**
+#### Selected Peer-reviewed Journal Papers
 
 <div class="card_for_cv">
 <ul>
@@ -238,7 +239,7 @@ See [Publications](https://hdocmsu.github.io/publications/) for the complete lis
 
 <br />
 
-##### **Selected Whitepapers**
+#### Selected Whitepapers
 
 <div class="card_for_cv">
 <ul>
@@ -251,7 +252,7 @@ See [Publications](https://hdocmsu.github.io/publications/) for the complete lis
 <br />
 
 
-### **Selected Talks**
+## Selected Talks
 
 See [Talks](https://hdocmsu.github.io/talks/) for the complete list.
 
@@ -267,7 +268,7 @@ See [Talks](https://hdocmsu.github.io/talks/) for the complete list.
 <br />
 
 
-### **Teaching and Training Experience**
+##  Teaching and Training Experience
 
 <div class="card_for_cv">
 <ul>
@@ -280,7 +281,7 @@ See [Talks](https://hdocmsu.github.io/talks/) for the complete list.
 
 <br />
 
-### **Peer Reviewer**
+## Peer Reviewer
 
 <div class="card_for_cv">
 <ul>
@@ -292,7 +293,7 @@ See [Talks](https://hdocmsu.github.io/talks/) for the complete list.
 
 <br />
 
-### **Membership**
+## Membership
 
 <div class="card_for_cv">
 <ul>
@@ -303,7 +304,7 @@ See [Talks](https://hdocmsu.github.io/talks/) for the complete list.
 </div>
 <br />
 
-### **Interests**
+## Interests
 
 <div class="card_for_cv">
 <ul>
@@ -312,7 +313,8 @@ See [Talks](https://hdocmsu.github.io/talks/) for the complete list.
 </ul>
 </div>
 <br />
-### **Update**
+
+## Update
 
 <div class="card_for_cv">
 <ul>

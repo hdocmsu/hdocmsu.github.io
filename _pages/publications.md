@@ -50,7 +50,7 @@ h6 {text-align: center;}
 
 <br/>
 
-### **Journal Papers**
+## Journal Papers
 
 <div class="publications">
 
@@ -66,7 +66,7 @@ h6 {text-align: center;}
 <br />
 <br />
 
-### **Patent Application**
+## Patent Application
 
 <div class="publications">
 
@@ -82,7 +82,7 @@ h6 {text-align: center;}
 <br />
 <br />
 
-### **Whitepapers**
+## Whitepapers
 
 <div class="publications">
 

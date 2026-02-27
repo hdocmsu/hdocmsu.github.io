@@ -28,7 +28,7 @@ h6 {text-align: center;}
 
 <br/>
 
-### **Oral Presentations**
+## Oral Presentations
 
 <div class="publications">
 
@@ -44,7 +44,7 @@ h6 {text-align: center;}
 <br />
 <br />
 
-### **Training Lectures**
+## Training Lectures
 
 <div class="publications">
 
