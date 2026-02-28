@@ -11,7 +11,6 @@ toc:
   beginning: true
 citation: true
 giscus_comments: true
-pinned: true
 ---
 
 A study published on [Jan 06, 2026 in RADIOLOGY](https://doi.org/10.1148/radiol.252105) demonstrated that GPT-4o model selected optimal abdominal and pelvic CT protocols **more frequently** than radiologists. 
