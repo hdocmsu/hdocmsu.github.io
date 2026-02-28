@@ -939,8 +939,22 @@ h5 {
   padding-bottom: 0.85rem;
 }
 
+// Callout Tip (for AOMP blog series)
+.callout-tip {
+  margin: 1rem 0;
+  border: 1px solid #595b5e;
+  border-left: 4px solid #2da44e;
+  border-radius: 6px;
+  overflow: hidden;
+  background: var(--global-card-bg-color);
+  padding-bottom: 0.85rem;
+}
+
 /* Top banner (Quarto-like) */
-.callout-tip > h3:first-child {
+.callout-tip > h3:first-child,
+.callout-tip > h4:first-child,
+.callout-tip > h5:first-child,
+.callout-tip > h6:first-child {
   margin: 0;
   padding: 0.55rem 0.85rem;
   font-size: 1rem;
@@ -951,17 +965,23 @@ h5 {
   // opacity: 0.75;
 }
 
-.callout-tip > h3:first-child::before {
+.callout-tip > h3:first-child::before,
+.callout-tip > h4:first-child::before,
+.callout-tip > h5:first-child::before,
+.callout-tip > h6:first-child::before {
   content: "📌 ";
 }
 
 /* Body spacing */
-.callout-tip > :not(h3:first-child) {
+.callout-tip > :not(h3:first-child):not(h4:first-child):not(h5:first-child):not(h6:first-child) {
   padding-left: 0.85rem;
   padding-right: 0.85rem;
 }
 
-.callout-tip > h3:first-child + * {
+.callout-tip > h3:first-child + *,
+.callout-tip > h4:first-child + *,
+.callout-tip > h5:first-child + *,
+.callout-tip > h6:first-child + * {
   margin-top: 0.6rem;
 }
 
