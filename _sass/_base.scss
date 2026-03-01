@@ -951,6 +951,8 @@ h5 {
 }
 
 /* Top banner (Quarto-like) */
+.callout-tip > h1:first-child,
+.callout-tip > h2:first-child,
 .callout-tip > h3:first-child,
 .callout-tip > h4:first-child,
 .callout-tip > h5:first-child,
@@ -965,6 +967,8 @@ h5 {
   // opacity: 0.75;
 }
 
+.callout-tip > h1:first-child::before,
+.callout-tip > h2:first-child::before,
 .callout-tip > h3:first-child::before,
 .callout-tip > h4:first-child::before,
 .callout-tip > h5:first-child::before,
@@ -973,11 +977,13 @@ h5 {
 }
 
 /* Body spacing */
-.callout-tip > :not(h3:first-child):not(h4:first-child):not(h5:first-child):not(h6:first-child) {
+.callout-tip > :not(h1:first-child):not(h2:first-child):not(h3:first-child):not(h4:first-child):not(h5:first-child):not(h6:first-child) {
   padding-left: 0.85rem;
   padding-right: 0.85rem;
 }
 
+.callout-tip > h1:first-child + *,
+.callout-tip > h2:first-child + *,
 .callout-tip > h3:first-child + *,
 .callout-tip > h4:first-child + *,
 .callout-tip > h5:first-child + *,
