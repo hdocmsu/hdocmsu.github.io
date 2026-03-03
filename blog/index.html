@@ -61,7 +61,7 @@ pagination:
 
     <!-- Years List -->
     <div style="font-size: 1.0rem; padding: 0.0rem; background-color: var(--global-bg-color); border-radius: 5px;">
-      <strong>Years:</strong>
+      <strong style="color: var(--global-text-color)">Years:</strong>
       {% assign all_years = "" | split: "" %}
       {% for post in visible_posts %}
         {% assign year = post.date | date: '%Y' %}
@@ -71,7 +71,7 @@ pagination:
       {% endfor %}
       {% assign all_years = all_years | uniq | sort | reverse %}
       {% for year in all_years %}
-        <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl }}" class="badge badge-info" style="margin: 0.2rem; background-color: #117a8b !important;">
+        <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl }}" class="badge badge-info" style="margin: 0.2rem; background-color: #0d6f7e !important;">
           <i class="fas fa-calendar fa-sm"></i> {{ year }}
         </a>
       {% endfor %}
@@ -79,11 +79,11 @@ pagination:
 
     <!-- Categories List -->
     <div style="font-size: 1.0rem; margin-bottom: 0rem; padding: 0.0rem; background-color: var(--global-bg-color); border-radius: 5px;">
-      <strong>Categories:</strong>
+      <strong style="color: var(--global-text-color)">Categories:</strong>
       {% assign all_categories = visible_posts | map: 'categories' | join: ',' | split: ',' | uniq | sort %}
       {% for category in all_categories %}
         {% if category != "" %}
-          <a href="{{ category | prepend: '/blog/category/' | prepend: site.baseurl }}" class="badge badge-secondary" style="margin: 0.2rem; background-color: #146d0c !important;">
+          <a href="{{ category | prepend: '/blog/category/' | prepend: site.baseurl }}" class="badge badge-secondary" style="margin: 0.2rem; background-color: #0a5e03 !important;">
             <i class="fas fa-tag fa-sm"></i> {{ category }}
           </a>
         {% endif %}
@@ -92,11 +92,11 @@ pagination:
 
     <!-- Tags List -->
     <div style="font-size: 1.0rem; margin-bottom: 0rem; padding: 0.0rem; background-color: var(--global-bg-color); border-radius: 5px;">
-      <strong>Tags:</strong>
+      <strong style="color: var(--global-text-color)">Tags:</strong>
       {% assign all_tags = visible_posts | map: 'tags' | join: ',' | split: ',' | uniq | sort %}
       {% for tag in all_tags %}
         {% if tag != "" %}
-          <a href="{{ tag | prepend: '/blog/tag/' | prepend: site.baseurl }}" class="badge badge-primary" style="margin: 0.2rem; background-color: #0056b3 !important;">
+          <a href="{{ tag | prepend: '/blog/tag/' | prepend: site.baseurl }}" class="badge badge-primary" style="margin: 0.2rem; background-color: #023872 !important;">
             <i class="fas fa-hashtag fa-sm"></i> {{ tag }}
           </a>
         {% endif %}
