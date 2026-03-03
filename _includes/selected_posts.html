@@ -46,7 +46,7 @@
     <li style="list-style: disc; margin: 0.35rem 0;">
       <h6 style="margin: 0; text-align: left;">
         <a class="post-title" href="{% if post.redirect %}{{ post.redirect }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">
-          <strong>{{ post.title }}</strong>
+          <strong style="color: var(--global-text-color)">{{ post.title }}</strong>
         </a>
       </h6>
     </li>
