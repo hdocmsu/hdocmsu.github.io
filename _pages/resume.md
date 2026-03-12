@@ -54,7 +54,7 @@ h6 {text-align: center;}
 
 <!-- <br /> -->
 
-<div style="text-align: center; margin: 1rem 0; padding: 1.0rem; background-color: var(--global-card-bg-color); border-radius: 9px;">
+<div style="text-align: center; margin: 1rem 0; padding: 1.0rem; background-color: var(--global-card-bg-color); border-radius: 9px; font-size: 1.0em;">
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem;">
     <a href="https://{{ site.substack_username }}.substack.com/about"><i class="fas fa-newspaper"></i> Substack Newsletter</a> &nbsp; 
     <a href="https://www.youtube.com/@{{ site.youtube_username }}"><i class="fab fa-youtube"></i> YouTube</a> &nbsp; 
@@ -68,8 +68,8 @@ h6 {text-align: center;}
 <br/>
 
 <div style="text-align: center; margin: 1rem 0; padding: 1.0rem; background-color: var(--global-card-bg-color); border-radius: 9px;">
-  <h5 style="margin-top: 0.0rem; margin-bottom: 0.25rem; color: var(--global-text-color);"><strong>Quick Navigation</strong></h5>
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem;">
+  <h5 style="margin-top: 0.0rem; margin-bottom: 1.0rem; color: var(--global-text-color);"><strong>Quick Navigation</strong></h5>
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1.0rem; line-height: 1.0;">
     <a href="#expertise-and-skills" style="text-decoration: none;"><i class="fas fa-brain"></i> Expertise and Skills</a>
     <a href="#experience" style="text-decoration: none;"><i class="fas fa-briefcase"></i> Work Experience</a>
     <a href="#education" style="text-decoration: none;"><i class="fas fa-graduation-cap"></i> Education</a>
