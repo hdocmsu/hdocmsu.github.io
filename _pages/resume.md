@@ -117,8 +117,8 @@ h6 {text-align: center;}
   <li><strong>2017</strong>: Postdoctoral Fellow in Magnetic Resonance Imaging Physics advised by <a href="https://sipi.usc.edu/~knayak/">Prof. Krishna Nayak</a> at the <a href="https://mrel.usc.edu/">Magnetic Resonance Engineering Lab</a> in the <a href="https://www.usc.edu/">University of Southern California (USC)</a>, Los Angeles, California</li>
   <li><strong>2010 - 2017</strong>: Graduate Research Assistant in Magnetic Resonance Imaging Physics advised by <a href="https://sipi.usc.edu/~knayak/">Prof. Krishna Nayak</a> at the <a href="https://mrel.usc.edu/">Magnetic Resonance Engineering Lab</a> in the <a href="https://www.usc.edu/">University of Southern California (USC)</a>, Los Angeles, California</li>
   <li><strong>2009</strong>: Postgraduate Diploma Research in Condensed Matter Physics advised by <a href="https://www.ictp.it/member/sandro-scandolo#biography">Prof. Sandro Scandolo</a> at the <a href="https://www.ictp.it/">Abdus Salam International Centre for Theoretical Physics (ICTP)</a>, Trieste, Italy</li>
-  <li><strong>2007 - 2008</strong>: Researcher advised by Prof. Viet Nguyen at the <a href="https://iop.vast.ac.vn/?slang=en">Hanoi Institute of Physics (IOP)</a>, Hanoi, Vietnam</li>
-  <li><strong>2006 - 2007</strong>: Undergraduate Thesis Research in Theoretical Physics advised by Prof. Viet Nguyen at the <a href="https://iop.vast.ac.vn/?slang=en">Hanoi Institute of Physics (IOP)</a>, Hanoi, Vietnam</li>
+  <li><strong>2007 - 2008</strong>: Researcher advised by Prof. Viet Nguyen at the <a href="https://iop.vast.vn/index.php?&lang=en">Hanoi Institute of Physics (IOP)</a>, Hanoi, Vietnam</li>
+  <li><strong>2006 - 2007</strong>: Undergraduate Thesis Research in Theoretical Physics advised by Prof. Viet Nguyen at the <a href="https://iop.vast.vn/index.php?&lang=en">Hanoi Institute of Physics (IOP)</a>, Hanoi, Vietnam</li>
 </ul>
 </div>
 
@@ -131,7 +131,7 @@ h6 {text-align: center;}
   <li><strong>2017</strong>: Ph.D. in Magnetic Resonance Imaging Physics advised by <a href="https://sipi.usc.edu/~knayak/">Prof. Krishna Nayak</a>, <a href="https://www.usc.edu/">University of Southern California (USC)</a>, Los Angeles, California</li>
   <li><strong>2014</strong>: M.S. in Electrical Engineering advised by <a href="https://sipi.usc.edu/~knayak/">Prof. Krishna Nayak</a>, <a href="https://www.usc.edu/">University of Southern California (USC)</a>, Los Angeles, California</li>
   <li><strong>2009</strong>: Postgraduate Diploma in Condensed Matter Physics advised by <a href="https://www.ictp.it/member/sandro-scandolo#biography">Prof. Sandro Scandolo</a>, the <a href="https://www.ictp.it/">Abdus Salam International Centre for Theoretical Physics (ICTP)</a>, Trieste, Italy</li>
-  <li><strong>2008</strong>: Master of Science Study in Theoretical Physics advised by Prof. Viet Nguyen (completed 1 of 2 years), <a href="https://iop.vast.ac.vn/?slang=en">Hanoi Institute of Physics (IOP)</a>, Hanoi, Vietnam</li>
+  <li><strong>2008</strong>: Master of Science Study in Theoretical Physics advised by Prof. Viet Nguyen (completed 1 of 2 years), <a href="https://iop.vast.vn/index.php?&lang=en">Hanoi Institute of Physics (IOP)</a>, Hanoi, Vietnam</li>
   <li><strong>2007</strong>: B.S. in Theoretical Physics advised by Prof. Viet Nguyen, <a href="https://hnue.edu.vn/">Hanoi National University of Education (HNUE)</a>, Hanoi, Vietnam</li>
 </ul>
 </div>
