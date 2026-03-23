@@ -41,7 +41,6 @@ h6 {text-align: center;}
 <div style="text-align: center; margin: 1rem 0; padding: 1.0rem; background-color: var(--global-card-bg-color); border-radius: 9px;">
   <h5 style="margin-top: 0.0rem; margin-bottom: 1.0rem; color: var(--global-text-color);"><strong>Quick Navigation</strong></h5>
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1.0rem; line-height: 1.0;">
-     <a href="#oral-presentations" style="text-decoration: none;"><i class="fas fa-microphone"></i> Oral Presentations</a>
     <a href="#journal-papers" style="text-decoration: none;"><i class="fas fa-file-alt"></i> Journal Papers</a>
     <a href="#patent-application" style="text-decoration: none;"><i class="fas fa-lightbulb"></i> Patent Application</a>
     <a href="#whitepapers" style="text-decoration: none;"><i class="fas fa-scroll"></i> Whitepapers</a>
