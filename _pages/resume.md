@@ -272,6 +272,7 @@ See [Talks](https://hdocmsu.github.io/talks/) for the complete list.
 
 <div class="card_for_cv">
 <ul>
+<li><strong>2025 - present</strong>: MRI coaching sessions with Key Account Managers from Sales Team at <a href="https://us.medical.canon/" target="_blank">Canon Medical System USA</a>, Tustin, California</li>
 <li><strong>2017 - present</strong>: Distill lastest MRI innovations into forms of case studies, white papers, and training lectures making them accessible to the sales and applications teams at <a href="https://us.medical.canon/" target="_blank">Canon Medical System USA</a>, Tustin, California</li>
 <li><strong>2015 - 2017</strong>: MRI sequence design and MRI safety supervisor at the <a href="https://mrel.usc.edu/" target="_blank">Magnetic Resonance Engineering Lab</a> in the <a href="https://www.usc.edu/" target="_blank">University of Southern California (USC)</a>, Los Angeles, California</li>
 <li><strong>2010 - 2017</strong>: Physics Graduate Teaching Assistant at the <a href="https://dornsife.usc.edu/physics/" target="_blank">Department of Physics and Astronomy</a>, the <a href="https://www.usc.edu/" target="_blank">University of Southern California (USC)</a>, Los Angeles, California</li>
