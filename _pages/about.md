@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About
-description: Senior MRI Physicist, <a href="https://us.medical.canon/">Canon Medical Systems USA</a>
+description: Senior MRI Physicist
 permalink: /
 importance: 1
 profile:

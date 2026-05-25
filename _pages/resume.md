@@ -2,7 +2,7 @@
 layout: resume
 permalink: /resume/
 title: Resume
-description: Senior MRI Physicist, Canon Medical Systems USA
+description: Senior MRI Physicist
 nav: true
 social: true # includes social icons at the bottom of the page
 importance: 5
