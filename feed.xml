@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://hdocmsu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hdocmsu.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-07-29T18:35:42-07:00</updated><id>https://hdocmsu.github.io/feed.xml</id><title type="html">blank</title><subtitle></subtitle><entry><title type="html">AoMP-000-Q: Introducing the Art of MRI Physics (AoMP) – Coming Soon!</title><link href="https://hdocmsu.github.io/blog/2026/02/28/aomp-000-wip/" rel="alternate" type="text/html" title="AoMP-000-Q: Introducing the Art of MRI Physics (AoMP) – Coming Soon!" /><published>2026-02-28T02:10:10-08:00</published><updated>2026-02-28T02:10:10-08:00</updated><id>https://hdocmsu.github.io/blog/2026/02/28/aomp-000-wip</id><content type="html" xml:base="https://hdocmsu.github.io/blog/2026/02/28/aomp-000-wip/"><![CDATA[<blockquote>
+  <p>“To create rigorous, original tutorials and challenges related to physics, mathematics, signal processing, Fourier analysis, and MRI, presented with clarity so that complex ideas become memorable.”</p>
+  <p style="font-size: 1.0em; font-style: normal; text-align: right;">-- The Art of MRI Physics (AoMP) </p>
+</blockquote>
+
+<figure style="margin: 0rem; padding-top: 0.5rem;">
+  <img src="/assets/blog/aomp-000/aomp_front.png" alt="The Art of MRI Physics (AoMP)" style="max-width: 100%; height: auto;" />
+</figure>
+
+<h1 id="coming-soon">Coming soon</h1>
+
+<p>Thanks for visiting the AoMP!. Stay tuned for updates!</p>
+
+<h1 id="work-in-progress">Work-in-progress</h1>
+
+<p>This is work-in-progress.</p>]]></content><author><name></name></author><category term="challenges" /><category term="news" /><category term="mri" /><category term="math" /><category term="physics" /><summary type="html"><![CDATA[An illustrated guide to foundational mathematics, physics, signal processing, Fourier analysis, and MRI physics.]]></summary></entry><entry><title type="html">AoMP-001-Q: Classic Artifacts in Radial MRI and a Mysterious Artifact (re-discovered)</title><link href="https://hdocmsu.github.io/blog/2026/02/27/aomp-001-q/" rel="alternate" type="text/html" title="AoMP-001-Q: Classic Artifacts in Radial MRI and a Mysterious Artifact (re-discovered)" /><published>2026-02-27T02:10:10-08:00</published><updated>2026-02-27T02:10:10-08:00</updated><id>https://hdocmsu.github.io/blog/2026/02/27/aomp-001-q</id><content type="html" xml:base="https://hdocmsu.github.io/blog/2026/02/27/aomp-001-q/"><![CDATA[<blockquote>
+  <p>“Mystery creates wonder and wonder is the basis of man’s desire to understand.”</p>
+  <p style="font-size: 1.0em; font-style: normal; text-align: right;">-- Neil Armstrong (1930–2012) </p>
+</blockquote>
+
+<p>This is the first challenge in the AoMP series, in which I present a set of artifacts that I stumbled upon during my research.</p>
+
+<blockquote>
+  <p>TL;DR: In this challenge, you will learn about the classic artifacts in radial MRI. You will also encounter a so-called “mysterious” artifact. By solving this challenge, you will gain deep intuition about the physics and mathematics behind these artifacts and how to mitigate them. The knowledge and intuition you gain are not only useful for radial MRI, but also for understanding MRI physics, other MRI artifacts, and signal processing and engineering more broadly.</p>
+</blockquote>
+
+<p>If you have any suggestions or feedback, I would love to hear from you.</p>
+
+<h1 id="radial-mri">Radial MRI</h1>
+
+<p>Did you know that the first MRI image, acquired in 1973 by Paul Lauterbur, was actually radial? This pioneering work contributed to his receiving the Nobel Prize in Physiology or Medicine in 2003.</p>
+
+<figure style="margin: 0rem; padding-top: 1.0rem;">
+  <img src="/assets/blog/aomp-001/lauterbur_nature1.png" alt="Lauterbur's first MRI image - Experimental Setup" style="width: 50%; max-width: 100%; height: auto; display: block; margin: 0 auto;" />
+</figure>
+<div style="font-size: 0.85em; font-style: italic; text-align: center; margin-top: 0rem; margin-bottom: 0rem; padding-bottom: 2.0rem;">Lauterbur's experiment (<a href="https://www.nature.com/articles/242190a0" target="_blank">Source: Nature</a>)</div>
+
+<figure style="margin: 0rem; padding-top: 0.0rem; padding-bottom: 0.0rem;">
+  <img src="/assets/blog/aomp-001/lauterbur_nature2.png" alt="Lauterbur's first MRI image - Reconstructed Image" style="width: 50%; max-width: 100%; height: auto; display: block; margin: 0 auto;" />
+</figure>
+<div style="font-size: 0.85em; font-style: italic; text-align: center; margin-top: 0rem; margin-bottom: 0rem; padding-bottom: 2.0rem;">The first MRI image (<a href="https://www.nature.com/articles/242190a0" target="_blank">Source: Nature</a>)</div>
+
+<p>Although used to create the first ever MRI image, the radial MRI acquisition scheme is not commonly used in clinical practice today. Instead, the Cartesian acquisition scheme is more widely adopted in clinical MRI due to its simplicity, efficiency, and robustness to system imperfections. However, radial MRI has unique advantages such as reduced motion artifacts and applicability in certain applications, which has led to its continued use in research and specialized clinical settings.</p>
+
+<p>With the improvement in hardware and reconstruction algorithms, radial MRI has been gaining more attention in recent years for its potential to provide high-quality images with reduced artifacts, especially in applications such as free-breathing, free-running 3D/4D/5D cardiac imaging and liver imaging. Radial MRI is perfectly suited for these applications because of its inherent robustness to motion artifacts as well as its ability to provide navigation information for motion correction and reconstruction.</p>
+
+<p>Clinically, radial MRI has been used in liver MRI to reduce motion artifacts and capture the dynamic contrast enhancement of liver lesions. It also has been used in musculoskeletal MRI to generate CT-like contrast via ultrashort echo time (UTE) and zero echo time (ZTE) imaging.</p>
+
+<p>PROPELLER/BLADE/JET MRI acquisition scheme has been widely used in clinical MRI to reduce motion artifacts. Although not strictly radial, the PROPELLER/BLADE/JET acquires k-space data in a rotating-blade fashion, leading to the similar artifacts as in radial MRI.</p>
+
+<p>In this post, we will challenge you to identify the causes of the classic artifacts in radial MRI and propose solutions to mitigate them. During the process, we will also re-discover a mysterious artifact associated with iterative reconstruction and strategy to mitigate it.</p>
+
+<h1 id="the-halo-artifact">The “Halo” Artifact</h1>
+
+<figure style="margin: 0rem; padding-top: 1.5rem; opacity: 1.0;">
+  <img src="/assets/blog/aomp-001/halo1.png" alt="Halo Artifact in Radial MRI" style="max-width: 100%; height: auto;" />
+</figure>
+
+<figure style="margin: 0rem; padding-top: 2.5rem; padding-bottom: 2.0rem; opacity: 1.0;">
+  <img src="/assets/blog/aomp-001/halo2.png" alt="Halo Artifact in Radial MRI - Question" style="max-width: 100%; height: auto;" />
+</figure>
+
+<h1 id="the-freaking-artifact">The “Freaking” Artifact</h1>
+
+<figure style="margin: 0rem; padding-top: 1.5rem; opacity: 1.0;">
+  <img src="/assets/blog/aomp-001/streaking1.png" alt="Streaking Artifact in Radial MRI" style="max-width: 100%; height: auto;" />
+</figure>
+
+<figure style="margin: 0rem; padding-top: 2.5rem; padding-bottom: 2.0rem; opacity: 1.0;">
+  <img src="/assets/blog/aomp-001/streaking2.png" alt="Streaking Artifact in Radial MRI - Question" style="max-width: 100%; height: auto;" />
+</figure>
+
+<h1 id="how-to-mitigate-the-freaking-artifact">How to Mitigate the “Freaking” Artifact?</h1>
+
+<figure style="margin: 0rem; padding-top: 1.5rem; padding-bottom: 2.0rem; opacity: 1.0;">
+  <img src="/assets/blog/aomp-001/streaking3_q.png" alt="Streaking Artifact in Radial MRI - Question 2" style="max-width: 100%; height: auto;" />
+</figure>
+
+<h1 id="the-mysterious-artifact">The “Mysterious” Artifact</h1>
+
+<div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 2rem 0 0;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/ND1XyVJPcBA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+  </iframe>
+</div>
+<div style="font-size: 0.85em; font-style: italic; text-align: center; margin-bottom: 0rem;">Reconstructed images from every iteration using the Original Conjugate Gradient SENSE Algorithm (see <a href="https://youtu.be/ND1XyVJPcBA" target="_blank">YouTube</a> if the video does not load)</div>
+
+<figure style="margin: 0rem; padding-top: 2.5rem; padding-bottom: 2.0rem; opacity: 1.0;">
+  <img src="/assets/blog/aomp-001/mystery1.png" alt="Mysterious Artifact in Radial MRI" style="max-width: 100%; height: auto;" />
+</figure>
+
+<h1 id="how-to-mitigate-the-mysterious-artifact">How to Mitigate the “Mysterious” Artifact?</h1>
+
+<figure style="margin: 0rem; padding-top: 1.5rem; padding-bottom: 2.0rem; opacity: 1.0;">
+  <img src="/assets/blog/aomp-001/mystery2_q.png" alt="Mysterious Artifact in Radial MRI - Question" style="max-width: 100%; height: auto;" />
+</figure>]]></content><author><name></name></author><category term="challenges" /><category term="mri" /><category term="math" /><category term="physics" /><summary type="html"><![CDATA[A deep dive into understanding the physics behind classic radial MRI artifacts, a mysterious artifact associated with iterative reconstruction algorithms, and how to mitigate them.]]></summary></entry><entry><title type="html">TEST POST: GPT-4o is better than radiologists at selecting CT protocols</title><link href="https://hdocmsu.github.io/blog/2026/01/08/gpt-ct-protocol/" rel="alternate" type="text/html" title="TEST POST: GPT-4o is better than radiologists at selecting CT protocols" /><published>2026-01-08T02:10:10-08:00</published><updated>2026-01-08T02:10:10-08:00</updated><id>https://hdocmsu.github.io/blog/2026/01/08/gpt-ct-protocol</id><content type="html" xml:base="https://hdocmsu.github.io/blog/2026/01/08/gpt-ct-protocol/"><![CDATA[<p>A study published on <a href="https://doi.org/10.1148/radiol.252105">Jan 06, 2026 in RADIOLOGY</a> demonstrated that GPT-4o model selected optimal abdominal and pelvic CT protocols <strong>more frequently</strong> than radiologists.</p>
+
+<p>Below is my summary of the study.</p>
+
+<h1 id="study-population">Study population</h1>
+
+<p>This retrospective study included 1,448 patients randomly selected from a pool of 29,114 patients underwent abdominal and pelvic CT scans between Jan 01, 2024 and Jun 30, 2024.</p>
+
+<p>From 1,448 included patients:</p>
+<ul>
+  <li>300 patients were selected for optimizing the prompting of GPT-4o</li>
+  <li>600 patients were used for fine-tuning GPT-4o, in which 300 patients were used for training and 300 patients for validation</li>
+  <li>548 remaining patients were used as the test set to compare the performance of “prompting-only” GPT-4o, “fine-tuned” GPT-4o, and original human protocolers, including residents, fellows, and radiologists, who were originally selected the CT protocols.</li>
+</ul>
+
+<h1 id="reference-standard">Reference standard</h1>
+
+<p>Two subspecialty radiologists independently reviewed each case in the study cohort without knowledge of the original protocol selected. If the two radiologists agreed on the protocol selected, that protocol was used as the reference standard.</p>
+
+<p>If there was disagreement between the two radiologists, the case was discussed with the third subspecialist expert radiologist to define the reference standard.</p>
+
+<h1 id="model">Model</h1>
+<p>GPT-4o (version 2024-08-06) was used as the base model. Model temperature was set at zero, which has better repeatability. All other parameters were kept at default values.</p>
+
+<h1 id="prompt-optimization">Prompt optimization</h1>
+<p>Relevant clinical information were given to GPT-4o in the form of detailed prompts. The prompt was iteratively optimized using the 300 cases reserved for prompt optimization.</p>
+
+<h1 id="fine-tuning">Fine-tuning</h1>
+<p>GPT-4o was fine-tuned on 300 cases and then validated on another 300 cases.</p>
+
+<h1 id="testing-and-evaluation">Testing and evaluation</h1>
+<p>Testing was performed on 548 held-out internal cases. The model-selected and the original human-selected protocols were compared with the reference standard.</p>
+
+<p>For protocols that did not match the reference standard, they were further classified as “equal alternative”, “reasonable but suboptimal”, or “inappropriate”.</p>
+
+<p>Exact matches and “equal alternative” matches were considered optimal selections.</p>
+
+<h1 id="results">Results</h1>
+
+<figure>
+  <img src="/assets/blog/2026-01-08/results.png" alt="GPT-4o's CT protocol selection study" style="max-width: 100%; height: auto;" />
+</figure>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p><strong>GPT-4o is better</strong> than radiologists in selecting optimal abdominal and pelvic CT protocols.</p>
+
+<p>Fine-tuning with labeled examples <strong>did not</strong> further improve performance beyond prompt optimization with detailed prompting instructions.</p>
+
+<p>There were <strong>no significant</strong> differences in performance between residents, fellows, and attending radiologists.</p>
+
+<h1 id="references">References</h1>
+<p>Buckley BW, Dias AB, Deng Y, Schmidt H, Kielar A, Krishna S, Bhayana R. Optimizing Large Language Models for Automated Protocoling of Abdominal and Pelvic CT Scans: The Power of Context. Radiology. 2026 Jan 6;318(1):e252105. <a href="https://doi.org/10.1148/radiol.252105">https://doi.org/10.1148/radiol.252105</a></p>]]></content><author><name></name></author><category term="news" /><category term="ai" /><category term="ct" /><summary type="html"><![CDATA[An application of LLM in radiology.]]></summary></entry></feed>

@@ -35,7 +35,7 @@ https://hdocmsu.github.io/ -->
 <!-- End of Statcounter Code -->
 
 
-    <meta http-equiv="refresh" content="3; url=https://hdocmsu.github.io/" />
+    
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -45,7 +45,7 @@ https://hdocmsu.github.io/ -->
   Hung P. Do, PhD, MSEE
 
 
-  | Page not found
+  | Accuracy, Uncertainty, and Adaptability of a Deep CNN
 
 </title>
 <meta name="description" content="">
@@ -55,8 +55,8 @@ https://hdocmsu.github.io/ -->
 <meta property="og:site_name" content="" />
 <meta property="og:type" content="object" />
 <meta property="og:title" content="" />
-<meta property="og:url" content="https://hdocmsu.github.io/404.html" />
-<meta property="og:description" content="Page not found" />
+<meta property="og:url" content="https://hdocmsu.github.io/projects/usc_caslseg/" />
+<meta property="og:description" content="Accuracy, Uncertainty, and Adaptability of a Deep CNN" />
 <meta property="og:image" content="https://hdocmsu.github.io/assets/img/favicon.png" />
 
 
@@ -93,7 +93,7 @@ https://hdocmsu.github.io/ -->
 
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="https://hdocmsu.github.io/404.html">
+<link rel="canonical" href="https://hdocmsu.github.io/projects/usc_caslseg/">
 
 
 
@@ -262,21 +262,126 @@ https://hdocmsu.github.io/ -->
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Page not found</h1>
-    <p class="post-description" style="font-size: 1.0rem; color: var(--global-post-description-color);">Looks like there has been a mistake. Nothing exists here.</p>
+    <h2 class="post-title">Accuracy, Uncertainty, and Adaptability of a Deep CNN</h2>
+    <p class="post-description" style="font-size: 1.0rem; color: var(--global-post-description-color);">Tailoring black-box deep learning model to clinical priorities and safety.</p>
   </header>
 
-  <article>
-    <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://hdocmsu.github.io/">here</a>.</p>
+  <article class="post-content">
+    <blockquote>
+  <p>This project aims to develop a deep convolutional neural network (CNN) for automatic segmentation of the myocardium in cardiac arterial spin-labeled MRI (Cardiac ASL) images.</p>
+
+  <p>The proposed method not only provides accurate segmentation but also quantifies uncertainty in the segmentation results and allows control over false-positive and false-negative rates to better align with clinical priorities.</p>
+
+  <p>Importantly, the accuracy of clinical measurements derived from the segmentation should be the ultimate metric of success, rather than traditional segmentation metrics alone.</p>
+</blockquote>
+
+<figure>
+  <img src="/assets/proj/usc_caslseg/usc_caslseg.png" alt="Accuracy, Uncertainty, and Adaptability" style="max-width: 100%; height: auto;">
+</figure>
+
+<h1 id="motivation">Motivation</h1>
+
+<p>Cardiac arterial spin-labeled MRI (Cardiac ASL) is a <strong>radiation-free, noninvasive, quantitative</strong> imaging technique that measures myocardial blood flow <strong>without the use of exogenous contrast agents</strong>. However, Cardiac ASL suffers from intrinsically low signal-to-noise ratio (SNR), which limits reliable pixel-wise analysis. As a result, perfusion quantification is typically performed using segmental analysis based on the American Heart Association (AHA) 17-segment model of the myocardium. This approach requires manual segmentation of the myocardium, which is tedious, time-consuming, and operator dependent.</p>
+
+<p>The goal of this project is to develop an <strong>automatic</strong> myocardial segmentation method using a deep convolutional neural network (CNN). Given the <strong>safety-critical nature</strong> of medical imaging applications, we aim to address not only segmentation accuracy but also estimation of segmentation uncertainty, enabling users to <strong>automatically identify</strong> cases that may require manual review or intervention.</p>
+
+<p>Furthermore, the myocardium is anatomically adjacent to the endocardial blood pool and epicardial fat, both of which can contaminate myocardial perfusion measurements. In the cardiac MRI application, false-positive (thicker mask, i.e., identified as myocardium but actually not) segmentation errors are <strong>more detrimental</strong> than false negatives (thinner mask, i.e., identified as not myocardium but actually is).</p>
+
+<p>For automatic segmentation task, commonly used loss functions such as the Dice loss weight false positives and false negatives equally and therefore do not reflect this <strong>anatomical asymmetry</strong>. To address this, we adopt the <strong>Tversky loss function</strong>, which allows <strong>explicit control</strong> over the relative weighting of false positives and false negatives to <strong>better align the optimization objective with clinical priorities</strong>.</p>
+
+<h1 id="conference-talk">Conference talk</h1>
+<ul>
+<li>
+<strong>HP Do</strong>, et al. "Deep Convolutional Neural Network for Segmentation of Myocardial ASL Short-Axis Data: Accuracy, Uncertainty, and Adaptability." The ISMRM Workshop on Machine Learning, Part II, Washington D.C., Oct 2018. <a href="/assets/pdf/slides/2018-10-28-HungDo_MLworkshop2018_web.pdf" target="_blank">SLIDES-PDF</a> <a href="https://youtu.be/Qt5SdPFkAg4" target="_blank" rel="noopener noreferrer">VIDEO-YouTube</a>
+</li>
+</ul>
+
+<h1 id="journal-paper">Journal paper</h1>
+<ul>
+<li>
+<strong>HP Do</strong>, Y Guo, AJ Yoon, and KS Nayak. “Accuracy, Uncertainty, and Adaptability of Automatic Myocardial ASL Segmentation using Deep CNN.” Magnetic Resonance in Medicine 2020; 83:1863–1874. <a href="/assets/pdf/papers/do_mrm2019.pdf" target="_blank">PDF</a> <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.28043" target="_blank" rel="noopener noreferrer">JRNL</a>
+</li>
+</ul>
 
 
   </article>
 
   <!-- Substack Subscribe -->
   
+    <center> 
+      <!-- <hr style="width:100%;text-align:left;margin-left:0"> -->
+<br>
+<div class="card_for_cv" style="padding: 0.75rem; margin-top: 1rem; margin-bottom: 1rem; text-align: center;">   
+<div style="margin-top: 1rem; margin-bottom: 2rem;">
+  <center>
+    <p style="margin-bottom: 0.5rem; font-size: 1.25rem;"><strong style="color: var(--global-text-color)">Get future posts delivered to your inbox.</strong> <br> <normal style="font-size: 1.0rem; color: var(--global-post-description-color);">Occasional emails. No noise. Unsubscribe anytime.</normal></p>
+    <div style="background-color: var(--global-bg-color); padding: 1.5rem; max-width: 450px; margin: 0 auto; border: 1px solid var(--global-divider-color); border-radius: 5px;">
+        <form action="https://hdoMRIphysics.substack.com/api/v1/free?nojs=true" method="post" style="margin: 0.0rem; margin-bottom: 1.0rem;">
+        <input type="email" name="email" placeholder="Enter your email" required style="width: 100%; padding: 0.75rem; margin-bottom: 0.75rem; border: 1px solid var(--global-divider-color); border-radius: 4px; background-color: var(--global-bg-color); color: var(--global-text-color); font-size: 1rem;">
+        <button type="submit" style="width: 100%; padding: 0.75rem; background-color: var(--global-theme-color); color: rgb(0, 0, 0); border: none; border-radius: 4px; font-weight: bold; cursor: pointer; font-size: 1rem;">
+          Subscribe
+        </button>
+      </form>
+      <a href="https://hdoMRIphysics.substack.com/about" target="_blank" rel="noopener noreferrer">
+        <img src="/assets/img/favicon.png" alt="Logo" style="width: 80px; height: auto; margin-bottom: 0.0rem; margin-top: 0.0; transition: transform 0.3s ease, opacity 0.3s ease;" onmouseover="this.style.transform='scale(1.1) rotate(70deg)'; this.style.opacity='0.8';" onmouseout="this.style.transform='scale(1) rotate(0deg)'; this.style.opacity='1';">
+      </a>
+      <p style="margin-top: 0.75rem; margin-bottom: 0;">
+        <a href="https://hdoMRIphysics.substack.com/about" target="_blank" style="text-decoration: none; font-size: 1.0rem; transition: color 0.3s ease, transform 0.3s ease; display: inline-block;" onmouseover="this.style.transform='scale(1.05)';" onmouseout="this.style.transform='scale(1)';" rel="noopener noreferrer">
+           <strong style="color: var(--global-theme-color) !important;">The Art of MRI Physics 🚀</strong>
+        </a>
+        <br>
+        <a href="https://hdoMRIphysics.substack.com/about" target="_blank" class="subtitle-link" style="font-size: 0.9rem; color: var(--global-post-description-color); font-weight: 450;" rel="noopener noreferrer">
+          Elegant Mathematics and Physics Visualized!
+        </a>
+      </p>
+    </div>
+  </center>
+</div>
+</div>
+    </center>
+  
 
   
+    <div class="social">
+      <div class="contact-icons">
+        <!-- <hr style="width:100%;text-align:left;margin-left:0">
+<hr style="width:100%;text-align:left;margin-left:0"> -->
+<div class="card_for_cv" style="padding: 0.75rem; margin-top: 1rem; margin-bottom: 1rem; text-align: center;"> 
+<div style="font-size: 30px;">
+    <a href="https://hdoMRIphysics.substack.com/about" title="Substack" target="_blank" rel="noopener noreferrer"><i class="fas fa-newspaper"></i></a>
+    <a href="https://www.youtube.com/@hdoMRIphysics" title="YouTube" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+    <a href="https://www.linkedin.com/in/hdoMRIphysics" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
     
+    <a href="https://www.instagram.com/hdomriphysics" title="Instagram" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+    <a href="https://scholar.google.com/citations?user=3GO4yzMAAAAJ" title="Google Scholar" target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar"></i></a>
+    <a href="https://github.com/hdoMRIphysics" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <a href="https://us.medical.canon/" title="Work" target="_blank" rel="noopener noreferrer"><i class="fas fa-briefcase"></i></a>
+    <a href="mailto:%68%64%6F%4D%52%49%70%68%79%73%69%63%73@%67%6D%61%69%6C.%63%6F%6D" title="email"><i class="fas fa-envelope"></i></a>
+    
+    
+</div>
+</div>
+<!-- <hr style="width:100%;text-align:left;margin-left:0">
+<hr style="width:100%;text-align:left;margin-left:0"> -->
+      </div>
+      <div class="contact-note"></div>
+    </div>
+  
+  
 </div>
       
     </div>

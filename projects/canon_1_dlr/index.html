@@ -35,7 +35,7 @@ https://hdocmsu.github.io/ -->
 <!-- End of Statcounter Code -->
 
 
-    <meta http-equiv="refresh" content="3; url=https://hdocmsu.github.io/" />
+    
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -45,7 +45,7 @@ https://hdocmsu.github.io/ -->
   Hung P. Do, PhD, MSEE
 
 
-  | Page not found
+  | MRI Deep Learning Reconstruction
 
 </title>
 <meta name="description" content="">
@@ -55,8 +55,8 @@ https://hdocmsu.github.io/ -->
 <meta property="og:site_name" content="" />
 <meta property="og:type" content="object" />
 <meta property="og:title" content="" />
-<meta property="og:url" content="https://hdocmsu.github.io/404.html" />
-<meta property="og:description" content="Page not found" />
+<meta property="og:url" content="https://hdocmsu.github.io/projects/canon_1_dlr/" />
+<meta property="og:description" content="MRI Deep Learning Reconstruction" />
 <meta property="og:image" content="https://hdocmsu.github.io/assets/img/favicon.png" />
 
 
@@ -93,7 +93,7 @@ https://hdocmsu.github.io/ -->
 
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="https://hdocmsu.github.io/404.html">
+<link rel="canonical" href="https://hdocmsu.github.io/projects/canon_1_dlr/">
 
 
 
@@ -262,21 +262,152 @@ https://hdocmsu.github.io/ -->
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Page not found</h1>
-    <p class="post-description" style="font-size: 1.0rem; color: var(--global-post-description-color);">Looks like there has been a mistake. Nothing exists here.</p>
+    <h2 class="post-title">MRI Deep Learning Reconstruction</h2>
+    <p class="post-description" style="font-size: 1.0rem; color: var(--global-post-description-color);">Achieving image quality previously thought impossible due to constraints dictated by MRI physics.</p>
   </header>
 
-  <article>
-    <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://hdocmsu.github.io/">here</a>.</p>
+  <article class="post-content">
+    <blockquote>
+  <p>Deep learning has transformed MRI image reconstruction by alleviating the inherent trade-off among field strength, signal-to-noise ratio (SNR), spatial resolution, and scan time. It is now possible to achieve higher SNR and spatial resolution without increasing scan time, and in some cases, with even shorter scan times. This advancement has reshaped our understanding of the MRI physics and has significant implications for clinical practice.</p>
+</blockquote>
+
+<p>I developed the company’s first end-to-end pipeline for executing and analyzing a randomized, blinded human-observer (radiologist) study to clinically validate an MRI deep learning-based denoising reconstruction (MRI-DLR, commercially known as <a href="https://us.medical.canon/products/magnetic-resonance/aice/" target="_blank" rel="noopener noreferrer">Advanced intelligent Clear-IQ Engine (AiCE)</a>) in 2019. This pipeline has since been used within Canon Medical Systems for the clinical validation of new technologies. In addition, I contributed to the technical review, bench testing, and broader validation of the technology. My contribution supported Canon in securing FDA 510(k) clearance on March 9, 2020, resulting in the world’s first fully integrated deep learning-based MRI reconstruction technology introduced by a major medical imaging vendor (Canon, Fujifilm, GE, Philips, Siemens, United Imaging).</p>
+
+<p><strong>It is gratifying to see the technology I helped validate now being used clinically across Canon MRI systems worldwide.</strong></p>
+
+<h1 id="impact-of-mri-dlr">Impact of MRI-DLR</h1>
+
+<p>Since its inception more than 50 years ago, MRI has been governed by a fundamental trade-off, described as the <strong>MRI trade-off triangle</strong>, among field strength, signal-to-noise ratio (SNR), spatial resolution, and scan time. This trade-off is dictated by MRI physics: improving one parameter necessarily comes at the expense of one or all of the others.</p>
+
+<figure>
+  <img src="/assets/proj/canon_1_dlr/MRTetrahedron3D.png" alt="MRI-DLR 1.5T vs. 3T" style="max-width: 100%; height: auto;">
+  <figcaption style="font-size: 0.85em; font-style: italic; text-align: center;">The 3D MRI trade-off tetrahedron</figcaption>
+</figure>
+
+<div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 2rem 0 0;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/1Tf27CyMENE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+  </iframe>
+</div>
+<div style="font-size: 0.85em; font-style: italic; text-align: center; margin-bottom: 2rem;">The 3D MRI trade-off tetrahedron (see <a href="https://www.youtube.com/watch?v=1Tf27CyMENE" target="_blank" rel="noopener noreferrer">YouTube</a> if the video does not load)</div>
+
+<p>For example, achieving higher resolution typically requires longer scan times or reduced SNR, both of which are undesirable in clinical practice. Alternatively, higher field-strength scanners may be used to boost SNR, but these systems are more expensive and introduce additional challenges related to field inhomogeneity.</p>
+
+<p>Deep learning-based MRI reconstruction (MRI-DLR) has been shown to alleviate this long-standing trade-off triangle by enabling, to some extent, the acquisition of image quality <strong>previously unattainable</strong> due to constraints imposed by MRI physics. As a results, MRI-DLR allows more flexibility in optimizing MRI protocols to meet clinical needs.</p>
+
+<h2 id="high-field-mri-vs-low-field-mri-with-dlr">High-field MRI vs. Low-field MRI with DLR</h2>
+
+<p><strong>One example</strong> is that lower field-strength systems (e.g., 1.5 T) with DLR can, in certain cases, achieve image quality comparable to high-field (e.g., 3 T) MRI without DLR.</p>
+
+<p>Review the whitepaper titled <a href="https://hdocmsu.github.io/assets/pdf/whitepapers/AiCE_DLR_introducing.pdf">Advanced intelligent Clear-IQ Engine (AiCE) Deep Learning Reconstruction (DLR): Translating the Power of Deep Learning to MR Image Reconstruction</a> for details.</p>
+
+<h2 id="better-iq-without-longer-scan-time">Better IQ without Longer Scan Time</h2>
+
+<p><strong>Another example</strong> is the ability to achieve higher SNR and spatial resolution without increasing scan time, and in some cases, with even shorter scan times.</p>
+
+<p>Review the whitepaper titled <a href="https://hdocmsu.github.io/assets/pdf/whitepapers/AiCE_DLR_extension_wp.pdf">Advanced intelligent Clear-IQ Engine (AiCE) Interpretable Model with Robust and Generalized Performance: Beyond Brain and Knee</a> for details.</p>
+
+<h1 id="whitepapers">Whitepapers</h1>
+<ul>
+<li>
+<strong>Do, Hung P.</strong> and Berkeley, Dawn. “Advanced intelligent Clear-IQ Engine (AiCE) Deep Learning Reconstruction (DLR): Translating the Power of Deep Learning to MR Image Reconstruction.” Canon Medical Systems USA, 2020. <a href="/assets/pdf/whitepapers/AiCE_DLR_introducing.pdf" target="_blank">PDF</a>
+</li>
+<li>
+<strong>Do, Hung P.</strong> “Advanced intelligent Clear-IQ Engine (AiCE) Interpretable Model with Robust and Generalized Performance: Beyond Brain and Knee.” Canon Medical Systems USA, 2021. <a href="/assets/pdf/whitepapers/AiCE_DLR_extension_wp.pdf" target="_blank">PDF</a>
+</li>
+<li>
+<strong>Do, Hung P.</strong> "Advanced intelligent Clear-IQ Engine (AiCE) Deep Learning Reconstruction: Effectively Removes Noise while Maintaining MR Signal." Canon Medical Systems USA, 2021. <a href="/assets/pdf/whitepapers/AiCE_DLR_structure_integrity.pdf" target="_blank">PDF</a>
+</li>
+<li>
+<strong>Do, Hung P.</strong> "Good to Know: Advanced intelligent Clear-IQ Engine (AiCE) Deep Learning Reconstruction." Canon Medical Systems USA. <a href="/assets/pdf/whitepapers/VISIONS_MR_special_No1_with_G2K_AiCE.pdf" target="_blank">PDF-Page53</a>
+</li>
+</ul>
+
+<h1 id="peer-reviewed-scientific-papers">Peer-reviewed scientific papers</h1>
+<ul>
+<li>
+<strong>HP Do</strong>, CA Lockard, D Berkeley, B Tymkiw, N Dulude, S Tashman, G Gold, J Gross, E Kelly, and CP Ho. “Improved Resolution and Image Quality of Musculoskeletal Magnetic Resonance Imaging using Deep Learning-based Denoising Reconstruction: A Prospective Clinical Study.” Skeletal Radiology 2024. <a href="https://link.springer.com/epdf/10.1007/s00256-024-04679-3?sharing_token=Q-ue9HHksgf2Lfeax7RMT_e4RwlQNchNByi7wbcMAY5Gd107bLG7C6yZmIRrFz3LRceyo_0SXq37qCmdZjm2s-XhcpgcYQnXiv0cs9PtD4v9SeDFuh7ZtIyas-uiwvf_XTjfURbktgr5tdUm1Dwd6k_TbwspQHKJOWDirlq4FiE%3D" target="_blank" rel="noopener noreferrer">PDF</a> <a href="https://link.springer.com/article/10.1007/s00256-024-04679-3" target="_blank" rel="noopener noreferrer">JRNL-HTML</a>
+</li>
+</ul>
 
 
   </article>
 
   <!-- Substack Subscribe -->
   
+    <center> 
+      <!-- <hr style="width:100%;text-align:left;margin-left:0"> -->
+<br>
+<div class="card_for_cv" style="padding: 0.75rem; margin-top: 1rem; margin-bottom: 1rem; text-align: center;">   
+<div style="margin-top: 1rem; margin-bottom: 2rem;">
+  <center>
+    <p style="margin-bottom: 0.5rem; font-size: 1.25rem;"><strong style="color: var(--global-text-color)">Get future posts delivered to your inbox.</strong> <br> <normal style="font-size: 1.0rem; color: var(--global-post-description-color);">Occasional emails. No noise. Unsubscribe anytime.</normal></p>
+    <div style="background-color: var(--global-bg-color); padding: 1.5rem; max-width: 450px; margin: 0 auto; border: 1px solid var(--global-divider-color); border-radius: 5px;">
+        <form action="https://hdoMRIphysics.substack.com/api/v1/free?nojs=true" method="post" style="margin: 0.0rem; margin-bottom: 1.0rem;">
+        <input type="email" name="email" placeholder="Enter your email" required style="width: 100%; padding: 0.75rem; margin-bottom: 0.75rem; border: 1px solid var(--global-divider-color); border-radius: 4px; background-color: var(--global-bg-color); color: var(--global-text-color); font-size: 1rem;">
+        <button type="submit" style="width: 100%; padding: 0.75rem; background-color: var(--global-theme-color); color: rgb(0, 0, 0); border: none; border-radius: 4px; font-weight: bold; cursor: pointer; font-size: 1rem;">
+          Subscribe
+        </button>
+      </form>
+      <a href="https://hdoMRIphysics.substack.com/about" target="_blank" rel="noopener noreferrer">
+        <img src="/assets/img/favicon.png" alt="Logo" style="width: 80px; height: auto; margin-bottom: 0.0rem; margin-top: 0.0; transition: transform 0.3s ease, opacity 0.3s ease;" onmouseover="this.style.transform='scale(1.1) rotate(70deg)'; this.style.opacity='0.8';" onmouseout="this.style.transform='scale(1) rotate(0deg)'; this.style.opacity='1';">
+      </a>
+      <p style="margin-top: 0.75rem; margin-bottom: 0;">
+        <a href="https://hdoMRIphysics.substack.com/about" target="_blank" style="text-decoration: none; font-size: 1.0rem; transition: color 0.3s ease, transform 0.3s ease; display: inline-block;" onmouseover="this.style.transform='scale(1.05)';" onmouseout="this.style.transform='scale(1)';" rel="noopener noreferrer">
+           <strong style="color: var(--global-theme-color) !important;">The Art of MRI Physics 🚀</strong>
+        </a>
+        <br>
+        <a href="https://hdoMRIphysics.substack.com/about" target="_blank" class="subtitle-link" style="font-size: 0.9rem; color: var(--global-post-description-color); font-weight: 450;" rel="noopener noreferrer">
+          Elegant Mathematics and Physics Visualized!
+        </a>
+      </p>
+    </div>
+  </center>
+</div>
+</div>
+    </center>
+  
 
   
+    <div class="social">
+      <div class="contact-icons">
+        <!-- <hr style="width:100%;text-align:left;margin-left:0">
+<hr style="width:100%;text-align:left;margin-left:0"> -->
+<div class="card_for_cv" style="padding: 0.75rem; margin-top: 1rem; margin-bottom: 1rem; text-align: center;"> 
+<div style="font-size: 30px;">
+    <a href="https://hdoMRIphysics.substack.com/about" title="Substack" target="_blank" rel="noopener noreferrer"><i class="fas fa-newspaper"></i></a>
+    <a href="https://www.youtube.com/@hdoMRIphysics" title="YouTube" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+    <a href="https://www.linkedin.com/in/hdoMRIphysics" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
     
+    <a href="https://www.instagram.com/hdomriphysics" title="Instagram" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+    <a href="https://scholar.google.com/citations?user=3GO4yzMAAAAJ" title="Google Scholar" target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar"></i></a>
+    <a href="https://github.com/hdoMRIphysics" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <a href="https://us.medical.canon/" title="Work" target="_blank" rel="noopener noreferrer"><i class="fas fa-briefcase"></i></a>
+    <a href="mailto:%68%64%6F%4D%52%49%70%68%79%73%69%63%73@%67%6D%61%69%6C.%63%6F%6D" title="email"><i class="fas fa-envelope"></i></a>
+    
+    
+</div>
+</div>
+<!-- <hr style="width:100%;text-align:left;margin-left:0">
+<hr style="width:100%;text-align:left;margin-left:0"> -->
+      </div>
+      <div class="contact-note"></div>
+    </div>
+  
+  
 </div>
       
     </div>

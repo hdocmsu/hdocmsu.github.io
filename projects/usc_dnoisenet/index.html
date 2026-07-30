@@ -35,7 +35,7 @@ https://hdocmsu.github.io/ -->
 <!-- End of Statcounter Code -->
 
 
-    <meta http-equiv="refresh" content="3; url=https://hdocmsu.github.io/" />
+    
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -45,7 +45,7 @@ https://hdocmsu.github.io/ -->
   Hung P. Do, PhD, MSEE
 
 
-  | Page not found
+  | dnoiseNET - A Deep CNN for MRI Image Denoising
 
 </title>
 <meta name="description" content="">
@@ -55,8 +55,8 @@ https://hdocmsu.github.io/ -->
 <meta property="og:site_name" content="" />
 <meta property="og:type" content="object" />
 <meta property="og:title" content="" />
-<meta property="og:url" content="https://hdocmsu.github.io/404.html" />
-<meta property="og:description" content="Page not found" />
+<meta property="og:url" content="https://hdocmsu.github.io/projects/usc_dnoisenet/" />
+<meta property="og:description" content="dnoiseNET - A Deep CNN for MRI Image Denoising" />
 <meta property="og:image" content="https://hdocmsu.github.io/assets/img/favicon.png" />
 
 
@@ -93,7 +93,7 @@ https://hdocmsu.github.io/ -->
 
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="https://hdocmsu.github.io/404.html">
+<link rel="canonical" href="https://hdocmsu.github.io/projects/usc_dnoisenet/">
 
 
 
@@ -262,21 +262,127 @@ https://hdocmsu.github.io/ -->
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Page not found</h1>
-    <p class="post-description" style="font-size: 1.0rem; color: var(--global-post-description-color);">Looks like there has been a mistake. Nothing exists here.</p>
+    <h2 class="post-title">dnoiseNET - A Deep CNN for MRI Image Denoising</h2>
+    <p class="post-description" style="font-size: 1.0rem; color: var(--global-post-description-color);">Improving performance without compromising quantitative metrics.</p>
   </header>
 
-  <article>
-    <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://hdocmsu.github.io/">here</a>.</p>
+  <article class="post-content">
+    <blockquote>
+  <p>This project proposes a deep convolutional neural network (CNN) for MRI denoising that integrates residual learning and skip connections to achieve improved noise suppression without compromising clinically-relevant quantitative metrics.</p>
+</blockquote>
+
+<h1 id="overview">Overview</h1>
+
+<p>In MRI, there exists an inherent trade-off between field strength, signal-to-noise ratio (SNR), spatial resolution, and scan time. Achieving higher resolution often requires longer scan times and/or reduced SNR, both of which are undesirable in clinical practice. Traditional denoising methods can help improve SNR but may inadvertently alter important quantitative metrics used for diagnosis. This project introduces <strong>dnoiseNET</strong>, a deep convolutional neural network (CNN) designed to effectively denoise MRI images while preserving critical quantitative information.</p>
+
+<figure>
+  <img src="/assets/proj/canon_1_dlr/MRTetrahedron3D.png" alt="MRI-DLR 1.5T vs. 3T" style="max-width: 100%; height: auto;">
+  <figcaption style="font-size: 0.85em; font-style: italic; text-align: right;">The 3D MRI trade-off tetrahedron</figcaption>
+</figure>
+
+<h1 id="dnoisenet-a-deep-cnn-for-mri-image-denoising">dnoiseNET: A Deep CNN for MRI Image Denoising</h1>
+
+<p>dnoiseNET incorporates residual learning and skip connections proposed in dnCNN (Zhang et al., 2017) and U-Net (Ronneberger et al., 2015), respectively, to enhance denoising performance:</p>
+
+<ol>
+  <li>
+<strong>Residual Learning</strong>: Instead of directly predicting the denoised image, dnoiseNET learns to predict the noise component present in the input image. This approach allows the network to focus on learning the noise characteristics, making it easier to recover the underlying clean image.</li>
+  <li>
+<strong>Skip Connections</strong>: These connections allow the network to bypass certain layers, enabling the flow of information from earlier layers to later layers. This helps in preserving important image details and mitigating the vanishing gradient problem.</li>
+</ol>
+
+<figure>
+  <img src="/assets/proj/usc_dnoisenet/usc_dnoisenet.png" alt="dnoiseNET" style="max-width: 100%; height: auto;">
+</figure>
+
+<p>See the <a href="https://hdocmsu.github.io/assets/pdf/slides/2019-02-06-HungDo_dnoiseNET_web.pdf">conference talk’s slides</a> for more details.</p>
+
+<h1 id="conference-talk">Conference talk</h1>
+<ul>
+<li>
+<strong>HP Do</strong>, et al. "dnoiseNET: Deep Convolutional Neural Network for Image Denoising." The ISMRM &amp; SCMR Co-Provided Workshop on the Emerging Role of Machine Learning in Cardiovascular Magnetic Resonance Imaging, Seattle, Feb 2019. <a href="/assets/pdf/slides/2019-02-06-HungDo_dnoiseNET_web.pdf" target="_blank">SLIDES-PDF</a>
+</li>
+</ul>
 
 
   </article>
 
   <!-- Substack Subscribe -->
   
+    <center> 
+      <!-- <hr style="width:100%;text-align:left;margin-left:0"> -->
+<br>
+<div class="card_for_cv" style="padding: 0.75rem; margin-top: 1rem; margin-bottom: 1rem; text-align: center;">   
+<div style="margin-top: 1rem; margin-bottom: 2rem;">
+  <center>
+    <p style="margin-bottom: 0.5rem; font-size: 1.25rem;"><strong style="color: var(--global-text-color)">Get future posts delivered to your inbox.</strong> <br> <normal style="font-size: 1.0rem; color: var(--global-post-description-color);">Occasional emails. No noise. Unsubscribe anytime.</normal></p>
+    <div style="background-color: var(--global-bg-color); padding: 1.5rem; max-width: 450px; margin: 0 auto; border: 1px solid var(--global-divider-color); border-radius: 5px;">
+        <form action="https://hdoMRIphysics.substack.com/api/v1/free?nojs=true" method="post" style="margin: 0.0rem; margin-bottom: 1.0rem;">
+        <input type="email" name="email" placeholder="Enter your email" required style="width: 100%; padding: 0.75rem; margin-bottom: 0.75rem; border: 1px solid var(--global-divider-color); border-radius: 4px; background-color: var(--global-bg-color); color: var(--global-text-color); font-size: 1rem;">
+        <button type="submit" style="width: 100%; padding: 0.75rem; background-color: var(--global-theme-color); color: rgb(0, 0, 0); border: none; border-radius: 4px; font-weight: bold; cursor: pointer; font-size: 1rem;">
+          Subscribe
+        </button>
+      </form>
+      <a href="https://hdoMRIphysics.substack.com/about" target="_blank" rel="noopener noreferrer">
+        <img src="/assets/img/favicon.png" alt="Logo" style="width: 80px; height: auto; margin-bottom: 0.0rem; margin-top: 0.0; transition: transform 0.3s ease, opacity 0.3s ease;" onmouseover="this.style.transform='scale(1.1) rotate(70deg)'; this.style.opacity='0.8';" onmouseout="this.style.transform='scale(1) rotate(0deg)'; this.style.opacity='1';">
+      </a>
+      <p style="margin-top: 0.75rem; margin-bottom: 0;">
+        <a href="https://hdoMRIphysics.substack.com/about" target="_blank" style="text-decoration: none; font-size: 1.0rem; transition: color 0.3s ease, transform 0.3s ease; display: inline-block;" onmouseover="this.style.transform='scale(1.05)';" onmouseout="this.style.transform='scale(1)';" rel="noopener noreferrer">
+           <strong style="color: var(--global-theme-color) !important;">The Art of MRI Physics 🚀</strong>
+        </a>
+        <br>
+        <a href="https://hdoMRIphysics.substack.com/about" target="_blank" class="subtitle-link" style="font-size: 0.9rem; color: var(--global-post-description-color); font-weight: 450;" rel="noopener noreferrer">
+          Elegant Mathematics and Physics Visualized!
+        </a>
+      </p>
+    </div>
+  </center>
+</div>
+</div>
+    </center>
+  
 
   
+    <div class="social">
+      <div class="contact-icons">
+        <!-- <hr style="width:100%;text-align:left;margin-left:0">
+<hr style="width:100%;text-align:left;margin-left:0"> -->
+<div class="card_for_cv" style="padding: 0.75rem; margin-top: 1rem; margin-bottom: 1rem; text-align: center;"> 
+<div style="font-size: 30px;">
+    <a href="https://hdoMRIphysics.substack.com/about" title="Substack" target="_blank" rel="noopener noreferrer"><i class="fas fa-newspaper"></i></a>
+    <a href="https://www.youtube.com/@hdoMRIphysics" title="YouTube" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+    <a href="https://www.linkedin.com/in/hdoMRIphysics" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
     
+    <a href="https://www.instagram.com/hdomriphysics" title="Instagram" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+    <a href="https://scholar.google.com/citations?user=3GO4yzMAAAAJ" title="Google Scholar" target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar"></i></a>
+    <a href="https://github.com/hdoMRIphysics" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <a href="https://us.medical.canon/" title="Work" target="_blank" rel="noopener noreferrer"><i class="fas fa-briefcase"></i></a>
+    <a href="mailto:%68%64%6F%4D%52%49%70%68%79%73%69%63%73@%67%6D%61%69%6C.%63%6F%6D" title="email"><i class="fas fa-envelope"></i></a>
+    
+    
+</div>
+</div>
+<!-- <hr style="width:100%;text-align:left;margin-left:0">
+<hr style="width:100%;text-align:left;margin-left:0"> -->
+      </div>
+      <div class="contact-note"></div>
+    </div>
+  
+  
 </div>
       
     </div>
