@@ -7,7 +7,7 @@ importance: 1
 profile:
     align: right
     image: HungDO_small.jpg
-    more_info:
+    more_info: 
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -18,7 +18,7 @@ latest_posts:
   scrollable: false
 ---
 
-I work to translate innovative imaging solutions, including deep learning reconstruction ([DLR](https://hdocmsu.github.io/projects/canon_1_dlr/)), ultra-short echo time ([UTE](https://hdocmsu.github.io/projects/canon_2_ute/)) imaging, compressed sensing ([CS](https://hdocmsu.github.io/projects/canon_3_cs/)), into the clinical practice through hypothesis-driven research, clinical validation studies, and direct involvement in FDA 510(k) submissions. Proven record of leading and contributing to interdisciplinary collaborations across clinical, technical, commercial, legal, and regulatory teams.
+I work to translate innovative imaging solutions, including deep learning reconstruction ([DLR](https://hdocmsu.github.io/projects/canon_1_dlr/)), multi-echo ultra-short echo time ([mecho-UTE](https://hdocmsu.github.io/projects/canon_2_ute/)) imaging, compressed sensing ([CS](https://hdocmsu.github.io/projects/canon_3_cs/)), into the clinical practice through hypothesis-driven research, clinical validation studies, and direct involvement in FDA 510(k) submissions. I have a proven record of leading and contributing to interdisciplinary collaborations across clinical, technical, commercial, legal, and regulatory teams.
 
 I enjoy learning new knowledge and solving problems in principled ways.
 
