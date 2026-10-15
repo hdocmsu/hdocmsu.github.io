@@ -1,16 +1,77 @@
 {% assign citation_title = page.title | strip_html | normalize_whitespace | strip %}
 {% assign citation_first_word = citation_title | split: ' ' | first | slugify %}
 
-<h2 style="color: var(--global-heading-color);">Citing this work</h2>
+<!-- <h2 style="color: var(--global-heading-color);">Citing this work</h2> -->
+<h1> Citing this work</h1>
 
-If you found this useful, please cite this as:
+If you found this post useful, please cite it as:
+
+<!-- {% capture citation_quote -%}
+> <span style='font-style: normal;'>Hung P. Do, PhD, MSEE ({{ page.date | date: "%b %Y" }}).</span> "{{ page.title }}". <span style='font-style: normal;'>The Art of MRI physics (AoMP).</span> <span style='font-style: normal;'>{{ site.url }}{{ page.url }}</span>
+{%- endcapture %}
+{{ citation_quote | markdownify }} -->
+
+
+{% capture citation_text -%}
+Hung P. Do, PhD, MSEE ({{ page.date | date: "%b %Y" }}). "{{ citation_title }}". The Art of MRI physics (AoMP). {{ site.url }}{{ page.url }}
+{%- endcapture %}
 
 {% capture citation_quote -%}
 > <span style='font-style: normal;'>Hung P. Do, PhD, MSEE ({{ page.date | date: "%b %Y" }}).</span> "{{ page.title }}". <span style='font-style: normal;'>The Art of MRI physics (AoMP).</span> <span style='font-style: normal;'>{{ site.url }}{{ page.url }}</span>
 {%- endcapture %}
-{{ citation_quote | markdownify }}
 
-<p>or as a BibTeX entry:</p>
+
+<div class="citation-card">
+  <div class="citation-content">
+    {{ citation_quote | markdownify }}
+  </div>
+
+  <span class="citation-copy-text" hidden>{{ citation_text }}</span>
+
+  <button
+    type="button"
+    class="citation-copy-btn"
+    aria-label="Copy citation"
+  >
+    Copy
+  </button>
+</div>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('.citation-card').forEach(function (card) {
+    const button = card.querySelector('.citation-copy-btn');
+    const text = card.querySelector('.citation-copy-text');
+
+    if (!button || !text) return;
+
+    const defaultLabel = button.textContent.trim();
+
+    button.addEventListener('click', async function () {
+      try {
+        await navigator.clipboard.writeText(text.textContent.trim());
+
+        button.textContent = 'Copied';
+        button.classList.add('copied');
+
+        setTimeout(function () {
+          button.textContent = defaultLabel;
+          button.classList.remove('copied');
+        }, 1200);
+      } catch (error) {
+        console.error('Unable to copy citation:', error);
+        button.textContent = 'Copy failed';
+
+        setTimeout(function () {
+          button.textContent = defaultLabel;
+        }, 1500);
+      }
+    });
+  });
+});
+</script>
+
 
 <!-- {% capture citation_code -%}
 ```bibtex

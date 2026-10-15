@@ -922,6 +922,45 @@ h5 {
   color: #fff;
 }
 
+
+.citation-card {
+  position: relative;
+  margin-top: 0.4rem;
+}
+
+.citation-card .citation-content {
+  padding-right: 5rem;
+}
+
+.citation-copy-btn {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  min-width: 64px;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 999px;
+  background: var(--global-bg-color);
+  color: var(--global-text-color);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.2rem 0.65rem;
+  cursor: pointer;
+  transition: color 0.15s ease, background-color 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.citation-copy-btn:hover {
+  border-color: var(--global-theme-color);
+  color: var(--global-theme-color);
+}
+
+.citation-copy-btn.copied {
+  background: var(--global-theme-color);
+  border-color: var(--global-theme-color);
+  color: #fff;
+}
+
+
 .pinned-post-list li {
   padding-top: 0.35rem;
   padding-bottom: 0.35rem;
