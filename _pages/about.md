@@ -27,7 +27,7 @@ I enjoy learning new knowledge and solving problems in principled ways.
 
 I’m starting a [personal blog](https://hdocmsu.github.io/blog/) where I share *“cool stuffs”* related to mathematics, physics, signal processing, Fourier analysis, and MRI physics. With over 15 years of experience, my goal is to make technical concepts clear and memorable for everyone.
 
-I prioritize **quality over quantity**, so posts and videos are published at irregular intervals. The best way to stay informed about future posts is to subscribe to the [free newsletter](https://hdomriphysics.substack.com/about) below and receive new posts directly in your inbox.
+I prioritize **quality over quantity**, so posts and videos are published at irregular intervals. The best way to stay informed about future posts is to subscribe to the [free Substack newsletter](https://hdomriphysics.substack.com/about) below and receive new posts directly in your inbox.
 
 
 <!-- <h5 style="margin-top: 1rem; text-align: center;">Latest Posts</h5>

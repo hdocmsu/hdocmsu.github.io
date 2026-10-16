@@ -322,7 +322,7 @@ See [Talks](https://hdocmsu.github.io/talks/) for the complete list.
 <li>I’m starting a <a href="https://hdocmsu.github.io/blog/" target="_blank">personal blog</a> where I share <em>“cool stuffs”</em> related to mathematics, physics, signal processing, Fourier analysis, and MRI physics. With over 15 years of experience, my goal is to make technical concepts clear and memorable for everyone.
 </li>
 <li>
-I prioritize <strong>quality over quantity</strong>, so posts and videos are published at irregular intervals. The best way to stay informed about future posts is to subscribe to the <a href="https://hdomriphysics.substack.com/about" target="_blank">free newsletter</a> below and receive new posts directly in your inbox.</li>
+I prioritize <strong>quality over quantity</strong>, so posts and videos are published at irregular intervals. The best way to stay informed about future posts is to subscribe to the <a href="https://hdomriphysics.substack.com/about" target="_blank">free Substack newsletter</a> below and receive new posts directly in your inbox.</li>
 </ul>
 </div>
 
