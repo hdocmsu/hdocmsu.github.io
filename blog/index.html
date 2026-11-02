@@ -45,17 +45,50 @@ pagination:
         {{ site.blog_name }}
       </a>
     </h1>
+
     <h2 style="margin-top: -0.25rem; margin-bottom: 0.5rem; font-size: 1.0rem;">
       <a href="https://{{ site.substack_username }}.substack.com/about" target="_blank" class="subtitle-link" style="font-size: 1.0rem; color: var(--global-post-description-color); font-weight: 450;">
         {{ site.blog_description }}
       </a>
     </h2>
     <br/>
+
+    <div>
+      <p style="text-align: left;">
+        Hello, Welcome to my blog! <br/>
+        <br/>
+        With 15+ years of experience, I create <strong>original (unique and rigorous)</strong> tutorials on fundamental physics, mathematics, signal processing, Fourier analysis, and MRI physics. My mission is to present complex ideas with clarity so that they become memorable.
+        <br/><br/>
+        I prioritize <strong>quality over quantity</strong>, so posts and videos are published at <strong>irregular intervals</strong>. The best way to stay up to date is to subscribe to my <a href="https://{{ site.substack_username }}.substack.com/about" target="_blank">free Substack newsletter</a> and receive new posts, videos, and challenges directly in your inbox.
+        <br/><br/>
+        If you would like to see more of this and want to support my work further, you can <strong>buy me a coffee</strong> or become a <strong>monthly sponsor</strong> via Ko-fi.com.
+        <br/>
+        <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script>
+        <script type='text/javascript'>kofiwidget2.init('Support me on Ko-fi', '#CE00C3', 'K3K11YGKA5');kofiwidget2.draw();</script>
+        <style>
+          .kofi-button,
+          .kofi-button span,
+          .kofi-button .kofitext,
+          .kofi-button .kofitext a {
+            color: #000 !important;
+          }
+        </style>
+        <br/><br/>
+        Your support helps fund deeper and long-term explorations.
+        <br/><br/>
+        Spin, on!<br/>
+        Hung P. Do, PhD MSEE
+        <br/><br/>
+      </p>
+    </div>
+    
+
     <div> 
       <center> 
         {% include substack_top.html %}
       </center>
     </div>
+
 
     {% assign visible_posts = site.posts | where_exp: "post", "post.unlisted != true and post.unlisted != 'true'" %}
 

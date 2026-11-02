@@ -54,16 +54,33 @@ Total scan time can be further reduced by combining a 2-minute multi-echo UTE ac
 
 Together, this approach enables a comprehensive, MRI-only MSK examination in under 5 minutes. As a result, a single MRI-only exam can provide information traditionally obtained from both MRI and CT, while achieving CT-like throughput. This capability has the potential to position MRI as a first-line imaging modality, particularly by reducing or eliminating the need for subsequent MRI and/or CT examinations.
 
+# Preprint (under peer review)
+<ul>
+<li><strong>HP Do</strong>, et al. "Accelerated 2-Minute Multi-Echo UTE MRI for Simultaneous CT-Like Bone Imaging and Quantitative Short-T2* Mapping." medRxiv 2026.08.18.26360232; doi: <a href="https://doi.org/10.64898/2026.08.18.26360232" target="_blank">[10.64898/2026.08.18.26360232]</a></li>
+</ul>
+
+# Software tutorial
+<ul>
+<li><strong>HP Do</strong> (Feb. 08, 2026). "cgsense2023: A Step-by-Step Tutorial to Conjugate Gradient Sensitivity Encoding (CG-SENSE) MRI." Zenodo. doi: <a href="https://doi.org/10.5281/zenodo.18526383" target="_blank">[10.5281/zenodo.18526383]</a> <a href="https://pypi.org/project/cgsense2023/" target="_blank">[PyPI Project Page]</a></li>
+</ul>
+
+# Educational poster
+<ul>
+<li><strong>HP Do</strong>, et al. "Radial MRI: Characteristic Artifacts and Clinical Applications for 2-Minute Simultaneous CT-Like Bone Imaging and T2* Mapping." Proceedings of the Radiological Society of North America Education Exhibits, Chicago, Dec 2026</li>
+</ul>
 
 # Whitepaper
-* [Good to Know: Multi-echo Ultrashort Echo Time (UTE)](https://hdocmsu.github.io/assets/pdf/whitepapers/G2K_UTE_final.pdf)
+<ul>
+<li><strong>HP Do</strong>. "Good to Know: Multi-echo Ultrashort Echo Time (UTE)." Canon Medical Systems Corporation, Japan, Mar 2022. <a href="/assets/pdf/whitepapers/G2K_UTE_final.pdf" target="_blank">[PDF]</a> <a href="https://global.medical.canon/products/magnetic-resonance/good-to-know#ultrashort" target="_blank">[HTML]</a></li>
+</ul>
 
 
 # Peer-reviewed publications and talks:
 <ul>
-<li><strong>HP Do</strong>, et al. "Accelerated 1.2-minute 4-echo UTE-based CT-like Imaging using CG-SENSE and Deep Learning-based Denoising Reconstruction (DLR).” International Society for Magnetic Resonance in Medicine Scientific Meeting, Hawaii, May 2025. <a href="/assets/pdf/slides/HungDo_ismrm25_ute_talk.pdf" target="_blank">SLIDES-PDF</a> <a href="https://youtu.be/VUuOUfhyGZk" target="_blank">VIDEO-YouTube</a></li>
-<li><strong>HP Do</strong>, et al. "Accelerated 2-3-Minute Multi-echo Ultra-short Echo Time (mecho UTE) using Conjugate Gradient SENSE (CG-SENSE) Reconstruction.” The Radiological Society of North America (RSNA) Scientific Session, Chicago, Nov 2023. <a href="/assets/pdf/slides/HungDo_rsna23_talk_ute_cgsense_rev5.1_toHTML.pdf" target="_blank">SLIDES-PDF</a> <a href="https://youtu.be/i2oL1sIr0x8" target="_blank">VIDEO-YouTube</a></li>
-<li><strong>HP Do</strong>, et al. "Eleven-minute Comprehensive MSK Imaging Using Deep Learning Reconstruction (DLR) and Multi-echo Ultrashort Echo-Time (UTE)." The Radiological Society of North America (RSNA) Scientific Session, Chicago, Nov 2022. <a href="/assets/pdf/slides/HungDo_rsna22_talk_rev4.0_web.pdf" target="_blank">SLIDES-PDF</a></li>
+<li><strong>HP Do</strong>, et al. "Two-minute Multi-Echo UTE for Simultaneous CT-like Bone-weighted Imaging and Quantitative T2* Mapping.” The Radiological Society of North America (RSNA) Scientific Session, Chicago, Nov 2026.
+<li><strong>HP Do</strong>, et al. "Accelerated 1.2-minute 4-echo UTE-based CT-like Imaging using CG-SENSE and Deep Learning-based Denoising Reconstruction (DLR).” International Society for Magnetic Resonance in Medicine Scientific Meeting, Hawaii, May 2025. <a href="/assets/pdf/slides/HungDo_ismrm25_ute_talk.pdf" target="_blank">[SLIDES-PDF]</a> <a href="https://youtu.be/VUuOUfhyGZk" target="_blank">[VIDEO-YouTube]</a></li>
+<li><strong>HP Do</strong>, et al. "Accelerated 2-3-Minute Multi-echo Ultra-short Echo Time (mecho UTE) using Conjugate Gradient SENSE (CG-SENSE) Reconstruction.” The Radiological Society of North America (RSNA) Scientific Session, Chicago, Nov 2023. <a href="/assets/pdf/slides/HungDo_rsna23_talk_ute_cgsense_rev5.1_toHTML.pdf" target="_blank">[SLIDES-PDF]</a> <a href="https://youtu.be/i2oL1sIr0x8" target="_blank">[VIDEO-YouTube]</a></li>
+<li><strong>HP Do</strong>, et al. "Eleven-minute Comprehensive MSK Imaging Using Deep Learning Reconstruction (DLR) and Multi-echo Ultrashort Echo-Time (UTE)." The Radiological Society of North America (RSNA) Scientific Session, Chicago, Nov 2022. <a href="/assets/pdf/slides/HungDo_rsna22_talk_rev4.0_web.pdf" target="_blank">[SLIDES-PDF]</a></li>
 </ul>
 
 
