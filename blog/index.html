@@ -34,7 +34,9 @@ pagination:
         transition: color 0.3s ease;
       }
     </style>
-    
+    <div class="card_for_cv" style="padding: 0.5rem; margin-top: 0.75rem; margin-bottom: 0.75rem; text-align: center;">   
+    <div style="margin-top: 0.75rem; margin-bottom: 1rem; margin-left: 0.75rem;">
+
     <h1 style="font-size: 1.75rem;">
       <a href="https://{{ site.substack_username }}.substack.com/about" target="_blank" class="logo-link" style="text-decoration: none; color: inherit;">
         <img src="{{ site.icon }}" alt="favicon" style="width: 8.5rem; height: 8.5rem; vertical-align: middle; margin-bottom: 1.0rem; transition: transform 0.3s ease, opacity 0.3s ease;"
@@ -53,47 +55,73 @@ pagination:
     </h2>
     <br/>
 
-    <div>
-      <p style="text-align: left;">
-        Hello, Welcome to my blog! <br/>
-        <br/>
-        With 15+ years of experience, I create <strong>original (unique and rigorous)</strong> tutorials on fundamental physics, mathematics, signal processing, Fourier analysis, and MRI physics. My mission is to present complex ideas with clarity so that they become memorable.
-        <br/><br/>
-        I prioritize <strong>quality over quantity</strong>, so posts and videos are published at <strong>irregular intervals</strong>. The best way to stay up to date is to subscribe to my <a href="https://{{ site.substack_username }}.substack.com/about" target="_blank">free Substack newsletter</a> and receive new posts, videos, and challenges directly in your inbox.
-        <br/><br/>
-        If you would like to see more of this and want to support my work further, you can <strong>buy me a coffee</strong> or become a <strong>monthly sponsor</strong> via Ko-fi.com.
-        <br/>
-        <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script>
-        <script type='text/javascript'>kofiwidget2.init('Support me on Ko-fi', '#CE00C3', 'K3K11YGKA5');kofiwidget2.draw();</script>
-        <style>
-          .kofi-button,
-          .kofi-button span,
-          .kofi-button .kofitext,
-          .kofi-button .kofitext a {
-            color: #000 !important;
-          }
-        </style>
-        <br/><br/>
-        Your support helps fund deeper and long-term explorations.
-        <br/><br/>
-        Spin, on!<br/>
-        Hung P. Do, PhD MSEE
-        <br/><br/>
-      </p>
-    </div>
     
+    <div>
+      <p style="text-align: left;"><em>Hello, Welcome to my blog!</em></p>
+      
+      <p style="text-align: left;">With 15+ years of experience, I create <strong>original (unique and rigorous)</strong> tutorials on fundamental physics, mathematics, signal processing, Fourier analysis, and MRI physics. My mission is to present complex ideas with clarity so that they become memorable.</p>
+      
+      <p style="text-align: left;">I prioritize <strong>quality over quantity</strong>, so posts and videos are published at <strong>irregular intervals</strong>. The best way to <strong>stay up to date</strong> is to subscribe to my <a href="https://{{ site.substack_username }}.substack.com/about" target="_blank">free Substack newsletter</a> and receive new posts, videos, and challenges directly in your inbox.</p>
+      
+        <div style="background-color: var(--global-bg-color); padding: 1.5rem; max-width: 450px; margin: 0 auto; border: 1px solid var(--global-divider-color); border-radius: 8px;">
+          <form action="https://{{ site.substack_username }}.substack.com/api/v1/free?nojs=true" method="post" style="margin: 0.0rem; margin-bottom: 1.0rem;">
+            <input type="email" name="email" placeholder="Enter your email" required 
+                  style="width: 100%; padding: 0.5rem; margin-bottom: 0.5rem; border: 1px solid var(--global-divider-color); border-radius: 8px; background-color: var(--global-bg-color); color: var(--global-text-color); font-size: 1rem;">
+            <button type="submit" 
+                    style="width: 100%; padding: 0.5rem; background-color: var(--global-theme-color); color: rgb(0, 0, 0); border: none; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 1rem;">
+              Subscribe (Substack newsletter)
+            </button>
+          </form>
+        </div>
+      <br/>
+      <p style="text-align: left;">Feel free to explore the content, share it with others, and let me know if you have any questions or feedback.</p>
+      <p style="text-align: left;">If you would like to see more of this and want to support my work further, you can <strong>buy me a coffee</strong> or become a <strong>monthly sponsor</strong> via Ko-fi.com.</p>
+        
+      <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script>
+      <script type='text/javascript'>kofiwidget2.init('Support me on Ko-fi', '#CE00C3', 'K3K11YGKA5');kofiwidget2.draw();</script>
+      <style>
+        .kofi-button,
+        .kofi-button span,
+        .kofi-button .kofitext,
+        .kofi-button .kofitext a {
+          color: #000 !important;
+          font-size: 1.0rem !important;
+          font-family: 'IBM Plex Sans', sans-serif !important;
+          line-height: 1.6rem !important;
+        }
+      </style>
 
-    <div> 
-      <center> 
-        {% include substack_top.html %}
-      </center>
+      <br/><br/>
+      Your support helps fund deeper and long-term explorations.
+        <br/>
+        Spin, on!
+        <br/>
+        Hung P. Do, PhD MSEE
+      
     </div>
-
+    </div>
+    </div>
 
     {% assign visible_posts = site.posts | where_exp: "post", "post.unlisted != true and post.unlisted != 'true'" %}
 
+    {% include selected_posts.html %}
+
+
+    <!-- Tags List -->
+    <div style="font-size: 1.0rem; margin-bottom: 0rem; padding: 0.0rem; background-color: var(--global-bg-color); border-radius: 5px; text-align: left; margin-bottom: 0.5rem;">
+      <strong style="color: var(--global-text-color)">Tags:</strong>
+      {% assign all_tags = visible_posts | map: 'tags' | join: ',' | split: ',' | uniq | sort %}
+      {% for tag in all_tags %}
+        {% if tag != "" %}
+          <a href="{{ tag | prepend: '/blog/tag/' | prepend: site.baseurl }}" class="badge badge-primary" style="margin: 0.2rem; background-color: #023872 !important;">
+            <i class="fas fa-hashtag fa-sm"></i> {{ tag }}
+          </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+
     <!-- Years List -->
-    <div style="font-size: 1.0rem; padding: 0.0rem; background-color: var(--global-bg-color); border-radius: 5px;">
+    <div style="font-size: 1.0rem; padding: 0.0rem; background-color: var(--global-bg-color); border-radius: 5px; text-align: left; margin-bottom: 0.5rem;">
       <strong style="color: var(--global-text-color)">Years:</strong>
       {% assign all_years = "" | split: "" %}
       {% for post in visible_posts %}
@@ -111,7 +139,7 @@ pagination:
     </div>
 
     <!-- Categories List -->
-    <div style="font-size: 1.0rem; margin-bottom: 0rem; padding: 0.0rem; background-color: var(--global-bg-color); border-radius: 5px;">
+    <div style="font-size: 1.0rem; margin-bottom: 0rem; padding: 0.0rem; background-color: var(--global-bg-color); border-radius: 5px; text-align: left; margin-bottom: 0.5rem;">
       <strong style="color: var(--global-text-color)">Categories:</strong>
       {% assign all_categories = visible_posts | map: 'categories' | join: ',' | split: ',' | uniq | sort %}
       {% for category in all_categories %}
@@ -122,21 +150,6 @@ pagination:
         {% endif %}
       {% endfor %}
     </div>
-
-    <!-- Tags List -->
-    <div style="font-size: 1.0rem; margin-bottom: 0rem; padding: 0.0rem; background-color: var(--global-bg-color); border-radius: 5px;">
-      <strong style="color: var(--global-text-color)">Tags:</strong>
-      {% assign all_tags = visible_posts | map: 'tags' | join: ',' | split: ',' | uniq | sort %}
-      {% for tag in all_tags %}
-        {% if tag != "" %}
-          <a href="{{ tag | prepend: '/blog/tag/' | prepend: site.baseurl }}" class="badge badge-primary" style="margin: 0.2rem; background-color: #023872 !important;">
-            <i class="fas fa-hashtag fa-sm"></i> {{ tag }}
-          </a>
-        {% endif %}
-      {% endfor %}
-    </div>
-
-{% include selected_posts.html %}
 
   <ul class="post-list">
     {% for post in paginator.posts %}
