@@ -11,7 +11,7 @@ substack: true
 
 > In quantitative Physics, it is unthinkable to report measurements without associated uncertainties. However, in quantitative MRI (qMRI), uncertainty quantification is largely ignored as none of commercially available qMRI solutions provide uncertainty estimates. 
 > 
-> This project demonstrates that Bayesian fitting can be easily integrated into qMRI pipelines to provide uncertainty quantification, which would help clinicians decide whether the abnormal values are due underlying pathology or due to spurious confounding factors. 
+> This project demonstrates that Bayesian fitting can be easily integrated into qMRI pipelines to provide uncertainty quantification, which would help clinicians decide whether the abnormal values are due to underlying pathologies or due to spurious confounding factors. 
 > 
 > Additionally, it is natural to incorporate prior knowledge into the Bayesian framework that in turn helps improve the accuracy and precision of qMRI measurements, especially in low signal-to-noise ratio (SNR) scenarios due to scan time acceleration.
 
