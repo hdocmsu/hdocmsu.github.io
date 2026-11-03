@@ -18,14 +18,14 @@ latest_posts:
   scrollable: false
 ---
 
-I work to translate innovative imaging solutions, including deep learning reconstruction ([DLR](https://hdocmsu.github.io/projects/canon_1_dlr/)), multi-echo ultra-short echo time ([mecho-UTE](https://hdocmsu.github.io/projects/canon_2_ute/)) imaging, compressed sensing ([CS](https://hdocmsu.github.io/projects/canon_3_cs/)), into the clinical practice through hypothesis-driven research, clinical validation studies, and direct involvement in FDA 510(k) submissions. I have a proven record of leading and contributing to interdisciplinary collaborations across clinical, technical, commercial, legal, and regulatory teams.
+I work to translate innovative imaging solutions, including deep learning reconstruction ([DLR](https://hdocmsu.github.io/projects/canon_1_dlr/)), multi-echo ultra-short echo time ([mecho-UTE](https://hdocmsu.github.io/projects/canon_2_ute/)) imaging, compressed sensing ([CS](https://hdocmsu.github.io/projects/canon_3_cs/)), into the clinical practice through hypothesis-driven research, clinical validations, and support for the FDA 510(k) submissions. I have a proven record of leading and contributing to interdisciplinary collaborations across clinical, technical, commercial, and regulatory teams.
 
 I enjoy learning new knowledge and solving problems in principled ways.
 
 
 ## Update
 
-I’m starting a [personal blog](https://hdocmsu.github.io/blog/) where I share *“cool stuffs”* related to mathematics, physics, signal processing, Fourier analysis, and MRI physics. With over 15 years of experience, my goal is to make technical concepts clear and memorable for everyone.
+I’m starting a [personal blog](https://hdocmsu.github.io/blog/) where I share *“cool stuffs”* related to mathematics, physics, signal processing, Fourier analysis, and MRI physics. With over 15 years of experience, my mission is to make complex ideas clear and memorable for everyone.
 
 I prioritize **quality over quantity**, so posts and videos are published at irregular intervals. The best way to stay informed about future posts is to subscribe to the [free Substack newsletter](https://hdomriphysics.substack.com/about) below and receive new posts directly in your inbox.
 
