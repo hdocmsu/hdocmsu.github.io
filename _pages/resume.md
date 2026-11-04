@@ -56,7 +56,8 @@ h6 {text-align: center;}
 
 <div style="text-align: center; margin: 1rem 0; padding: 1.0rem; background-color: var(--global-card-bg-color); border-radius: 9px; font-size: 1.0em;">
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem;">
-    <a href="https://{{ site.substack_username }}.substack.com/about"><i class="fas fa-newspaper"></i> Substack Newsletter</a> &nbsp; 
+    <a href="https://{{ site.substack_username }}.substack.com/about"><i class="fas fa-newspaper"></i> Substack Newsletter</a> &nbsp;
+    <a href="https://ko-fi.com/{{ site.kofi_username }}"><i class="fas fa-coffee"></i> Buy Me a Coffee</a> &nbsp;
     <a href="https://www.youtube.com/@{{ site.youtube_username }}"><i class="fab fa-youtube"></i> YouTube</a> &nbsp; 
     <a href="https://www.instagram.com/{{ site.instagram_username }}"><i class="fab fa-instagram"></i> Instagram</a> &nbsp; 
     <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}"><i class="fab fa-linkedin"></i> LinkedIn</a> &nbsp; 
