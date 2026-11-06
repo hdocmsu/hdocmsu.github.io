@@ -8,6 +8,7 @@ years_lunch_and_learn: [2026]
 years_lectures: [2023, 2022, 2021, 2020, 2019, 2018, 2017]
 nav: true
 social: true
+substack: true
 importance: 3
 ---
 

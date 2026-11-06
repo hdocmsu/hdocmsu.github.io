@@ -26,6 +26,7 @@ years_abstracts:
     ]
 years_patents: [2016]
 nav: true
+substack: true
 social: true
 importance: 2
 ---

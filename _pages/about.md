@@ -20,7 +20,7 @@ latest_posts:
 
 I work to translate innovative imaging solutions, including deep learning reconstruction ([DLR](https://hdocmsu.github.io/projects/canon_1_dlr/)), multi-echo ultra-short echo time ([mecho-UTE](https://hdocmsu.github.io/projects/canon_2_ute/)) imaging, compressed sensing ([CS](https://hdocmsu.github.io/projects/canon_3_cs/)), into the clinical practice through hypothesis-driven research, clinical validations, and support for the FDA 510(k) submissions. I have a proven record of leading and contributing to interdisciplinary collaborations across clinical, technical, commercial, and regulatory teams.
 
-I enjoy learning new knowledge and solving problems in principled ways.
+I enjoy learning new knowledge and solving problems in principled ways. Feel free to <a href="{{ site.baseurl | prepend: site.url }}/contact/" target="_blank">let me know</a> if you have any questions or feedback.
 
 
 ## Update

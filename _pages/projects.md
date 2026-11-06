@@ -6,6 +6,7 @@ description: Selected projects. See Publications for the complete list.
 nav: true
 display_categories: [Canon, USC, ICTP, Misc]
 horizontal: true
+substack: true
 social: true
 importance: 4
 ---
