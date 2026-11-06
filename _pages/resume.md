@@ -63,7 +63,8 @@ h6 {text-align: center;}
     <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}"><i class="fab fa-linkedin"></i> LinkedIn</a> &nbsp; 
     <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}"><i class="ai ai-google-scholar"></i> Google Scholar</a> &nbsp; 
     <a href="{{ site.work_url }}"><i class="fas fa-briefcase"></i> Work</a> &nbsp; 
-    <a href="mailto:{{ site.email | encode_email }}"><i class="fas fa-envelope"></i> Email</a>
+    <!-- <a href="mailto:{{ site.email | encode_email }}"><i class="fas fa-envelope"></i> Email</a> -->
+    <a href="{{ site.baseurl | prepend: site.url }}/contact/" title="Contact Me" target="_blank"><i class="fas fa-envelope"></i> Contact Me</a>
   </div>
 </div>
 <br/>
