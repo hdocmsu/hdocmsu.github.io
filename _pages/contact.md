@@ -2,8 +2,9 @@
 layout: page
 permalink: /contact/
 title: 
+nav: true
 description: 
-importance: 0
+importance: 6
 social: true # includes social icons at the bottom of the page
 substack: false
 ---
