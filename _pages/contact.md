@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /contact/
-title: 
+title: Contact
 nav: true
 description: 
 importance: 6
