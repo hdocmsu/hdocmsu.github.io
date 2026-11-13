@@ -84,6 +84,9 @@ Together, this approach enables a comprehensive, MRI-only MSK examination in und
 </ul>
 
 # High-level overview
+
+[Download the high-level overview of this project in PDF.](/assets/proj/canon_2_ute/ute_review.pdf)
+
 <center>
 <div class="iframe-container">
 <iframe class="responsive-iframe"
