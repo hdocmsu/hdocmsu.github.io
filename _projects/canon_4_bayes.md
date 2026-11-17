@@ -15,12 +15,30 @@ substack: true
 > 
 > Additionally, it is natural to incorporate prior knowledge into the Bayesian framework that in turn helps improve the accuracy and precision of qMRI measurements, especially in low signal-to-noise ratio (SNR) scenarios due to scan time acceleration.
 
-# Work-in-progress
+# Work-in-progress (WIP)
 
 Stay tuned for updates!
 
+# WIP-1: Ultrashort Echo Time (UTE) T2* mapping
+
 <figure>
-  <img src="/assets/proj/canon_4_bayes/canon_4_bayes_thumbnail.png" alt="MRI-DLR 1.5T vs. 3T" style="max-width: 100%; height: auto;">
+  <img src="/assets/proj/canon_2_ute/ute_t2star_decay.gif" alt="UTE k-space" style="max-width: 100%; height: auto;">
+  <figcaption style="font-size: 0.85em; font-style: italic; text-align: center;">T2* decay of typical musculoskeletal tissues and Echo times (TEs) of the UTE sequence.</figcaption>
+</figure>
+
+<figure>
+  <img src="/assets/proj/canon_2_ute/ute_kspace.gif" alt="UTE k-space" style="max-width: 100%; height: auto;">
+  <figcaption style="font-size: 0.85em; font-style: italic; text-align: center;">K-space trajectories of UTE MRI.</figcaption>
+</figure>
+
+<figure>
+  <img src="/assets/proj/canon_4_bayes/canon_4_bayes_thumbnail.png" alt="UTE T2* mapping" style="max-width: 100%; height: auto;">
+  <figcaption style="font-size: 0.85em; font-style: italic; text-align: center;">Demonstration of Uncertainty Quantification in Quantitative Ultrashort Echo Time (UTE) T2* mapping.</figcaption>
+</figure>
+
+# WIP-2: Myocardial T1 mapping
+<figure>
+  <img src="/assets/proj/canon_4_bayes/canon_4_bayes_thumbnail_old.png" alt="Myocardial T1 mapping" style="max-width: 100%; height: auto;">
   <figcaption style="font-size: 0.85em; font-style: italic; text-align: center;">Demonstration of Uncertainty Quantification in Quantitative Myocardial T1 mapping.</figcaption>
 </figure>
 

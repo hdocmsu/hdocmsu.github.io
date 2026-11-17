@@ -13,6 +13,17 @@ substack: true
 > 
 > This reduces cost, streamlines clinical workflow, and eliminates ionizing radiation exposure, especially important for pediatric and pregnant patients and for individuals requiring repeated CT imaging.
 
+<figure>
+  <img src="/assets/proj/canon_2_ute/ute_t2star_decay.gif" alt="UTE k-space" style="max-width: 100%; height: auto;">
+  <figcaption style="font-size: 0.85em; font-style: italic; text-align: center;">T2* decay of typical musculoskeletal tissues and Echo times (TEs) of the UTE sequence.</figcaption>
+</figure>
+
+<figure>
+  <img src="/assets/proj/canon_2_ute/ute_kspace.gif" alt="UTE k-space" style="max-width: 100%; height: auto;">
+  <figcaption style="font-size: 0.85em; font-style: italic; text-align: center;">K-space trajectories of UTE MRI.</figcaption>
+</figure>
+
+
 This work addresses **three interrelated challenges** in musculoskeletal (MSK) imaging. 
 
 # Economic trends
