@@ -38,7 +38,7 @@ Stay tuned for updates!
 
 # WIP-2: Myocardial T1 mapping
 <figure>
-  <img src="/assets/proj/canon_4_bayes/canon_4_bayes_thumbnail_old.png" alt="Myocardial T1 mapping" style="max-width: 100%; height: auto;">
+  <img src="/assets/proj/canon_4_bayes/bayesian_myocardial_T1_mapping.png" alt="Myocardial T1 mapping" style="max-width: 100%; height: auto;">
   <figcaption style="font-size: 0.85em; font-style: italic; text-align: center;">Demonstration of Uncertainty Quantification in Quantitative Myocardial T1 mapping.</figcaption>
 </figure>
 
