@@ -1,7 +1,7 @@
 ---
 layout: project
 title: SymPASL - Novel MRI Technique for Non-Contrast Perfusion Imaging
-description: Improving SNR and sensitivity of Arterial Spin Labeled MRI (a.k.a. a signal-starved non-contrast perfusion imaging technique)
+description: Improving SNR and sensitivity of Arterial Spin Labeled (ASL) MRI.
 img: assets/proj/usc_sympasl/usc_sympasl_thumb.png
 importance: 3
 category: USC
