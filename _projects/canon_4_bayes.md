@@ -21,10 +21,28 @@ Stay tuned for updates!
 
 # WIP-1: Ultrashort Echo Time (UTE) T2* mapping
 
-<figure>
-  <img src="/assets/proj/canon_2_ute/ute_t2star_decay.gif" alt="UTE k-space" style="max-width: 100%; height: auto;">
-  <figcaption style="font-size: 0.85em; font-style: italic; text-align: center;">T2* decay of typical musculoskeletal tissues and Echo times (TEs) of the UTE sequence.</figcaption>
-</figure>
+<div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 2rem 0 0;">
+  <iframe 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+    src="https://www.youtube.com/embed/-c1TVBGnxXM" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+<div style="font-size: 0.85em; font-style: italic; text-align: center; margin-bottom: 2rem;">T2* decay of typical musculoskeletal tissues and Echo times (TEs) of the multi-echo UTE sequence. (see on <a href="https://youtu.be/-c1TVBGnxXM" target="_blank">YouTube</a> directly if the video does not load).</div>
+
+<div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 2rem 0 0;">
+  <iframe 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+    src="https://www.youtube.com/embed/YLaz4P1-KOs" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+<div style="font-size: 0.85em; font-style: italic; text-align: center; margin-bottom: 2rem;">K-space trajectories of UTE MRI. (see on <a href="https://youtu.be/YLaz4P1-KOs" target="_blank">YouTube</a> directly if the video does not load).</div>
+
 
 <figure>
   <img src="/assets/proj/canon_2_ute/ute_kspace.gif" alt="UTE k-space" style="max-width: 100%; height: auto;">
