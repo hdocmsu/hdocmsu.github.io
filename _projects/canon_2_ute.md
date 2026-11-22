@@ -13,6 +13,17 @@ substack: true
 > 
 > This reduces cost, streamlines clinical workflow, and eliminates ionizing radiation exposure, especially important for pediatric and pregnant patients and for individuals requiring repeated CT imaging.
 
+# Latest News
+
+<figure>
+  <img src="/assets/proj/canon_2_ute/rsna2026_education_exhibits_title_slide_V2.png" alt="RSNA 2026 Education Exhibits Title Slide" style="max-width: 100%; height: auto;">
+  <figcaption style="font-size: 0.85em; font-style: italic; text-align: center;">RSNA 2026 Education Exhibits Digital Presentation.</figcaption>
+</figure>
+
+<figure>
+  <img src="/assets/proj/canon_2_ute/rsna2026_mecho_ute_talk_title_slide.png" alt="RSNA 2026 Scientific Oral Presentation" style="max-width: 100%; height: auto;">
+  <figcaption style="font-size: 0.85em; font-style: italic; text-align: center;">RSNA 2026 Scientific Oral Presentation.</figcaption>
+</figure>
 
 <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 2rem 0 0;">
   <iframe 
