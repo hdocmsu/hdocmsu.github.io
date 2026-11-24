@@ -126,11 +126,40 @@ Together, this approach enables a comprehensive, MRI-only MSK examination in und
 
 # High-level overview
 
-[Download the high-level overview of this project in PDF.](/assets/proj/canon_2_ute/ute_review.pdf)
+[Here](/assets/proj/canon_2_ute/ute_review.pdf) is the high-level overview of this project.
 
-<center>
-<div class="iframe-container">
-<iframe class="responsive-iframe"
-src="/assets/proj/canon_2_ute/ute_review.pdf" width="100%" height="750px" allowfullscreen="" frameborder="0"></iframe>
+<div class="slides">
+  <iframe class="slides-pdf"
+    src="/assets/proj/canon_2_ute/ute_review.pdf"
+    allowfullscreen loading="lazy" title="ISMRM 2025 slides"
+    height="750px"></iframe>
+  <div class="slides-swipe">
+    <img src="/assets/proj/canon_2_ute/ute_review.png" alt="Slide 1" loading="lazy">
+    <!-- add one <img> per slide -->
+  </div>
+  <p><a href="/assets/proj/canon_2_ute/ute_review.pdf">Download PDF</a></p>
 </div>
-</center>
+
+<style>
+  .slides { max-width: 1000px; margin: 0 auto; text-align: center; }
+  .slides-pdf { width: 100%; aspect-ratio: 16 / 9; border: 0; display: block; }
+  .slides-swipe { display: none; }
+
+  @media (max-width: 800px), (pointer: coarse) {
+    .slides-pdf { display: none; }
+    .slides-swipe {
+      display: flex;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      gap: 8px;
+      -webkit-overflow-scrolling: touch;
+    }
+    .slides-swipe img {
+      flex: 0 0 100%;
+      width: 100%;
+      height: auto;
+      scroll-snap-align: center;
+      border-radius: 6px;
+    }
+  }
+</style>
