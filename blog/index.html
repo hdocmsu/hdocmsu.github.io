@@ -102,14 +102,15 @@ pagination:
     </div>
     </div>
     </div>
-    <br/>
-    <img src="/assets/blog/aomp-000/aomp_front.png" alt="AOMP Banner" style="width: 100%; height: auto;">
-    <br/><br/>
+    <br/><br/><br/>
+    <!-- <img src="/assets/blog/aomp-000/aomp_front.png" alt="AOMP Banner" style="width: 100%; height: auto;">
+    <br/><br/> -->
 
     {% assign visible_posts = site.posts | where_exp: "post", "post.unlisted != true and post.unlisted != 'true'" %}
 
     {% include selected_posts.html %}
 
+    <br/>
 
     <!-- Tags List -->
     <div style="font-size: 1.0rem; margin-bottom: 0rem; padding: 0.0rem; background-color: var(--global-bg-color); border-radius: 5px; text-align: left; margin-bottom: 0.5rem;">
@@ -154,6 +155,7 @@ pagination:
         {% endif %}
       {% endfor %}
     </div>
+    <br/><br/>
 
   <ul class="post-list">
     {% for post in paginator.posts %}
