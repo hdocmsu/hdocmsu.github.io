@@ -1,6 +1,6 @@
 ---
 layout: project
-title: blip-CAIPI bSSFP - Simultaneous Multi-Slice Balanced Steady-State Free Precession MRI
+title: blip-CAIPI bSSFP -- Simultaneous Multi-Slice Balanced Steady-State Free Precession MRI
 description: Shortening acquisition time of cardiac bSSFP MRI.
 img: assets/proj/usc_sms/usc_sms_thumb.png
 importance: 4

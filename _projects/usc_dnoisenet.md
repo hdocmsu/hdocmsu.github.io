@@ -1,6 +1,6 @@
 ---
 layout: project
-title: dnoiseNET - A Deep CNN for MRI Image Denoising
+title: dnoiseNET -- A Deep CNN for MRI Image Denoising
 description: Improving performance without compromising quantitative metrics.
 img: assets/proj/usc_dnoisenet/usc_dnoisenet.png
 importance: 2

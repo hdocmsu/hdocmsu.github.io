@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Simultaneous Myocardial T1 and T2 Mapping
+title: SIMMAP -- Simultaneous Myocardial T1 and T2 Mapping
 description: A Novel MRI Technique for Simultaneous T1 and T2 Mapping of the Heart
 img: assets/proj/usc_simmap/usc_simmap_thumb.png
 importance: 5
