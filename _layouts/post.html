@@ -59,6 +59,22 @@ layout: default
 
   </article>
 
+  <br /><br />
+
+{% include post_comment.html %}
+
+  <br /><br />
+
+
+{% if site.disqus_shortname and page.disqus_comments %}
+  {% include disqus.html %}
+{% endif %}
+
+{% if page.giscus_comments %}
+    {% include giscus.html %}
+  {% endif %}
+
+    <br />
 
 
 <!-- <br /> -->
@@ -76,12 +92,3 @@ layout: default
 
 </div>
 
-{% include post_comment.html %}
-
-{% if site.disqus_shortname and page.disqus_comments %}
-  {% include disqus.html %}
-{% endif %}
-
-{% if page.giscus_comments %}
-    {% include giscus.html %}
-  {% endif %}
